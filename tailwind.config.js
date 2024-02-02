@@ -30,7 +30,7 @@ module.exports = {
         'nav-bottom': '0 20px 20px -20px rgba(0, 0, 0, 0.3)',
         bottom: '0 20px 20px -20px rgba(0, 0, 0, 0.5)',
         // card: '0px 15px 15px -15px rgba(0, 0, 0, 0.5)',
-        card: 'rgba(0, 0, 0, 0.35) 0px 5px 15px;',
+        card: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
         button: '0px 15px 15px -15px rgba(0, 0, 0, 0.5)',
       },
     },
