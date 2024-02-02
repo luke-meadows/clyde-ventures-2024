@@ -222,18 +222,19 @@ export default function NavDropdown({ dropdownActive }) {
               </div>
               {/* Card Bottom */}
               <div
-                className={`${
-                  item.options && 'border-t-2 '
-                } border-medium-grey`}
+                className={
+                  'border-medium-grey ' + (item.options && 'border-t-2')
+                }
               >
                 {item.options &&
                   item.options.map((option, i) => (
                     <Link
                       href={option.url}
                       key={i * 777}
-                      className={`${
-                        item.options.length - 1 === i ? '' : 'border-b-2 '
-                      } border-medium-grey flex items-center hover:bg-black-text `}
+                      className={
+                        'border-medium-grey flex items-center hover:bg-black-text ' +
+                        (item.options.length - 1 === i ? '' : 'border-b-2 ')
+                      }
                     >
                       <div className="px-3 py-2 flex-1">
                         <h5 className="text-lg text-primary-orange">

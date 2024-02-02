@@ -19,9 +19,10 @@ export default function Nav() {
       <Link
         href={href}
         onMouseEnter={() => setDropdownActive(dropdownOption)}
-        className={`h-full center-contents ${
-          dropdownOption === dropdownActive && 'underline underline-offset-4'
-        }`}
+        className={
+          'h-full center-contents ' +
+          (dropdownOption === dropdownActive && 'underline underline-offset-4')
+        }
       >
         {children}
       </Link>
