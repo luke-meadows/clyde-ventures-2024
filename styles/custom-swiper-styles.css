@@ -1,0 +1,31 @@
+.homepage-hero > .swiper > .swiper-pagination {
+  max-width: 1200px;
+  padding: 0 28px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  text-align: right;
+  --swiper-pagination-bullet-size: 20px;
+  --swiper-pagination-color: #fff;
+  --swiper-pagination-bullet-inactive-color: none;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+}
+.homepage-hero > .swiper > .swiper-pagination > .swiper-pagination-bullet {
+  border: 2px solid #fff !important;
+}
+
+.industries-swiper > .swiper > .swiper-pagination {
+  --swiper-pagination-bullet-size: 16px;
+  --swiper-pagination-color: #1b1b1b;
+  --swiper-pagination-bullet-inactive-color: none;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+}
+
+.industries-swiper > .swiper > .swiper-pagination > .swiper-pagination-bullet {
+  border: 2px solid #1b1b1b !important;
+}
+
+.swiper-slide {
+  height: auto;
+}
