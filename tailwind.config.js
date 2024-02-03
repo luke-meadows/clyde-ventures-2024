@@ -25,6 +25,7 @@ module.exports = {
         'black-text': '#1B1B1B',
         'grey-text': '#464646',
         'card-bg': '#F8F8F8',
+        'salesforce-blue': '#01A4E0',
       },
       boxShadow: {
         'nav-bottom': '0 20px 20px -20px rgba(0, 0, 0, 0.3)',
