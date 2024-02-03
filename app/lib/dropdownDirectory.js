@@ -1,0 +1,175 @@
+export const dropdownDirectory = {
+  services: [
+    {
+      title: 'Consultancy',
+      url: '/services/consultancy',
+      icon: '/icons/consultancy.png',
+      options: [
+        {
+          title: 'Top Line Growth',
+          url: '/services/consultancy/top-line-growth',
+          options: [
+            'Sales Strategy',
+            '|',
+            'Debt Strategy',
+            '|',
+            'Margin Optimisation',
+            '|',
+            'Sales Strategy',
+          ],
+        },
+        {
+          title: 'Service Excellence',
+          url: '/services/consultancy/service-excellence',
+          options: [
+            'Contact Strategy',
+            '|',
+            'Complaints Strategy',
+            '|',
+            'Vulnerability Strategy',
+            '|',
+            'Existing Process Optimisation',
+          ],
+        },
+        {
+          title: 'OPEX Optimisation',
+          url: '/services/consultancy/opex-optimisation',
+          options: [
+            'OPEX reduction & Lean',
+            '|',
+            'RPA, Automation & AI',
+            '|',
+            'Data & Analytics',
+            '|',
+            'Business Care & ROI Due Diligence',
+          ],
+        },
+        {
+          title: 'Business and Culture Change',
+          url: '/services/consultancy/business-and-culture-change',
+          options: [
+            'Service & TOM Design',
+            '|',
+            'Adoption & Engagement',
+            '|',
+            'Culture Change & Capability Building',
+            '|',
+            'Social Mobility D,E & I',
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Integration',
+      url: '/services/integration',
+      icon: '/icons/integration.png',
+      options: [
+        {
+          title: 'Top Line Growth - Salesforce',
+          url: '/services/consultancy/top-line-growth-salesforce',
+          options: [
+            'Sales Cloud',
+            '|',
+            'Marketing Cloud',
+            '|',
+            'Energy & Utilities Cloud',
+            '|',
+            'Account Engagement',
+            '|',
+            'Service Cloud',
+            '|',
+            'Experience Cloud',
+            '|',
+            'Product Design',
+          ],
+        },
+        {
+          title: 'Field Optimisation - Salesforce',
+          url: '/services/integration/field-optimisation-salesforce',
+          options: [
+            'Field Service Cloud',
+            '|',
+            'Energy & Utilities Cloud',
+            '|',
+            'Account Engagement',
+            '|',
+            'Service Cloud',
+            '|',
+            'Experience Cloud',
+            '|',
+            'Product Design',
+          ],
+        },
+        {
+          title: 'WACC Outperformance',
+          url: '/services/integration/wacc-outperformance',
+          options: [
+            'ODI Integration & Design',
+            '|',
+            'Value Modelling',
+            '|',
+            'Business Case & ROI Due Diligence',
+          ],
+        },
+        {
+          title: 'Independence, Upskilling and Design Authority',
+          url: '/services/integration/independence-upskilling-design-authority',
+          options: [
+            'Assessment of Incumbent Integrator',
+            '|',
+            'Design Assurance',
+            '|',
+            'Client Capability Cultivation',
+            '|',
+            'Social Mobility Enablement',
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Education',
+      url: '/services/education',
+      icon: '/icons/education.png',
+      options: [
+        { title: 'Sustainable Futures MBA', url: '/services/education/MBA' },
+      ],
+    },
+    {
+      title: 'Manufacturing',
+      url: '/services/manufacturing',
+      icon: '/icons/manufacturing.png',
+      options: [
+        {
+          title: 'Fire Resistant Panels',
+          url: '/services/manufacturing/FRP',
+        },
+      ],
+    },
+  ],
+  'about-us': [
+    {
+      title: 'About us',
+      url: '',
+    },
+    {
+      title: 'Meet the team',
+      url: '',
+    },
+  ],
+  industries: [
+    { title: 'Utilities', url: '', icon: '/icons/utilities.png' },
+    {
+      title: 'Professional Services',
+      url: '',
+      icon: '/icons/professional-services.png',
+    },
+    { title: 'Manufacturing', url: '', icon: '/icons/manufacturing.png' },
+    {
+      title: 'Information Technology',
+      url: '',
+      icon: '/icons/technology.png',
+    },
+    { title: 'Education', url: '', icon: '/icons/education.png' },
+    { title: 'Transport & Logistics', url: '', icon: '/icons/transport.png' },
+  ],
+};
