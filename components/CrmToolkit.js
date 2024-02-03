@@ -50,7 +50,7 @@ export default function CrmToolkit() {
     {
       title: 'Reporting and Dashboards',
       icon: '/icons/report-columns.svg',
-      desc: 'Customise reports and dashboards, providing real-time insights into sales performance and trends.',
+      desc: 'Customise reports, providing real-time insights into sales performance and trends. Capture and display custom data in dashboards and distribute them to your team.',
     },
     {
       title: 'Sales Analytics',
@@ -70,7 +70,7 @@ export default function CrmToolkit() {
         {cardsArray.map((obj, i) => {
           return (
             <div className="text-center " key={i}>
-              <div className="mx-auto w-fit bg-black-text p-4 rounded-full mb-2">
+              <div className="mx-auto w-fit bg-black-text p-4 rounded-full mb-4">
                 <Image src={obj.icon} width={35} height={40} />
               </div>
               <h5 className="font-bold text-lg text-black-text mb-2">
