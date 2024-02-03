@@ -70,8 +70,8 @@ export default function CrmToolkit() {
         {cardsArray.map((obj, i) => {
           return (
             <div className="text-center " key={i}>
-              <div className="mx-auto w-fit bg-black-text p-4 rounded-full mb-4">
-                <Image src={obj.icon} width={35} height={40} />
+              <div className="mx-auto w-fit bg-black-text p-3 rounded-full mb-4">
+                <Image src={obj.icon} width={30} height={30} />
               </div>
               <h5 className="font-bold text-lg text-black-text mb-2">
                 {obj.title}

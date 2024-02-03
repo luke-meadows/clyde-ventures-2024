@@ -73,7 +73,7 @@ export default function IndustriesSwiper() {
         {industries.map((industry, i) => {
           return (
             <SwiperSlide key={i} className="card-rounding mb-16 shadow-bottom">
-              <div>
+              <div className="h-full">
                 {/* Card Top Section */}
                 <div className="top-section">
                   <div className="card-image relative h-44">
@@ -91,7 +91,7 @@ export default function IndustriesSwiper() {
                 </div>
 
                 {/* Card Lower Section */}
-                <div className="lower-section pt-12 text-center text-white relative inline-block p-6 bg-black-text">
+                <div className="lower-section pt-10 text-center text-white p-6 bg-black-text h-full]">
                   <h3 className="font-semibold text-2xl mb-2 grow text-primary-orange">
                     {industry.title}
                   </h3>
@@ -99,9 +99,8 @@ export default function IndustriesSwiper() {
                   <p className="text-sm font-normal text-card-bg pb-6">
                     {industry.subtitle}
                   </p>
-
                   <Link href={industry.url} className="mt-auto">
-                    <button className="button text-xs font-black-text font-semibold">
+                    <button className="button text-xs font-black-text font-semibold mt-auto">
                       Learn More
                     </button>
                   </Link>
