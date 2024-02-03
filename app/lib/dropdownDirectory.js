@@ -65,7 +65,7 @@ export const dropdownDirectory = {
       icon: '/icons/integration.png',
       options: [
         {
-          title: 'CRM - Salesforce',
+          title: 'CRM: Salesforce',
           url: '/services/integration/crm-salesforce',
           options: [
             'Sales Cloud',
@@ -84,7 +84,7 @@ export const dropdownDirectory = {
           ],
         },
         {
-          title: 'Field Optimisation - Salesforce',
+          title: 'Field Optimisation: Salesforce',
           url: '/services/integration/field-optimisation-salesforce',
           options: [
             'Field Service Cloud',
@@ -129,7 +129,7 @@ export const dropdownDirectory = {
       options: [
         {
           title: 'Sustainable Energy Futures MBA',
-          url: '/services/education/MBA',
+          url: '/services/education/sustainable-energy-futures-mba',
         },
       ],
     },
@@ -140,7 +140,7 @@ export const dropdownDirectory = {
       options: [
         {
           title: 'Fire Resistant Panels',
-          url: '/services/manufacturing/FRP',
+          url: '/services/manufacturing/frp',
         },
       ],
     },
