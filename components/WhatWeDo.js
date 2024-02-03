@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function WhatWeDo() {
+  const bringSalesforceItemsTop = (arr) => {};
   const whatWeDoCards = [
     {
       title: 'Consultancy',
@@ -23,7 +24,7 @@ export default function WhatWeDo() {
           url: '/services/consultancy/top-line-growth',
         },
         {
-          title: 'Sales Strategy',
+          title: 'Due Diligence',
           url: '/services/consultancy/top-line-growth',
         },
         {
@@ -84,47 +85,43 @@ export default function WhatWeDo() {
       link: '/services/integration',
       options: [
         {
-          title: 'Sales Cloud',
+          title: 'Salesforce: Sales Cloud',
           url: '/services/consultancy/top-line-growth-salesforce',
         },
         {
-          title: 'Marketing Cloud',
+          title: 'Salesforce: Marketing Cloud',
           url: '/services/consultancy/top-line-growth-salesforce',
         },
         {
-          title: 'Energy & Utilities Cloud',
+          title: 'Salesforce: Energy & Utilities Cloud',
           url: '/services/consultancy/top-line-growth-salesforce',
         },
         {
-          title: 'Account Engagement',
+          title: 'Salesforce: Account Engagement',
           url: '/services/consultancy/top-line-growth-salesforce',
         },
         {
-          title: 'Service Cloud',
+          title: 'Salesforce: Service Cloud',
           url: '/services/consultancy/top-line-growth-salesforce',
         },
         {
-          title: 'Experience Cloud',
+          title: 'Salesforce: Experience Cloud',
           url: '/services/consultancy/top-line-growth-salesforce',
         },
         {
-          title: 'Product Design',
-          url: '/services/consultancy/top-line-growth-salesforce',
-        },
-        {
-          title: 'Field Service Cloud',
-          url: '/services/integration/field-optimisation-salesforce',
-        },
-        {
-          title: 'Service Cloud',
-          url: '/services/integration/field-optimisation-salesforce',
-        },
-        {
-          title: 'Experience Cloud',
+          title: 'Salesforce: Field Service Cloud',
           url: '/services/integration/field-optimisation-salesforce',
         },
         {
           title: 'Product Design',
+          url: '/services/consultancy/top-line-growth-salesforce',
+        },
+        {
+          title: 'Workflow Delivery & Design',
+          url: '/services/integration/field-optimisation-salesforce',
+        },
+        {
+          title: 'Process Optimisation',
           url: '/services/integration/field-optimisation-salesforce',
         },
         {
@@ -156,7 +153,10 @@ export default function WhatWeDo() {
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex ratione et dolorum quidem harum labore magni  nulla odio a fuga, dolore distinctio qui porro dolorum quidem harum labore magni corrupti',
       link: '/services',
       options: [
-        { title: 'Sustainable Futures MBA', url: '/services/education/MBA' },
+        {
+          title: 'Sustainable Energy Futures MBA',
+          url: '/services/education/MBA',
+        },
       ],
     },
     {
@@ -187,11 +187,11 @@ export default function WhatWeDo() {
       <div className="grid grid-cols-2 gap-6">
         {whatWeDoCards.map((card, i) => {
           return (
-            <div>
+            <div className="mb-auto h-full">
               {/* // Container */}
               <div
                 key={i}
-                className="shadow-card flex-1 card-rounding bg-black-text py-6"
+                className="shadow-card card-rounding bg-black-text py-6 h-full"
               >
                 {/* Card Top */}
                 <div className="card-top flex justify-between items-center px-6">
@@ -217,14 +217,21 @@ export default function WhatWeDo() {
                   <p className="text-sm font-normal text-off-white my-5">
                     {card.subtitle}
                   </p>
-                  <div className="grid grid-cols-2 text-off-white gap-x-2 gap-y-3 ">
-                    {card.options.map((service, i) => (
+                  <div className="grid grid-cols-2 text-gray-100 gap-x-4 ">
+                    {card.options?.map((service, i) => (
                       <Link
                         href={service.url}
                         key={i}
-                        className="text-sm border-[1px] py-1 px-3 rounded-full hover:bg-primary-orange hover:text-black hover:border-primary-orange cursor-pointer font-normal hover:font-medium center-contents text-center"
+                        className={
+                          'text-sm border-b-[2px] py-1  hover:text-primary-orange  cursor-pointer font-normal  border-medium-grey '
+                        }
                       >
-                        {service.title}
+                        {service.title.includes('Salesforce:') && (
+                          <span className="text-salesforce-blue">
+                            Salesforce
+                          </span>
+                        )}
+                        {service.title.split('Salesforce')}
                       </Link>
                     ))}
                   </div>

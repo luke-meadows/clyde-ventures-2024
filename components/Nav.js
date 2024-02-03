@@ -39,10 +39,7 @@ export default function Nav() {
         <nav className="flex items-center justify-between h-24 text-dark-grey inner-container ">
           <div className="flex align-center">
             {/* Logo */}
-            <Link
-              href="/"
-              // onMouseEnter={() => setDropdownActive('none')}
-            >
+            <Link href="/" onClick={() => setDropdownActive('none')}>
               <Image src={Logo} width={180} alt="logo" />
             </Link>
             {/* Nav Links */}
@@ -99,10 +96,16 @@ export default function Nav() {
         </nav>
       </div>
       {/* Nav Dropdown */}
-      <div className="border-t-2 overflow-hidden">
+      <div
+        className="border-t-2 overflow-hidden"
+        onClick={() => setDropdownActive('none')}
+      >
         <AnimatePresence key="animate">
           {dropdownActive !== 'none' && (
-            <NavDropdown dropdownActive={dropdownActive} />
+            <NavDropdown
+              dropdownActive={dropdownActive}
+              setDropdownActive={setDropdownActive}
+            />
           )}
         </AnimatePresence>
         {/* <NavDropdown dropdownActive="services" /> */}

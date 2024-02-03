@@ -15,7 +15,7 @@ export const dropdownDirectory = {
             '|',
             'Margin Optimisation',
             '|',
-            'Sales Strategy',
+            'Due Diligence',
           ],
         },
         {
@@ -66,7 +66,7 @@ export const dropdownDirectory = {
       options: [
         {
           title: 'CRM - Salesforce',
-          url: '/services/consultancy/top-line-growth-salesforce',
+          url: '/services/integration/crm-salesforce',
           options: [
             'Sales Cloud',
             '|',
@@ -91,13 +91,9 @@ export const dropdownDirectory = {
             '|',
             'Energy & Utilities Cloud',
             '|',
-            'Account Engagement',
+            'Workflow Delivery & Design',
             '|',
-            'Service Cloud',
-            '|',
-            'Experience Cloud',
-            '|',
-            'Product Design',
+            'Process Optimisation',
           ],
         },
         {
@@ -131,7 +127,10 @@ export const dropdownDirectory = {
       url: '/services/education',
       icon: '/icons/education.png',
       options: [
-        { title: 'Sustainable Futures MBA', url: '/services/education/MBA' },
+        {
+          title: 'Sustainable Energy Futures MBA',
+          url: '/services/education/MBA',
+        },
       ],
     },
     {

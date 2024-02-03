@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import {
+  dropdownBackgroundFramerVariant,
   dropdownFramerVariant,
   dropdownInnerFramerVariant,
 } from '@app/lib/framer-motion';
@@ -7,7 +8,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { dropdownDirectory } from '@app/lib/dropdownDirectory';
 
-export default function NavDropdown({ dropdownActive }) {
+export default function NavDropdown({ dropdownActive, setDropdownActive }) {
   const ArrowIcon = () => {
     return (
       <div className="h-8 aspect-square center-contents rounded-full p-1 text-lg cursor-pointer bg-primary-orange mr-3">
@@ -21,10 +22,10 @@ export default function NavDropdown({ dropdownActive }) {
       initial="initial"
       animate="enter"
       exit="exit"
-      className="dropdown w-full shadow-nav-bottom bg-black border-b-2  mb-10 text-off-white transition-all 0.5s ease-in"
+      className="dropdown w-full shadow-nav-bottom bg-black  mb-10 text-off-white transition-all 0.5s ease-in "
     >
       <motion.div
-        className="inner-dropdown inner-container py-12 flex flex-col gap-2 wrap"
+        className="inner-dropdown inner-container py-16 flex flex-col gap-2 wrap"
         variants={dropdownInnerFramerVariant}
         initial="initial"
         animate="enter"
@@ -67,7 +68,7 @@ export default function NavDropdown({ dropdownActive }) {
                           {option.title}
                         </h5>
                         {option.options && (
-                          <p className="text-sm font-normal">
+                          <p className="text-sm font-light">
                             {option.options.map((subOption, i) =>
                               subOption === '|' ? (
                                 <span
@@ -91,6 +92,14 @@ export default function NavDropdown({ dropdownActive }) {
           ))}
         </div>
       </motion.div>
+      <motion.div
+        onMouseEnter={() => setDropdownActive('none')}
+        className="background absolute left-0 top-28 h-[100vh] w-[100vw] bg-black-text z-[-1]"
+        variants={dropdownBackgroundFramerVariant}
+        initial="initial"
+        animate="enter"
+        exit="exit"
+      ></motion.div>
     </motion.div>
   );
 }
