@@ -4,6 +4,7 @@ export default function AnimationWrapper({ children }) {
   const variants = {
     hidden: { x: 0, y: 100 },
     enter: { x: 0, y: 0 },
+    exit: { opacity: 0 },
   };
   return (
     <motion.main

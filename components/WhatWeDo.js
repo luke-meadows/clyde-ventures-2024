@@ -155,7 +155,7 @@ export default function WhatWeDo() {
       options: [
         {
           title: 'Sustainable Energy Futures MBA',
-          url: '/services/education/MBA',
+          url: '/services/education/sustainable-energy-futures-mba',
         },
       ],
     },
@@ -168,7 +168,7 @@ export default function WhatWeDo() {
       options: [
         {
           title: 'Fire Resistant Panels',
-          url: '/services/manufacturing/FRP',
+          url: '/services/manufacturing/frp',
         },
       ],
     },
