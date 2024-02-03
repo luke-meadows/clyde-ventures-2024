@@ -65,7 +65,7 @@ export const dropdownDirectory = {
       icon: '/icons/integration.png',
       options: [
         {
-          title: 'Top Line Growth - Salesforce',
+          title: 'CRM - Salesforce',
           url: '/services/consultancy/top-line-growth-salesforce',
           options: [
             'Sales Cloud',
