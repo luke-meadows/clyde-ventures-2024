@@ -222,7 +222,7 @@ export default function WhatWeDo() {
                       <Link
                         href={service.url}
                         key={i}
-                        className="text-sm border-[1px] py-1 px-3 rounded-full hover:bg-primary-orange hover:text-black-text hover:border-primary-orange cursor-pointer font-normal hover:font-medium center-contents text-center"
+                        className="text-sm border-[1px] py-1 px-3 rounded-full hover:bg-primary-orange hover:text-black hover:border-primary-orange cursor-pointer font-normal hover:font-medium center-contents text-center"
                       >
                         {service.title}
                       </Link>

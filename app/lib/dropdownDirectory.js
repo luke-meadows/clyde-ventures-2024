@@ -149,11 +149,13 @@ export const dropdownDirectory = {
   'about-us': [
     {
       title: 'About us',
-      url: '',
+      url: 'about-us',
+      icon: '/icons/about-us.svg',
     },
     {
       title: 'Meet the team',
-      url: '',
+      url: '/team',
+      icon: '/icons/team.svg',
     },
   ],
   industries: [

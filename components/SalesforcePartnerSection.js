@@ -37,12 +37,13 @@ export default function SalesforcePartnerSection() {
           <h2 className="mb-5 font-semibold text-2xl mt-0 text-black-text">
             Our Solutions:
           </h2>
-          <div className="solutions flex flex-wrap content-start gap-4  justify-start">
+          {/* <div className="solutions flex flex-wrap content-start gap-4  justify-start"> */}
+          <div className="solutions flex flex-wrap gap-4  justify-start">
             {salesforceSolutions.map((solution, i) => {
               return (
                 <div
                   key={i}
-                  className="bg-black-text text-white px-4 h-8 rounded-full min-w-fit mx-auto shadow-button text-xs center-contents flex-1 self-auto"
+                  className="bg-black-text text-white px-4 h-8 rounded-full min-w-fit  shadow-button text-xs center-contents flex-1 self-auto"
                 >
                   {solution}
                 </div>
