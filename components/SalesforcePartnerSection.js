@@ -51,7 +51,7 @@ export default function SalesforcePartnerSection() {
           </div>
         </div>
         <div className="partner-section-right hidden md:block">
-          <Image src={CrmGraphic} width={1000} />
+          <Image src={CrmGraphic} width={1400} />
         </div>
       </div>
       <div className="background absolute left-0 top-0 h-full w-full z-[-1]">
