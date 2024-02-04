@@ -85,27 +85,27 @@ export default function WhatWeDo() {
       options: [
         {
           title: 'Salesforce: Sales Cloud',
-          url: '/services/consultancy/crm-salesforce',
+          url: '/services/integration/crm-salesforce',
         },
         {
           title: 'Salesforce: Marketing Cloud',
-          url: '/services/consultancy/crm-salesforce',
+          url: '/services/integration/crm-salesforce',
         },
         {
           title: 'Salesforce: Energy & Utilities Cloud',
-          url: '/services/consultancy/crm-salesforce',
+          url: '/services/integration/crm-salesforce',
         },
         {
           title: 'Salesforce: Account Engagement',
-          url: '/services/consultancy/crm-salesforce',
+          url: '/services/integration/crm-salesforce',
         },
         {
           title: 'Salesforce: Service Cloud',
-          url: '/services/consultancy/crm-salesforce',
+          url: '/services/integration/crm-salesforce',
         },
         {
           title: 'Salesforce: Experience Cloud',
-          url: '/services/consultancy/crm-salesforce',
+          url: '/services/integration/crm-salesforce',
         },
         {
           title: 'Salesforce: Field Service Cloud',
