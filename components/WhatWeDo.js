@@ -163,7 +163,7 @@ export default function WhatWeDo() {
       icon: '/icons/manufacturing.png',
       subtitle:
         'Id ex ratione et nulla odio a fuga, dolore distinctio qui porro dolorum quidem harum labore magni corrupti obcaecati molestias totam atque.',
-      link: '/services',
+      link: '/services/manufacturing',
       options: [
         {
           title: 'Fire Resistant Panels',

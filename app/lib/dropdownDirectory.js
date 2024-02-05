@@ -148,12 +148,12 @@ export const dropdownDirectory = {
   'about-us': [
     {
       title: 'About us',
-      url: 'about-us',
+      url: '/about-us',
       icon: '/icons/about-us.svg',
     },
     {
       title: 'Meet the team',
-      url: '/team',
+      url: '/about-us/meet-the-team',
       icon: '/icons/team.svg',
     },
   ],
