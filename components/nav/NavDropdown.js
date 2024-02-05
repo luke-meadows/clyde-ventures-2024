@@ -38,7 +38,10 @@ export default function NavDropdown({ dropdownActive, setDropdownActive }) {
               className="border-[2px] border-medium-grey flex-1 card-rounding h-fit"
             >
               {/* Card Top */}
-              <div className="card-top bg-black-text flex justify-between items-center py-3 pl-3">
+              <Link
+                href={item.url}
+                className="card-top bg-black-text flex justify-between items-center py-3 pl-3"
+              >
                 <div className="card-top-left flex items-center gap-4 flex-1">
                   <div className="bg-primary-orange h-14 w-14 aspect-square center-contents rounded-full text-lg cursor-pointer">
                     <Image src={item.icon} width={30} height={30} />
@@ -46,7 +49,7 @@ export default function NavDropdown({ dropdownActive, setDropdownActive }) {
                   <h3 className="font-semibold text-xl ">{item.title}</h3>
                 </div>
                 {!item.options && <ArrowIcon />}
-              </div>
+              </Link>
               {/* Card Bottom */}
               <div
                 className={
