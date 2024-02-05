@@ -1,5 +1,4 @@
 'use client';
-import '@styles/custom-swiper-styles.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import UtilitiesImage from '@public/images/industry-images/utilities-card.jpg';
 import ProfessionalServicesImage from '@public/images/industry-images/professional-services-card.jpg';

@@ -1,10 +1,11 @@
 import '@styles/globals.css';
+import '@styles/custom-swiper-styles.css';
 import '@styles/fontello/css/fontello.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css';
+
 import Nav from '@components/Nav';
-import AnimationWrapper from '@components/AnimationWrapper';
 
 export const metadata = {
   title: 'Clyde Ventures | Salesforce | Consultancy | MBA | Fireproof Panels',
