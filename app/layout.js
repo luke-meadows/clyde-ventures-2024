@@ -4,8 +4,7 @@ import '@styles/fontello/css/fontello.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css';
-
-import Nav from '@components/Nav';
+import Nav from '@components/nav/Nav';
 
 export const metadata = {
   title: 'Clyde Ventures | Salesforce | Consultancy | MBA | Fireproof Panels',
