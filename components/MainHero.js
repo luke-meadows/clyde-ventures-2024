@@ -1,4 +1,5 @@
 import BackgroundImage from './BackgroundImage';
+import HeroNavigationStrip from './HeroNavigationStrip';
 import HeroWrapper from './HeroWrapper';
 
 export default function MainHero({ children, hero }) {
@@ -14,6 +15,7 @@ export default function MainHero({ children, hero }) {
   const { title, subtitle, image } = heroData[hero];
   return (
     <HeroWrapper>
+      <HeroNavigationStrip />
       <div className="h-[500px] relative">
         <div className="hero-inner-container">
           <h1 className="hero-title">{title}</h1>
