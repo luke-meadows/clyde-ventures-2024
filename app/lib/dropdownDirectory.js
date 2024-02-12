@@ -65,8 +65,8 @@ export const dropdownDirectory = {
       icon: '/icons/integration.png',
       options: [
         {
-          title: 'CRM: Salesforce',
-          url: '/services/integration/crm-salesforce',
+          title: 'Salesforce',
+          url: '/services/integration/salesforce',
           options: [
             'Sales Cloud',
             '|',
@@ -88,8 +88,6 @@ export const dropdownDirectory = {
           url: '/services/integration/field-optimisation-salesforce',
           options: [
             'Field Service Cloud',
-            '|',
-            'Energy & Utilities Cloud',
             '|',
             'Workflow Delivery & Design',
             '|',

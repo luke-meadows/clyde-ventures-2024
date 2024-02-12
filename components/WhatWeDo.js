@@ -7,8 +7,8 @@ export default function WhatWeDo() {
       title: 'Consultancy',
       icon: '/icons/consultancy.png',
       subtitle:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex ratione et nulla odio a fuga, dolore distinctio qui porro dolorum quidem harum labore magni corrupti obcaecati molestias totam atque.',
-      link: '/services',
+        'Unlock your business potential with our consultancy services. From sales and debt strategy to process optimisation and culture change, we offer expert guidance to drive growth and innovation.',
+      link: '/services/consultancy',
       options: [
         {
           title: 'Sales Strategy',
@@ -80,36 +80,36 @@ export default function WhatWeDo() {
       title: 'Integration',
       icon: '/icons/integration.png',
       subtitle:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex dolorum quidem harum labore magni   ratione et nulla odio a Id ex ratione et nulla odio a Id ex ratione et nulla odio a.Id ex ratione et nulla odio a.',
+        "Seamlessly connect your systems and processes with our integration solutions. Whether it's Salesforce cloud integration or product design, we ensure efficient workflow delivery and design assurance for optimal performance.",
       link: '/services/integration',
       options: [
         {
           title: 'Salesforce: Sales Cloud',
-          url: '/services/integration/crm-salesforce',
+          url: '/services/integration/salesforce/sales-cloud',
         },
         {
           title: 'Salesforce: Marketing Cloud',
-          url: '/services/integration/crm-salesforce',
+          url: '/services/integration/salesforce/Marketing-cloud',
         },
         {
           title: 'Salesforce: Energy & Utilities Cloud',
-          url: '/services/integration/crm-salesforce',
+          url: '/services/integration/salesforce/energy-and-utilities-cloud',
         },
         {
           title: 'Salesforce: Account Engagement',
-          url: '/services/integration/crm-salesforce',
+          url: '/services/integration/salesforce/account-engagement',
         },
         {
           title: 'Salesforce: Service Cloud',
-          url: '/services/integration/crm-salesforce',
+          url: '/services/integration/salesforce/service-cloud',
         },
         {
           title: 'Salesforce: Experience Cloud',
-          url: '/services/integration/crm-salesforce',
+          url: '/services/integration/salesforce/experience-cloud',
         },
         {
           title: 'Salesforce: Field Service Cloud',
-          url: '/services/integration/field-optimisation-salesforce',
+          url: '/services/integration/salesforce/field-service-cloud',
         },
         {
           title: 'Product Design',
@@ -149,7 +149,7 @@ export default function WhatWeDo() {
       title: 'Education',
       icon: '/icons/education.png',
       subtitle:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex ratione et dolorum quidem harum labore magni  nulla odio a fuga, dolore distinctio qui porro dolorum quidem harum labore magni corrupti',
+        'Empower your future with our MBA program in Sustainable Energy Futures. Gain the knowledge and skills needed to lead in the dynamic field of sustainable energy, shaping a brighter and more sustainable tomorrow.',
       link: '/services',
       options: [
         {
@@ -162,7 +162,7 @@ export default function WhatWeDo() {
       title: 'Manufacturing',
       icon: '/icons/manufacturing.png',
       subtitle:
-        'Id ex ratione et nulla odio a fuga, dolore distinctio qui porro dolorum quidem harum labore magni corrupti obcaecati molestias totam atque.',
+        'Rely on our manufacturing expertise for fire-resistant panels that prioritise safety, durability and the environment. We deliver high-quality solutions to meet the demanding standards of modern requirements.',
       link: '/services/manufacturing',
       options: [
         {
@@ -178,10 +178,10 @@ export default function WhatWeDo() {
         What we do
       </h2>
       <p className="section-subheading text-sm text-center text-medium-grey">
-        Our CRM consultancy and integration service focuses on translating
-        complex business processes into efficient, scalable system solutions. We
-        leverage the power of the modern CRM to automate processes, forecast
-        outcomes and analyse customer data..
+        Clyde Ventures provides many offerings across our four key pillars of
+        operation: Consultancy, Integration, Manufacturing, and Education.
+        Explore our diverse range of solutions we provide to meet the evolving
+        needs of our clients.
       </p>
       <div className="grid grid-cols-2 gap-6">
         {whatWeDoCards.map((card, i) => {

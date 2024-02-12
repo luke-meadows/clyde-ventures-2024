@@ -30,9 +30,11 @@ export default function SalesforcePartnerSection() {
           <p className="mb-5 text-black-text font-normal text-lg">
             Salesforce consulting services help companies make the most of their
             Salesforce platform. As a Salesforce partner, we advise on the
-            implementation. Salesforce consulting services help companies make
-            the most of their Salesforce platform. As a Salesforce partner, we
-            advise on the implementation.
+            implementation, customisation, and optimisation of Salesforce
+            solutions to align with your unique business needs and objectives.
+            Our team of certified Salesforce experts provides strategic
+            guidance, best practices, and hands-on support to ensure a seamless
+            and successful Salesforce deployment.
           </p>
           <h2 className="mb-5 font-semibold text-2xl mt-0 text-black-text">
             Our Solutions:

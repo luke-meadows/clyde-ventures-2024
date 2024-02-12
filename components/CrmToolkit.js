@@ -65,7 +65,9 @@ export default function CrmToolkit() {
   ];
   return (
     <div className="inner-container">
-      <h2 className="section-heading text-center">The CRM Toolkit</h2>
+      <h2 className="section-heading text-center">
+        The Sales Cloud CRM Toolkit
+      </h2>
       <div className="grid grid-cols-3 gap-12 mt-12">
         {cardsArray.map((obj, i) => {
           return (

@@ -2,12 +2,13 @@ import AnimationWrapper from '@components/AnimationWrapper';
 import CrmToolkit from '@components/CrmToolkit';
 import InfoBox from '@components/InfoBox';
 import MainHero from '@components/MainHero';
+import SalesforceSolutions from '@components/SalesforceSolutions';
 import Image from 'next/image';
 
 export default function IntegrationPage() {
   return (
     <AnimationWrapper>
-      <MainHero hero="integration-crm">
+      <MainHero hero="salesforce">
         <Image
           src="/images/sf-partner-logo-rectangle.png"
           width={200}
@@ -15,10 +16,7 @@ export default function IntegrationPage() {
         />
       </MainHero>
       <div className="page-break" />
-      <InfoBox />
-      <div className="page-break" />
-      <CrmToolkit />
-      <div className="page-break" />
+      <SalesforceSolutions />
     </AnimationWrapper>
   );
 }

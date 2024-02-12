@@ -1,9 +1,5 @@
-import AnimationWrapper from '@components/AnimationWrapper';
+import EducationMBAPage from './sustainable-energy-futures-mba/page';
 
-export default function EducationHomepage() {
-  return (
-    <AnimationWrapper>
-      <div className="mt-24">Education</div>
-    </AnimationWrapper>
-  );
+export default function page() {
+  return <EducationMBAPage />;
 }
