@@ -5,11 +5,12 @@ import MainHero from '@components/MainHero';
 import Image from 'next/image';
 import InvestInSalesCloud from '@components/InvestInSalesCloud';
 import MoreSalesforceSolutions from '@components/MoreSalesforceSolutions';
+import OutstandingCareSection from '@components/outstanding-customer-care/OutstandingCareSection';
 
-export default function SalesCloudPage() {
+export default function ServiceCloudPage() {
   return (
     <AnimationWrapper>
-      <MainHero hero="salesforce-sales-cloud">
+      <MainHero hero="salesforce-service-cloud">
         <Image
           src="/images/sf-partner-logo-rectangle.png"
           width={200}
@@ -17,11 +18,9 @@ export default function SalesCloudPage() {
         />
       </MainHero>
       <div className="page-break" />
-      <InfoBox />
+      <InfoBox infobox="service-cloud" />
       <div className="page-break" />
-      <CrmToolkit />
-      <div className="page-break" />
-      <InvestInSalesCloud />
+      <OutstandingCareSection />
       <div className="page-break" />
       <MoreSalesforceSolutions />
       <div className="page-break" />

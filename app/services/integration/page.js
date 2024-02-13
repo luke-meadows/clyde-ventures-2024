@@ -7,12 +7,7 @@ import Image from 'next/image';
 export default function IntegrationPage() {
   return (
     <AnimationWrapper>
-      <MainHero hero="salesforce" />
-      <div className="page-break" />
-      <InfoBox />
-      <div className="page-break" />
-      <CrmToolkit />
-      <div className="page-break" />
+      <h1>Integration Homepage</h1>
     </AnimationWrapper>
   );
 }

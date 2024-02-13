@@ -2,6 +2,7 @@ import AnimationWrapper from '@components/AnimationWrapper';
 import CrmToolkit from '@components/CrmToolkit';
 import InfoBox from '@components/InfoBox';
 import MainHero from '@components/MainHero';
+import SalesforcePartnerSection from '@components/SalesforcePartnerSection';
 import SalesforceSolutions from '@components/SalesforceSolutions';
 import Image from 'next/image';
 
@@ -17,6 +18,8 @@ export default function IntegrationPage() {
       </MainHero>
       <div className="page-break" />
       <SalesforceSolutions />
+      <div className="page-break" />
+      <SalesforcePartnerSection button={false} />
     </AnimationWrapper>
   );
 }
