@@ -85,15 +85,15 @@ export default function CourseModules() {
           knowledge and practical skills, addressing the multifaceted challenges
           and innovations in the sustainable energy landscape.
         </p>
-        <div className="grid grid-cols-3 gap-4 mt-8">
+        <div className="grid grid-cols-2 gap-4 mt-8 text-left">
           {modules.map((module, i) => {
             return (
               <div
                 key={i}
-                className="p-4 bg-black card-rounding text-white center-contents "
+                className="p-4 bg-black card-rounding text-white shadow-bottom"
               >
                 <div>
-                  <h5 className="text-md mb-2 font-semibold text-primary-orange">
+                  <h5 className="text-lg mb-1 font-semibold text-primary-orange">
                     {module.title}
                   </h5>
                   <p className="text-xs font-normal">{module.description}</p>

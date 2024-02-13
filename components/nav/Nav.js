@@ -42,10 +42,10 @@ export default function Nav() {
             />
           )}
         </AnimatePresence>
-        {/* <NavDropdown
+        <NavDropdown
           dropdownActive="services"
           setDropdownActive={setDropdownActive}
-        /> */}
+        />
       </div>
     </header>
   );

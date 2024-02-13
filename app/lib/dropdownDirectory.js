@@ -41,7 +41,7 @@ export const dropdownDirectory = {
             '|',
             'Data & Analytics',
             '|',
-            'Business Care & ROI Due Diligence',
+            'Business Case & ROI Due Diligence',
           ],
         },
         {

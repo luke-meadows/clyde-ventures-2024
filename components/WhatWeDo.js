@@ -55,7 +55,7 @@ export default function WhatWeDo() {
           url: '/services/consultancy/opex-optimisation',
         },
         {
-          title: 'Business Care & ROI Due Diligence',
+          title: 'Business Case & ROI Due Diligence',
           url: '/services/consultancy/opex-optimisation',
         },
         {
