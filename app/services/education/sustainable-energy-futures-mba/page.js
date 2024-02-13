@@ -1,6 +1,9 @@
 import AnimationWrapper from '@components/AnimationWrapper';
+import InfoBox from '@components/InfoBox';
 import MainHero from '@components/MainHero';
+import CourseModules from '@components/education/CourseModules';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function EducationMBAPage() {
   return (
@@ -12,6 +15,15 @@ export default function EducationMBAPage() {
           height={100}
         />
       </MainHero>
+      <div className="page-break" />
+      <InfoBox infobox="mba">
+        <Link href="/" className="button py-3 center-contents w-fit">
+          Download Brochure
+        </Link>
+      </InfoBox>
+      <div className="page-break" />
+      <CourseModules />
+      <div className="page-break" />
     </AnimationWrapper>
   );
 }

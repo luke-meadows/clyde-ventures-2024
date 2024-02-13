@@ -80,14 +80,14 @@ export const dropdownDirectory = {
             '|',
             'Experience Cloud',
             '|',
-            'Product Design',
+            'Field Service Cloud',
           ],
         },
         {
-          title: 'Field Optimisation: Salesforce',
+          title: 'Process Design',
           url: '/services/integration/field-optimisation-salesforce',
           options: [
-            'Field Service Cloud',
+            'Product Design',
             '|',
             'Workflow Delivery & Design',
             '|',
