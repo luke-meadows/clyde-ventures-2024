@@ -16,7 +16,7 @@ export default function InfoBox({ infobox = 'sales-cloud', children }) {
     'service-cloud': {
       title: 'Service Cloud',
       subtitle: [
-        'Clyde Ventures stands out as an ideal partner for a Service Cloud integration due to its unique background rooted in operational experience. Born from the trenches of industry operations, the team at Clyde Ventures possesses an intimate understanding of the challenges faced by frontline workers and the complexities of delivering exceptional customer service.',
+        'Clyde Ventures stands out as an ideal partner for a Service Cloud integration due to its background rooted in operational experience. Born from the trenches of industry operations, the team at Clyde Ventures possesses an intimate understanding of the challenges faced by frontline workers and the complexities of delivering exceptional customer service.',
         'With first hand experience working in service based environments, we bring a rare perspective to Salesforce integration projects, ensuring solutions are not just technically sound but also deeply attuned to the practical needs and pain points of end-users.',
       ],
     },
