@@ -178,7 +178,7 @@ export default function WhatWeDo() {
         What we do
       </h2>
       <p className="section-subheading text-sm text-center ">
-        Clyde Ventures provides many offerings across our four key pillars of
+        Clyde Ventures provide many offerings across our four key pillars of
         operation: Consultancy, Integration, Manufacturing, and Education.
         Explore our diverse range of solutions we provide to meet the evolving
         needs of our clients.
