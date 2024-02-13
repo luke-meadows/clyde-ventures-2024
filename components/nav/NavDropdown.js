@@ -7,15 +7,9 @@ import {
 import Link from 'next/link';
 import Image from 'next/image';
 import { dropdownDirectory } from '@app/lib/dropdownDirectory';
+import ArrowIcon from '@components/ArrowIcon';
 
 export default function NavDropdown({ dropdownActive, setDropdownActive }) {
-  const ArrowIcon = () => {
-    return (
-      <div className="h-8 aspect-square center-contents rounded-full p-1 text-lg cursor-pointer bg-primary-orange mr-3">
-        <i className="icon-angle-right text-black-text text-2xl pl-[3px]" />
-      </div>
-    );
-  };
   return (
     <motion.div
       variants={dropdownFramerVariant}
@@ -71,7 +65,7 @@ export default function NavDropdown({ dropdownActive, setDropdownActive }) {
                           {option.title}
                         </h5>
                         {option.options && (
-                          <p className="text-sm font-light">
+                          <div className="text-sm font-light">
                             {option.options.map((subOption, i) =>
                               subOption === '|' ? (
                                 <span
@@ -81,10 +75,15 @@ export default function NavDropdown({ dropdownActive, setDropdownActive }) {
                                   |
                                 </span>
                               ) : (
-                                subOption
+                                <Link
+                                  href="/services/integration/salesforce/sales-cloud"
+                                  className="hover:text-primary-orange"
+                                >
+                                  {subOption}
+                                </Link>
                               )
                             )}
-                          </p>
+                          </div>
                         )}
                       </div>
                       <ArrowIcon />

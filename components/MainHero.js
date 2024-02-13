@@ -10,6 +10,12 @@ export default function MainHero({ children, hero }) {
       subtitle:
         'Sales Cloud, developed by Salesforce, is a leading CRM platform offering robust tools for sales automation, lead management, and customer engagement, empowering businesses to streamline processes and drive revenue growth through data-driven decision-making and collaboration.',
     },
+    'salesforce-service-cloud': {
+      image: '/images/hero/service-cloud.jpg',
+      title: 'Salesforce: Service Cloud',
+      subtitle:
+        'Service Cloud is a customer service platform that empowers businesses to deliver exceptional support experiences across multiple channels. Streamline customer interactions, automate workflows, and gain insights to drive operational efficiency and customer satisfaction.',
+    },
     'education-mba': {
       image: '/images/hero/education-mba.jpg',
       title: 'MBA: Sustainable Energy Futures',

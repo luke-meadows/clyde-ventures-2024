@@ -4,7 +4,7 @@ import CrmGraphic from '@public/images/crm-graphic.png';
 import SFPartnerLogoSquare from '@public/images/sf-partner-logo-square.png';
 import Link from 'next/link';
 
-export default function SalesforcePartnerSection() {
+export default function SalesforcePartnerSection({ button = true }) {
   const salesforceSolutions = [
     'Sales Cloud',
     'CPQ',
@@ -28,10 +28,12 @@ export default function SalesforcePartnerSection() {
             </h2>
           </div>
           <p className="mb-5 text-black-text font-normal text-lg">
-            Salesforce consulting services help companies make the most of their
+            Our Salesforce services help companies make the most of their
             Salesforce platform. As a Salesforce partner, we advise on the
             implementation, customisation, and optimisation of Salesforce
             solutions to align with your unique business needs and objectives.
+          </p>
+          <p className="mb-5 text-black-text font-normal text-lg">
             Our team of certified Salesforce experts provides strategic
             guidance, best practices, and hands-on support to ensure a seamless
             and successful Salesforce deployment.
@@ -66,13 +68,15 @@ export default function SalesforcePartnerSection() {
           className="brightness-105"
         />
       </div>
-      <div className="learn-more-button absolute bottom-0 left-1/2 translate-y-[50%] translate-x-[-50%]">
-        <Link href="/services/integration" className="">
-          <button className="button text-xs outline outline-8 outline-white font-semibold">
-            Learn More
-          </button>
-        </Link>
-      </div>
+      {button && (
+        <div className="learn-more-button absolute bottom-0 left-1/2 translate-y-[50%] translate-x-[-50%]">
+          <Link href="/services/integration/salesforce" className="">
+            <button className="button text-xs outline outline-8 outline-white font-semibold">
+              Learn More
+            </button>
+          </Link>
+        </div>
+      )}
     </div>
   );
 }

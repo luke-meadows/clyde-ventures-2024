@@ -12,8 +12,8 @@ export default function HeroNavigationStrip() {
       .replace(regex, ' ')
       .split(' ')
       .map((item) =>
-        item === 'crm'
-          ? 'CRM'
+        item.length === 3
+          ? item.toUpperCase()
           : `${item.charAt(0).toUpperCase()}${item.slice(1)}`
       )
       .join(' ');
