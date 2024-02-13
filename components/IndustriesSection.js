@@ -5,10 +5,10 @@ export default function IndustriesSection() {
       <div className="inner-container text-center">
         <h2 className="section-heading">Industries we provide value to</h2>
         <p className="section-subheading ">
-          Our CRM consulting and integration service focuses on translating
-          complex business processes into efficient, scalable system solutions.
-          We leverage the power of the modern CRM to automate processes,
-          forecast outcomes and analyse customer data..
+          Partnering with us means gaining a trusted ally who is deeply invested
+          in your industry's specific needs and in driving your success. Explore
+          how we bring innovation, efficiency, and unparalleled service to each
+          of these sectors.
         </p>
         <IndustriesSwiper />
       </div>
