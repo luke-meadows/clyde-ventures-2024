@@ -7,8 +7,14 @@ export default function OutstandingCareItem({ item }) {
         <Image src="/icons/tick.svg" width={28} height={28} />
       </div>
       <div>
-        <h5 className="text-xl font-semibold pt-1.5 mb-2">{item.title}</h5>
-        <p className="text-sm font-normal">{item.description}</p>
+        <h5 className="text-xl font-semibold pt-1.5 mb-2">Placeholder Title</h5>
+        <p className="text-sm font-normal">
+          Place holder text place holder text place holder text place holder
+          text place holder text place holder text place holder text place
+          holder text place holder text place holder text place holder text
+          place holder text place holder text place holder text place holder
+          text.
+        </p>
       </div>
     </div>
   );

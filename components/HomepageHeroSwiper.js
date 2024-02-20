@@ -14,7 +14,7 @@ export default function HomepageHeroSwiper() {
       title:
         'Clyde Ventures develops a value model to optimise regulatory outcome delivery incentives for UK Energy company.',
       subtitle:
-        'Workflows and journeys created for key processes in deployable modules to support operational processes.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: Article3Image,
       url: '/insights',
       type: 'Case Study',
@@ -22,7 +22,7 @@ export default function HomepageHeroSwiper() {
     {
       title: 'Energy: How suppliers can improve customer experience.',
       subtitle:
-        'Exploring how to deliver for consumers whilst managing the operating cost cap and mitigating downside pressures to margin.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: Article1Image,
       url: '/insights',
       type: 'Insight',
@@ -31,7 +31,7 @@ export default function HomepageHeroSwiper() {
       title:
         'Clyde Ventures identifies £1.95m of benefits in a revenue growth programme for UK wide fuel distributor.',
       subtitle:
-        'Cash is King for all Utility companies and increasing Revenue is the fastest way to improve your cash position.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: Article2Image,
       url: '/insights',
       type: 'Case Study',
@@ -45,7 +45,7 @@ export default function HomepageHeroSwiper() {
           spaceBetween={0}
           slidesPerView={1}
           pagination={{ clickable: true }}
-          className="h-[500px] relative mb-[90px] "
+          className="h-[350px] relative  "
           autoplay={{
             delay: 8000,
             disableOnInteraction: false,
@@ -54,15 +54,15 @@ export default function HomepageHeroSwiper() {
           {heroContentData.map((item) => (
             <SwiperSlide>
               <div className="hero-inner-container">
-                <Link
+                {/* <Link
                   href={
                     item.type === 'Case Study' ? '/case-studies' : '/insights'
                   }
                 >
-                  <p className="text-primary-orange mb-1 ml-1 underline-offset-2 underline">
+                  <p className="text-primary-orange mb-1 ml-1 underline-offset-2 underline text-sm">
                     {item.type}
                   </p>
-                </Link>
+                </Link> */}
                 <h1 className="hero-title">{item.title}</h1>
                 <p className="hero-subtitle">{item.subtitle}</p>
                 <button className="bg-primary-orange text-black-text  pr-2.5 pl-3 h-10 min-w-fit w-fit text-xs font-semibold rounded-l-[6px] rounded-r-[20px] ">

@@ -1,23 +1,17 @@
 import AnimationWrapper from '@components/AnimationWrapper';
 import CaseStudies from '@components/CaseStudies';
 import MainHero from '@components/MainHero';
-import SalesforceSolutions from '@components/Solutions';
+import Solutions from '@components/Solutions';
 import WhyChooseClyde from '@components/WhyChooseClyde';
 import Image from 'next/image';
 
 export default function IntegrationPage() {
   return (
     <AnimationWrapper>
-      <MainHero hero="salesforce">
-        <Image
-          src="/images/sf-partner-logo-rectangle.png"
-          width={200}
-          height={100}
-        />
-      </MainHero>
-      <SalesforceSolutions solution="salesforce" />
+      <MainHero hero="process-design"></MainHero>
+      <Solutions solution="process-design" />
       <div className="page-break" />
-      <CaseStudies caseStudyTopic="Salesforce" />
+      <CaseStudies caseStudyTopic="Process Design" />
       <div className="page-break" />
       <WhyChooseClyde title="Why Choose Clyde Heading Placeholder" />
       <div className="page-break" />

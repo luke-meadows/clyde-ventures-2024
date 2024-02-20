@@ -5,10 +5,9 @@ export default function IndustriesSection() {
       <div className="inner-container text-center">
         <h2 className="section-heading">Industries we provide value to</h2>
         <p className="section-subheading ">
-          Partnering with us means gaining a trusted ally who is deeply invested
-          in your industry's specific needs and in driving your success. Explore
-          how we bring innovation, efficiency, and unparalleled service to each
-          of these sectors.
+          Place holder text place holder text place holder text place holder
+          text place holder text place holder text place holder text place
+          holder text place holder text place holder text.
         </p>
         <IndustriesSwiper />
       </div>

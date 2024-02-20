@@ -15,7 +15,6 @@ export default function EducationMBAPage() {
           height={100}
         />
       </MainHero>
-      <div className="page-break" />
       <InfoBox infobox="mba">
         <Link href="/" className="button py-3 center-contents w-fit">
           Download Brochure

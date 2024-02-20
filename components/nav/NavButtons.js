@@ -7,9 +7,9 @@ export default function NavButtons({ setDropdownActive }) {
       onMouseEnter={() => setDropdownActive('none')}
     >
       {/* Search Button */}
-      <div className="icon-wrapper bg-super-light-grey text-medium-grey transition ease-in-out delay-150">
+      {/* <div className="icon-wrapper bg-super-light-grey text-medium-grey transition ease-in-out delay-150">
         <i className="icon-search" />
-      </div>
+      </div> */}
       {/* Linkedin Button */}
       <a
         href="https://www.linkedin.com/company/clyde-ventures"

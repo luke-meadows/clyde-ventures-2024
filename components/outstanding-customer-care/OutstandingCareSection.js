@@ -30,10 +30,10 @@ export default function OutstandingCareSection() {
       <div className="flex-1 ">
         <h2 className="section-heading">Deliver outstanding customer care</h2>
         <div className="pt-4">
-          <OutstandingCareItem item={bulletPointItems[0]} />
-          <OutstandingCareItem item={bulletPointItems[1]} />
-          <OutstandingCareItem item={bulletPointItems[2]} />
-          <OutstandingCareItem item={bulletPointItems[3]} />
+          <OutstandingCareItem />
+          <OutstandingCareItem />
+          <OutstandingCareItem />
+          <OutstandingCareItem />
         </div>
       </div>
       {/* RIGHT */}

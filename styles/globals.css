@@ -9,16 +9,16 @@
 }
 /* Elements */
 .page-break {
-  @apply py-12;
+  @apply py-[35px];
 }
 a {
   cursor: pointer;
 }
 .hero-title {
-  @apply text-white text-5xl font-bold leading-tight mb-3;
+  @apply text-white text-4xl font-bold leading-tight mb-3;
 }
 .hero-subtitle {
-  @apply text-white font-normal text-lg mb-6;
+  @apply text-white font-normal text-base mb-6;
 }
 .hero-inner-container {
   @apply inner-container flex flex-col justify-center h-full;
@@ -27,7 +27,7 @@ a {
   @apply font-bold text-4xl mb-5;
 }
 .section-subheading {
-  @apply text-lg mb-12 font-normal;
+  @apply text-base mb-12 font-normal;
 }
 /* Components */
 .app {

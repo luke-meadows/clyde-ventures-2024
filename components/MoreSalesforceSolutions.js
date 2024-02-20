@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import ArrowIcon from './ArrowIcon';
-import { salesforceServices } from './SalesforceSolutionsGrid';
+import { salesforceServices } from './SolutionsGrid';
 
 export default function MoreSalesforceSolutions({ current }) {
   return (

@@ -8,6 +8,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { dropdownDirectory } from '@app/lib/dropdownDirectory';
 import ArrowIcon from '@components/ArrowIcon';
+import DropdownGrid from './DropdownGrid';
 
 export default function NavDropdown({ dropdownActive, setDropdownActive }) {
   return (
@@ -27,70 +28,7 @@ export default function NavDropdown({ dropdownActive, setDropdownActive }) {
       >
         <div className="grid grid-cols-2 gap-6">
           {dropdownDirectory[dropdownActive]?.map((item, i) => (
-            <div
-              key={i}
-              className="border-[2px] border-medium-grey flex-1 card-rounding h-fit"
-            >
-              {/* Card Top */}
-              <Link
-                href={item.url}
-                className="card-top bg-black-text flex justify-between items-center py-3 pl-3"
-              >
-                <div className="card-top-left flex items-center gap-4 flex-1">
-                  <div className="bg-primary-orange h-14 w-14 aspect-square center-contents rounded-full text-lg cursor-pointer">
-                    <Image src={item.icon} width={30} height={30} />
-                  </div>
-                  <h3 className="font-semibold text-xl ">{item.title}</h3>
-                </div>
-                {!item.options && <ArrowIcon />}
-              </Link>
-              {/* Card Bottom */}
-              <div
-                className={
-                  'border-medium-grey ' + (item.options && 'border-t-2')
-                }
-              >
-                {item.options &&
-                  item.options.map((option, i) => (
-                    <Link
-                      href={option.url}
-                      key={i * 777}
-                      className={
-                        'border-medium-grey flex items-center hover:bg-black-text ' +
-                        (item.options.length - 1 === i ? '' : 'border-b-2 ')
-                      }
-                    >
-                      <div className="px-3 py-2 flex-1">
-                        <h5 className="text-lg text-primary-orange">
-                          {option.title}
-                        </h5>
-                        {option.options && (
-                          <div className="text-sm font-light">
-                            {option.options.map((subOption, i) =>
-                              subOption === '|' ? (
-                                <span
-                                  key={i * 120}
-                                  className="text-primary-orange px-2 leading-6"
-                                >
-                                  |
-                                </span>
-                              ) : (
-                                <Link
-                                  href="/services/integration/salesforce/sales-cloud"
-                                  className="hover:text-primary-orange"
-                                >
-                                  {subOption}
-                                </Link>
-                              )
-                            )}
-                          </div>
-                        )}
-                      </div>
-                      <ArrowIcon />
-                    </Link>
-                  ))}
-              </div>
-            </div>
+            <DropdownGrid item={item} key={i} />
           ))}
         </div>
       </motion.div>

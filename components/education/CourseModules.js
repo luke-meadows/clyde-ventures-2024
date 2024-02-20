@@ -76,14 +76,15 @@ export default function CourseModules() {
   ];
 
   return (
-    <div className="relative py-16">
+    <div className="relative ">
       <div className="inner-container text-center">
         <h2 className="section-heading ">Course Modules</h2>
         <p className="">
-          Delve into the heart of the MBA in Sustainable Energy Futures and its
-          array of modules. Each module is designed to equip you with advanced
-          knowledge and practical skills, addressing the multifaceted challenges
-          and innovations in the sustainable energy landscape.
+          Place holder text place holder text place holder text place holder
+          text place holder text place holder text place holder text place
+          holder text place holder text place holder text place holder text
+          place holder text place holder text place holder text place holder
+          text.
         </p>
         <div className="grid grid-cols-2 gap-4 mt-8 text-left">
           {modules.map((module, i) => {
@@ -93,7 +94,7 @@ export default function CourseModules() {
                 className="p-4 bg-black card-rounding text-white shadow-bottom"
               >
                 <div>
-                  <h5 className="text-lg mb-1 font-semibold text-primary-orange">
+                  <h5 className="text-lg mb-1 font-medium text-primary-orange">
                     {module.title}
                   </h5>
                   <p className="text-xs font-normal">{module.description}</p>
@@ -102,15 +103,6 @@ export default function CourseModules() {
             );
           })}
         </div>
-      </div>
-      <div className="background absolute left-0 top-0 h-full w-full z-[-1]">
-        <Image
-          src={Background}
-          layout="fill"
-          objectFit="cover"
-          unoptimized
-          className="brightness-105"
-        />
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ export default function IndustriesSwiper() {
     {
       title: 'Utilities',
       subtitle:
-        'Position your business for the future of energy with personalised service, unified customer and asset data, and business agility. Drive adoption in utility clean energy programs and connect your customers with energy efficiency and electrification resources. Drive adoption in utility clean energy programs and connect your customers with energy efficiency and electrification resources.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: UtilitiesImage,
       url: '/industries/utilities',
       icon: '/icons/utilities.png',
@@ -23,7 +23,7 @@ export default function IndustriesSwiper() {
     {
       title: 'Professional Services',
       subtitle:
-        'Position your business for the future of energy with personalised service, unified customer and asset data, and business agility. Drive adoption in utility clean energy programs and connect your customers with energy efficiency and electrification resources. Drive adoption in utility clean energy programs and connect your customers with energy efficiency and electrification resources.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: ProfessionalServicesImage,
       url: '/industries/utilities',
       icon: '/icons/professional-services.png',
@@ -31,7 +31,7 @@ export default function IndustriesSwiper() {
     {
       title: 'Manufacturing',
       subtitle:
-        'Position your business for the future of energy with personalised service, unified customer and asset data, and business agility. Drive adoption in utility clean energy programs and connect your customers with energy efficiency and electrification resources. Drive adoption in utility clean energy programs and connect your customers with energy efficiency and electrification resources.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: ManufacturingImage,
       url: '/industries/utilities',
       icon: '/icons/manufacturing.png',
@@ -39,7 +39,7 @@ export default function IndustriesSwiper() {
     {
       title: 'Technology',
       subtitle:
-        'Position your business for the future of energy with personalised service, unified customer and asset data, and business agility. Drive adoption in utility clean energy programs and connect your customers with energy efficiency and electrification resources. Drive adoption in utility clean energy programs and connect your customers with energy efficiency and electrification resources.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: TechnologyImage,
       url: '/industries/utilities',
       icon: '/icons/technology.png',
@@ -47,7 +47,7 @@ export default function IndustriesSwiper() {
     {
       title: 'Education',
       subtitle:
-        'Position your business for the future of energy with personalised service, unified customer and asset data, and business agility. Drive adoption in utility clean energy programs and connect your customers with energy efficiency and electrification resources. Drive adoption in utility clean energy programs and connect your customers with energy efficiency and electrification resources.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: EducationImage,
       url: '/industries/utilities',
       icon: '/icons/education.png',
@@ -55,7 +55,7 @@ export default function IndustriesSwiper() {
     {
       title: 'Transport & Logistics',
       subtitle:
-        'Position your business for the future of energy with personalised service, unified customer and asset data, and business agility. Drive adoption in utility clean energy programs and connect your customers with energy efficiency and electrification resources. Drive adoption in utility clean energy programs and connect your customers with energy efficiency and electrification resources.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: LogisticsImage,
       url: '/industries/utilities',
       icon: '/icons/transport.png',

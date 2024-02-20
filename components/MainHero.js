@@ -8,25 +8,43 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/integration.jpg',
       title: 'Salesforce: Sales Cloud',
       subtitle:
-        'Sales Cloud, developed by Salesforce, is a leading CRM platform offering robust tools for sales automation, lead management, and customer engagement, empowering businesses to streamline processes and drive revenue growth through data-driven decision-making and collaboration.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
     },
     'salesforce-service-cloud': {
       image: '/images/hero/service-cloud.jpg',
       title: 'Salesforce: Service Cloud',
       subtitle:
-        'Service Cloud is a customer service platform that empowers businesses to deliver exceptional support experiences across multiple channels. Streamline customer interactions, automate workflows, and gain insights to drive operational efficiency and customer satisfaction.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
     },
     'education-mba': {
       image: '/images/hero/education-mba.jpg',
       title: 'MBA: Sustainable Energy Futures',
       subtitle:
-        'The MBA Sustainable Energy Futures program aims to support ambitious and curious individuals in becoming  industry sustainability experts who can drive progress and address these complex issues across the sector.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
     },
     salesforce: {
       image: '/images/hero/salesforce.jpeg',
       title: 'Salesforce',
       subtitle:
-        'From initial consultation to final deployment, we excel in crafting tailored solutions that seamlessly integrate with your existing systems and processes. Trust us to navigate the complexities of your Salesforce integration journey, ensuring optimal performance and maximum value for your business.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+    },
+    'process-design': {
+      image: '/images/hero/process-design.jpg',
+      title: 'Process Design',
+      subtitle:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+    },
+    'wacc-outperformance': {
+      image: '/images/hero/wacc-outperformance.jpg',
+      title: 'WACC Outperformance',
+      subtitle:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+    },
+    'independence-upskilling-and-design-authority': {
+      image: '/images/hero/wacc-outperformance.jpg',
+      title: 'Independence, Upskilling and Design Authority',
+      subtitle:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
     },
   };
 
@@ -34,10 +52,10 @@ export default function MainHero({ children, hero }) {
   return (
     <HeroWrapper>
       <HeroNavigationStrip />
-      <div className="h-[500px] relative">
+      <div className="h-[350px] relative">
         <div className="hero-inner-container">
           <h1 className="hero-title">{title}</h1>
-          <p className="hero-subtitle">{subtitle}</p>
+          <p className="hero-subtitle max-w-[80%]">{subtitle}</p>
           {/* Space for other elements tacked on the bottom of hero if required */}
           {children}
         </div>
