@@ -4,7 +4,7 @@ import InfoBox from '@components/InfoBox';
 import MainHero from '@components/MainHero';
 import Image from 'next/image';
 import InvestInSalesCloud from '@components/InvestInSalesCloud';
-import MoreSalesforceSolutions from '@components/MoreSalesforceSolutions';
+// import MoreSalesforceSolutions from '@components/MoreSalesforceSolutions';
 import OutstandingCareSection from '@components/outstanding-customer-care/OutstandingCareSection';
 
 export default function ServiceCloudPage() {
