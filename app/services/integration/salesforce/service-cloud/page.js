@@ -22,7 +22,7 @@ export default function ServiceCloudPage() {
       <div className="page-break" />
       <OutstandingCareSection />
       <div className="page-break" />
-      <MoreSalesforceSolutions />
+      {/* <MoreSalesforceSolutions /> */}
       <div className="page-break" />
     </AnimationWrapper>
   );
