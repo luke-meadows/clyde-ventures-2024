@@ -46,6 +46,30 @@ export default function MainHero({ children, hero }) {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
     },
+    'top-line-growth': {
+      image: '/images/hero/top-line-growth.jpg',
+      title: 'Top Line Growth',
+      subtitle:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+    },
+    'service-excellence': {
+      image: '/images/hero/service-excellence.jpg',
+      title: 'Service Excellence',
+      subtitle:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+    },
+    'opex-optimisation': {
+      image: '/images/hero/opex-optimisation.jpg',
+      title: 'Opex Optimisation',
+      subtitle:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+    },
+    'business-and-culture-change': {
+      image: '/images/hero/business-and-culture-change.jpg',
+      title: 'Business and Culture Change',
+      subtitle:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+    },
   };
 
   const { title, subtitle, image } = heroData[hero];

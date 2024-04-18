@@ -115,6 +115,7 @@ export const solutions = {
       icon: '/icons/sales.svg',
       url: '/services/integration/salesforce/sales-cloud',
     },
+
     {
       title: 'Client Capability Cultivation',
       blurb:
@@ -125,16 +126,140 @@ export const solutions = {
     {
       title: 'Social Mobility Enablement',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text. Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       icon: '/icons/sales.svg',
       url: '/services/integration/salesforce/sales-cloud',
+    },
+  ],
+  'top-line-growth': [
+    {
+      title: 'Sales Strategy',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/sales.svg',
+
+      url: '/services/integration/salesforce/sales-cloud',
+    },
+    {
+      title: 'Debt Strategy',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/service.svg',
+      url: '/services/integration/salesforce/service-cloud',
+    },
+    {
+      title: 'Margin Optimisation',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/service.svg',
+      url: '/services/integration/salesforce/service-cloud',
+    },
+    {
+      title: 'Due Diligence',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/service.svg',
+      url: '/services/integration/salesforce/service-cloud',
+    },
+  ],
+  'service-excellence': [
+    {
+      title: 'Contact Strategy',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/sales.svg',
+
+      url: '/services/integration/salesforce/sales-cloud',
+    },
+    {
+      title: 'Complaints Strategy',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/service.svg',
+      url: '/services/integration/salesforce/service-cloud',
+    },
+    {
+      title: 'Vulnerability Strategy',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/service.svg',
+      url: '/services/integration/salesforce/service-cloud',
+    },
+    {
+      title: 'Existing Process Optimisation',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/service.svg',
+      url: '/services/integration/salesforce/service-cloud',
+    },
+  ],
+  'opex-optimisation': [
+    {
+      title: 'Opex Reduction & Lean',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/sales.svg',
+
+      url: '/services/integration/salesforce/sales-cloud',
+    },
+    {
+      title: 'RPA, Automation and AI',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/service.svg',
+      url: '/services/integration/salesforce/service-cloud',
+    },
+    {
+      title: 'Data & Analytics',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/service.svg',
+      url: '/services/integration/salesforce/service-cloud',
+    },
+    {
+      title: 'Business Case and ROI',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/service.svg',
+      url: '/services/integration/salesforce/service-cloud',
+    },
+  ],
+  'business-and-culture-change': [
+    {
+      title: 'Service & TOM Design',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/sales.svg',
+
+      url: '/services/integration/salesforce/sales-cloud',
+    },
+    {
+      title: 'Adoption & Engagement',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/service.svg',
+      url: '/services/integration/salesforce/service-cloud',
+    },
+    {
+      title: 'Culture Change & Capability Building',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/service.svg',
+      url: '/services/integration/salesforce/service-cloud',
+    },
+    {
+      title: 'Social Mobility D,E & I',
+      blurb:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      icon: '/icons/service.svg',
+      url: '/services/integration/salesforce/service-cloud',
     },
   ],
 };
 
 export default function SolutionsGrid({ solution }) {
   return (
-    <div className="grid grid-cols-3 gap-6 text-white">
+    <div className="grid grid-cols-2 gap-6 text-white">
       {solutions[solution].map((card, i) => {
         return (
           <div

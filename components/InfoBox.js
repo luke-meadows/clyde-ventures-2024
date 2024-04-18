@@ -33,7 +33,7 @@ export default function InfoBox({ infobox = 'sales-cloud', children }) {
   return (
     <div className="inner-container text-center">
       <div className="p-8 bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-zinc-800 via-zinc-900 to-black-text text-white card-rounding">
-        <h2 className="text-3xl mb-6 font-semibold">{title}</h2>
+        <h2 className="text-3xl mb-6 font-semibold ">{title}</h2>
         {subtitle.map((p, i) => (
           <p key={i} className="text-md mb-4 font-normal">
             {p}
@@ -43,6 +43,7 @@ export default function InfoBox({ infobox = 'sales-cloud', children }) {
           <Link href="/contact" className="button py-3 center-contents">
             Contact us
           </Link>
+          {/* Additional buttons */}
           {children}
         </div>
       </div>

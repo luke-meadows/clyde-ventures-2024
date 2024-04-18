@@ -23,7 +23,6 @@ export default function SalesCloudPage() {
       <div className="page-break" />
       <InvestInSalesCloud />
       <div className="page-break" />
-      {/* <MoreSalesforceSolutions /> */}
       <div className="page-break" />
     </AnimationWrapper>
   );

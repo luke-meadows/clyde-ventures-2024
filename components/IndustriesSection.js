@@ -3,7 +3,7 @@ export default function IndustriesSection() {
   return (
     <div className="">
       <div className="inner-container text-center">
-        <h2 className="section-heading">Industries we provide value to</h2>
+        <h2 className="section-heading">Sectors</h2>
         <p className="section-subheading ">
           Place holder text place holder text place holder text place holder
           text place holder text place holder text place holder text place

@@ -1,33 +1,19 @@
 import AnimationWrapper from '@components/AnimationWrapper';
+import CaseStudies from '@components/CaseStudies';
+import MainHero from '@components/MainHero';
+import Solutions from '@components/Solutions';
+import WhyChooseClyde from '@components/WhyChooseClyde';
 
-export default function page() {
+export default function TopLineGrowthPage() {
   return (
     <AnimationWrapper>
-      <div className="mt-24">Consultancy - Top Line Growth</div>
-      <div
-        id="sales-strategy"
-        className="h-48 bg-black text-white center-contents"
-      >
-        Sales Strategy
-      </div>
-      <div
-        id="sales-strategy"
-        className="h-48 bg-black text-white center-contents"
-      >
-        Debt Strategy
-      </div>
-      <div
-        id="sales-strategy"
-        className="h-48 bg-black text-white center-contents"
-      >
-        Margin Optimisation
-      </div>
-      <div
-        id="sales-strategy"
-        className="h-48 bg-black text-white center-contents"
-      >
-        Due Diligence
-      </div>
+      <MainHero hero="top-line-growth"></MainHero>
+      <Solutions solution="top-line-growth" />
+      <div className="page-break" />
+      <CaseStudies caseStudyTopic="Top Line Growth" />
+      <div className="page-break" />
+      <WhyChooseClyde title="Why Choose Clyde Heading Placeholder" />
+      <div className="page-break" />
     </AnimationWrapper>
   );
 }

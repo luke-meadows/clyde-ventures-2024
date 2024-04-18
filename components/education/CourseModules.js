@@ -97,7 +97,7 @@ export default function CourseModules() {
                   <h5 className="text-lg mb-1 font-medium text-primary-orange">
                     {module.title}
                   </h5>
-                  <p className="text-xs font-normal">{module.description}</p>
+                  <p className="text-sm font-normal">{module.description}</p>
                 </div>
               </div>
             );

@@ -1,11 +1,12 @@
 .homepage-hero > .swiper > .swiper-pagination {
-  max-width: 1200px;
+  max-width: 1300px;
   padding: 0 28px;
   margin: 0 auto;
   position: absolute;
   bottom: 1rem;
-  right: 0;
+  right: 0rem;
   text-align: right;
+
   --swiper-pagination-bullet-size: 20px;
   --swiper-pagination-color: #fff;
   --swiper-pagination-bullet-inactive-color: none;

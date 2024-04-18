@@ -14,7 +14,9 @@ export default function DropdownGrid({ item }) {
           <div className="bg-primary-orange h-14 w-14 aspect-square center-contents rounded-full text-lg cursor-pointer">
             <Image src={item.icon} width={30} height={30} />
           </div>
-          <h3 className="font-semibold text-xl text-white">{item.title}</h3>
+          <h3 className="font-semibold text-xl text-primary-orange">
+            {item.title}
+          </h3>
         </div>
         {!item.options && <ArrowIcon />}
       </Link>
