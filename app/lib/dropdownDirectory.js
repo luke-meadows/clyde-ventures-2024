@@ -84,7 +84,7 @@ export const dropdownDirectory = {
           ],
         },
         {
-          title: 'Process Design',
+          title: 'Organisational Effectiveness and Product Development',
           url: '/services/integration/process-design',
           options: [
             'Product Design',
