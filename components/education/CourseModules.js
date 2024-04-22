@@ -79,12 +79,10 @@ export default function CourseModules() {
     <div className="relative ">
       <div className="inner-container text-center">
         <h2 className="section-heading ">Course Modules</h2>
-        <p className="">
-          Place holder text place holder text place holder text place holder
-          text place holder text place holder text place holder text place
-          holder text place holder text place holder text place holder text
-          place holder text place holder text place holder text place holder
-          text.
+        <p className="section-subheading">
+          The programme is designed to fully engage participants in peer to peer
+          learning and to provide access to relevant and impactful guest
+          speakers, case studies and examples from the business world.
         </p>
         <div className="grid grid-cols-2 gap-4 mt-8 text-left">
           {modules.map((module, i) => {

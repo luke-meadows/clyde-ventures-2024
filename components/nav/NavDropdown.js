@@ -4,10 +4,7 @@ import {
   dropdownFramerVariant,
   dropdownInnerFramerVariant,
 } from '@app/lib/framer-motion';
-import Link from 'next/link';
-import Image from 'next/image';
 import { dropdownDirectory } from '@app/lib/dropdownDirectory';
-import ArrowIcon from '@components/ArrowIcon';
 import DropdownGrid from './DropdownGrid';
 
 export default function NavDropdown({ dropdownActive, setDropdownActive }) {
@@ -26,7 +23,7 @@ export default function NavDropdown({ dropdownActive, setDropdownActive }) {
         animate="enter"
         exit="exit"
       >
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 gap-6 border-10">
           {dropdownDirectory[dropdownActive]?.map((item, i) => (
             <DropdownGrid item={item} key={i} />
           ))}
@@ -34,7 +31,7 @@ export default function NavDropdown({ dropdownActive, setDropdownActive }) {
       </motion.div>
       <motion.div
         onMouseEnter={() => setDropdownActive('none')}
-        className="background absolute left-0 top-28 h-[100vh] w-[100vw] bg-black-text z-[-1]"
+        className="background absolute left-0 top-28 h-[100vh] w-[100vw] bg-black-text z-[-1]  "
         variants={dropdownBackgroundFramerVariant}
         initial="initial"
         animate="enter"

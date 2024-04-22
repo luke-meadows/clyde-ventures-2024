@@ -35,7 +35,7 @@ export const dropdownDirectory = {
           title: 'OPEX Optimisation',
           url: '/services/consultancy/opex-optimisation',
           options: [
-            'OPEX reduction & Lean',
+            'OPEX reduction & Lean Sigma',
             '|',
             'RPA, Automation & AI',
             '|',
@@ -109,8 +109,6 @@ export const dropdownDirectory = {
           title: 'Independence, Upskilling and Design Authority',
           url: '/services/integration/independence-upskilling-design-authority',
           options: [
-            'Assessment of Incumbent Integrator',
-            '|',
             'Design Assurance',
             '|',
             'Client Capability Cultivation',

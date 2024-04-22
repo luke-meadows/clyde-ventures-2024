@@ -50,18 +50,20 @@ export default function AboutUsPage() {
       </div>
 
       <div className="page-break" />
-
-      <div className="inner-container">
-        <h2 className="section-heading ">Our Vision</h2>
-        <p style={{ fontWeight: 400 }}>
-          Our Vision is to be the world's go-to consultancy for top line growth.
-          We design and deliver propositions that connect the essence of a
-          business with new markets, people and investors. Our circular
-          propositions will take your business into new markets and attract the
-          brightest people.
-        </p>
+      <div className="bg-gray-100">
+        <div className="page-break" />
+        <div className="inner-container">
+          <h2 className="section-heading ">Our Vision</h2>
+          <p style={{ fontWeight: 400 }}>
+            Our Vision is to be the world's go-to consultancy for top line
+            growth. We design and deliver propositions that connect the essence
+            of a business with new markets, people and investors. Our circular
+            propositions will take your business into new markets and attract
+            the brightest people.
+          </p>
+        </div>
+        <div className="page-break" />
       </div>
-      <div className="page-break" />
     </AnimationWrapper>
   );
 }

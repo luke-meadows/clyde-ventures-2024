@@ -190,9 +190,9 @@ export const solutions = {
   ],
   'opex-optimisation': [
     {
-      title: 'Opex Reduction & Lean',
+      title: 'Opex Reduction & Lean Sigma',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'We understand implicitly the imperative for driving efficiency in all that you do so whether its eliminating non value add activity, reducing variation across your processes through standardisation, increasing the quality of your outputs or balancing your ability to manage fluctuating demand Clyde Ventures can help you to significantly reduce your Operational costs.',
       icon: '/icons/sales.svg',
 
       url: '/services/integration/salesforce/sales-cloud',
@@ -200,21 +200,21 @@ export const solutions = {
     {
       title: 'RPA, Automation and AI',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Clyde Ventures have had considerable experience of using RPA to automate repetitive tasks, freeing up their Clients’ valuable resources to work on higher-value activity. As a certified Salesforce Integration Partner, we are adept at using technology to increase automation and in developing experience clouds that empower customers and increase self-serve. We have delivered a number of AI solutions,  leveraging machine learning and natural language processing to reduce costs through applications such as Intelligent Document Processing.',
       icon: '/icons/service.svg',
       url: '/services/integration/salesforce/service-cloud',
     },
     {
       title: 'Data & Analytics',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Clyde Ventures were born from Operations so we’re acutely aware of how important good quality data and analytics are in helping you optimise your resources and make better informed decisions. We have a strong track record in data analytics. Cleansing and manipulating data sets to crystallise new insights, we enable organisations to streamline their operations, reduce waste to enhance efficiency and ultimately lower operating costs.',
       icon: '/icons/service.svg',
       url: '/services/integration/salesforce/service-cloud',
     },
     {
       title: 'Business Case and ROI',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Value is central to everything we do. Regardless of the project delivery mode, Clyde Ventures’ own internal Governance demands that all our consultants identify and articulate a clear benefit opportunity aligned to the clients’ needs during project mobilisation. We have helped develop strong business cases with compelling ROIs for numerous public and private Clients adopting the preferred frameworks across the respective sectors such as the HMT 5 case model. We are particularly adept in helping Regulated Network Operators optimise their WACC returns through targeted process improvement and asset optimisation that enhance underperforming ODIs.',
       icon: '/icons/service.svg',
       url: '/services/integration/salesforce/service-cloud',
     },
@@ -259,19 +259,19 @@ export default function SolutionsGrid({ solution }) {
         return (
           <div
             key={i}
-            className="shadow-card rounded-md bg-black-text p-5 h-full"
+            className="shadow-card rounded-md bg-black-text p-6 h-full"
           >
             <div className="card-top flex justify-between pb-2">
               <div className="card-top-left flex gap-4 items-center">
                 <div className="bg-primary-orange h-8 w-8 aspect-square center-contents rounded-full text-lg cursor-pointer">
                   <Image src={card.icon} width={18} height={18} />
                 </div>
-                <h3 className="font-medium text-lg text-primary-orange">
+                <h3 className="font-normal text-xl text-primary-orange">
                   {card.title}
                 </h3>
               </div>
             </div>
-            <p className="font-light text-sm">{card.blurb}</p>
+            <p className="font-light text-md">{card.blurb}</p>
           </div>
         );
       })}

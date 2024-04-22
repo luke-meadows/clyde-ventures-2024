@@ -15,13 +15,13 @@ export default function TeamPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 auto-rows-fr-1 gap-4">
           {teamData.map((item, i) => (
             <div
-              className="bg-primary-orange w-[100%] col-span-1 cursor-pointer"
+              className="bg-primary-orange w-[100%] col-span-1 cursor-pointer noselect"
               onClick={() => setActiveTeamMember(item)}
             >
               <Image
                 key={i}
                 src={item.image}
-                className="h-[600px] md:h-[500px] object-cover object-top w-[100%]"
+                className="h-[600px] md:h-[500px] object-cover object-top w-[100%] bg-black"
                 objectPosition="bottom"
               />
               <div className="px-2">

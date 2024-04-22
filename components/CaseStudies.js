@@ -54,7 +54,7 @@ export default function CaseStudies({ caseStudyTopic }) {
     },
   ];
   return (
-    <div className="bg-black-text">
+    <div className="bg-black-text noselect">
       <div className="page-break" />
       <div className="inner-container text-white">
         <h2 className="section-heading">{caseStudyTopic} Case Studies</h2>

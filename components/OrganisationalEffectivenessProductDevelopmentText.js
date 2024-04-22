@@ -3,28 +3,28 @@ export default function OrganisationalEffectivenessProductDevelopmentText() {
     <div className="bg-gray-100 py-16">
       <div className="inner-container">
         <h2 className="text-3xl font-semibold mb-6">
-          Organizational effectiveness and product development play crucial
+          Organisational effectiveness and product development play crucial
           roles in a business&apos;s success:
         </h2>
         <div className="flex gap-8">
           <div className="w-[50%]">
             <h5 className="font-semibold text-xl mb-4 text-primary-orange bg-black pl-2 py-2 rounded">
-              Organizational Effectiveness:
+              Organisational Effectiveness:
             </h5>
             <ul className="list-disc flex flex-col gap-2">
               <li>
-                <strong>Efficiency:</strong> Streamlined processes and optimized
+                <strong>Efficiency:</strong> Streamlined processes and optimised
                 workflows lead to cost savings, reduced waste, and improved
                 resource allocation.
               </li>
               <li>
-                <strong>Competitive Advantage:</strong> Effective organizations
+                <strong>Competitive Advantage:</strong> Effective organisations
                 adapt swiftly to changes, outperform competitors, and stay
                 relevant in dynamic markets.
               </li>
               <li>
                 <strong>Employee Morale: </strong>
-                Well-organized workplaces enhance job satisfaction, motivation,
+                Well-organised workplaces enhance job satisfaction, motivation,
                 and overall employee well-being.
               </li>
               <li>
