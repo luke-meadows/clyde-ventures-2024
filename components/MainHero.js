@@ -26,11 +26,11 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/salesforce.jpeg',
       title: 'Salesforce',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        "We are a leading Salesforce integrator and Salesforce Partner that chooses to integrate Salesforce as the preferred CRM solution for its clients due to Salesforce's unparalleled capabilities in centralising customer data, providing valuable insights, enhancing customer service efficiency, automating processes, ensuring scalability, enabling customisation and integration, offering mobile accessibility, and prioritising security and compliance.",
     },
     'process-design': {
       image: '/images/hero/process-design.jpg',
-      title: 'Process Design',
+      title: 'Organisational Effectiveness and Product Development',
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
     },
@@ -44,7 +44,7 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/wacc-outperformance.jpg',
       title: 'Independence, Upskilling and Design Authority',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'At Clyde Ventures, we have no wish to create a scenario where our clients are continually dependent on us. We believe that ensuring our clients are capable of self-serving will lead to them returning because they want to; not because they have to. We ensure that we upskill our clients and we also offer to support assessment of design and delivery that other integrators have carried out as we understand that, sometimes a client does not have sufficient internal skillset to make these assessments.',
     },
     'top-line-growth': {
       image: '/images/hero/top-line-growth.jpg',
@@ -69,6 +69,18 @@ export default function MainHero({ children, hero }) {
       title: 'Business and Culture Change',
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+    },
+    'about-us': {
+      image: '/images/hero/business-and-culture-change.jpg',
+      title: 'About Clyde Ventures',
+      subtitle:
+        'Born from operations. Our team comes from multiple sectors and have delivered large scale project transformations and tangible value.',
+    },
+    'meet-the-team': {
+      image: '/images/hero/business-and-culture-change.jpg',
+      title: 'Meet the Team',
+      subtitle:
+        "Get to know us and learn what we're about. We are serious about our work and love to get stuck into a challenge.",
     },
   };
 

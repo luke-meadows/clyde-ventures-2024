@@ -37,7 +37,7 @@ export default function DropdownGrid({ item }) {
               }
             >
               <div className="px-3 py-2 flex-1">
-                <h5 className="text-lg text-primary-orange">{option.title}</h5>
+                <h5 className="text-md text-primary-orange">{option.title}</h5>
                 {option.options && (
                   <div className="text-sm font-light flex flex-wrap items-center">
                     {option.options.map((subOption, i) =>

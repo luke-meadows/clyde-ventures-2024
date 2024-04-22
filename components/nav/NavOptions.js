@@ -29,7 +29,7 @@ export default function NavOptions({ dropdownActive, setDropdownActive }) {
         setDropdownActive={setDropdownActive}
         dropdownActive={dropdownActive}
       >
-        Industries <i className="icon-angle-down" />
+        Sectors <i className="icon-angle-down" />
       </DropdownLink>
       <Link
         href="/insights"

@@ -85,11 +85,11 @@ export const dropdownDirectory = {
         },
         {
           title: 'Organisational Effectiveness and Product Development',
-          url: '/services/integration/process-design',
+          url: '/services/integration/organisational-effectiveness-and-product-development',
           options: [
             'Product Design',
             '|',
-            'Workflow Delivery & Design',
+            'Process Design',
             '|',
             'Process Optimisation',
           ],

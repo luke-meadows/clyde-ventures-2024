@@ -84,7 +84,7 @@ export default function IndustriesSwiper() {
                       <Image
                         src={industry.image}
                         layout="fill"
-                        objectFit="cover"
+                        className="object-cover"
                       />
                     </div>
                     <div className="card-icon h-16 aspect-square center-contents rounded-full bg-primary-orange absolute bottom-0 z-[1] translate-y-[50%] transform-center fill-primary-orange">
