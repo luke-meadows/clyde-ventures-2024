@@ -4,12 +4,12 @@ import HeroWrapper from './HeroWrapper';
 
 export default function MainHero({ children, hero }) {
   const heroData = {
-    // salesforce: {
-    //   image: '/images/hero/integration.jpg',
-    //   title: 'Integration',
-    //   subtitle:
-    //     'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
-    // },
+    services: {
+      image: '/images/hero/integration.jpg',
+      title: 'Services',
+      subtitle:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+    },
     integration: {
       image: '/images/hero/integration.jpg',
       title: 'Integration',
