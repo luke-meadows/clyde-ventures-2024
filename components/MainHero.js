@@ -4,9 +4,9 @@ import HeroWrapper from './HeroWrapper';
 
 export default function MainHero({ children, hero }) {
   const heroData = {
-    'salesforce-sales-cloud': {
+    services: {
       image: '/images/hero/integration.jpg',
-      title: 'Salesforce: Sales Cloud',
+      title: 'Our Services',
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
     },
@@ -85,6 +85,12 @@ export default function MainHero({ children, hero }) {
     insights: {
       image: '/images/hero/top-line-growth.jpg',
       title: 'Business Insights',
+      subtitle:
+        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+    },
+    consultancy: {
+      image: '/images/hero/top-line-growth.jpg',
+      title: 'Consultancy',
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
     },

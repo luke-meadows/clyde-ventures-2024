@@ -1,13 +1,19 @@
 import AnimationWrapper from '@components/AnimationWrapper';
-import CrmToolkit from '@components/CrmToolkit';
-import InfoBox from '@components/InfoBox';
+import CaseStudies from '@components/CaseStudies';
 import MainHero from '@components/MainHero';
-import Image from 'next/image';
+import Solutions from '@components/Solutions';
+import WhyChooseClyde from '@components/WhyChooseClyde';
 
 export default function IntegrationPage() {
   return (
     <AnimationWrapper>
-      <h1>Integration Homepage</h1>
+      <MainHero hero="integration"></MainHero>
+      <Solutions solution="integration" />
+      <div className="page-break" />
+      <CaseStudies caseStudyTopic="Integration" />
+      <div className="page-break" />
+      <WhyChooseClyde title="Why Choose Clyde Heading Placeholder" />
+      <div className="page-break" />
     </AnimationWrapper>
   );
 }
