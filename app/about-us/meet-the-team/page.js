@@ -15,7 +15,7 @@ export default function TeamPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 auto-rows-fr-1 gap-4">
           {teamData.map((item, i) => (
             <div
-              className="bg-primary-orange w-[100%] col-span-1 cursor-pointer noselect"
+              className="bg-primary-orange w-[100%] col-span-1 cursor-pointer noselect rounded"
               onClick={() => setActiveTeamMember(item)}
             >
               <Image
@@ -24,7 +24,7 @@ export default function TeamPage() {
                 className="h-[600px] md:h-[500px] object-cover object-top w-[100%] bg-black"
                 objectPosition="bottom"
               />
-              <div className="px-2">
+              <div className="px-2 py-1">
                 <h2 className="font-semibold text-lg">{item.name}</h2>
                 <p className="font-light">{item.role}</p>
               </div>

@@ -83,21 +83,21 @@ export const solutions = {
     {
       title: 'ODI Integration & Design',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Born from Operations, Clyde Ventures take a systemic view to improving performance.  To exemplify this, we have helped some of our Regulated Energy Network clients model the concept of  “a single circuit view”  within the overall network. This holistic perspective encompasses numerous aspects including physical layout, operational parameters, maintenance history and performance metrics. By maintaining a single view, network operators can efficiently manage and optimise the circuit, ensuring reliable power distribution and effective response to any issues or disruptions.',
       icon: '/icons/sales.svg',
       url: '/services/integration/salesforce/sales-cloud',
     },
     {
       title: 'Value Modelling',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Value is central to everything we do at Clyde Ventures. Regardless of the project delivery mode, Clyde Ventures’ own internal Governance demands that all our consultants identify and articulate a clear benefit opportunity aligned to the clients’ needs during project mobilisation. ',
       icon: '/icons/sales.svg',
       url: '/services/integration/salesforce/sales-cloud',
     },
     {
       title: 'Business Case and ROI Due Diligence',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'We have helped develop strong business cases with compelling ROIs for numerous public and private Clients adopting the preferred frameworks across the respective sectors such as the HMT 5 case model. We are particularly adept in helping Regulated Network Operators optimise their WACC returns through targeted process improvement and asset optimisation that enhance underperforming ODIs.',
       icon: '/icons/sales.svg',
       url: '/services/integration/salesforce/sales-cloud',
     },
@@ -261,7 +261,7 @@ export default function SolutionsGrid({ solution }) {
             key={i}
             className="shadow-card rounded-md bg-black-text p-6 h-full"
           >
-            <div className="card-top flex justify-between pb-2">
+            <div className="card-top flex justify-between pb-4">
               <div className="card-top-left flex gap-4 items-center">
                 <div className="bg-primary-orange h-8 w-8 aspect-square center-contents rounded-full text-lg cursor-pointer">
                   <Image src={card.icon} width={18} height={18} />
@@ -271,7 +271,7 @@ export default function SolutionsGrid({ solution }) {
                 </h3>
               </div>
             </div>
-            <p className="font-light text-md">{card.blurb}</p>
+            <p className="font-light text-base">{card.blurb}</p>
           </div>
         );
       })}

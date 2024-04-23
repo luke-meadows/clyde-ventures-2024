@@ -18,19 +18,8 @@ export const teamData = [
       'He has worked extensively in the Energy (retail, transmission, distribution, and wind), Water and Property Markets. On relocating to Scotland, Paul embarked on a career change, moving into management consultancy, with several global companies, and leading a range of multimillion pound capital projects across renewables and energy distribution, as well as water and energy management.',
       'Paul is passionate about developing new modes of collaboration and delivering new products and services in a world that is waking up to the importance of net zero. He enjoys working with entrepreneurial organisations to develop and grow market share.',
     ],
-    linkedIn: 'https://www.linkedin.com@public/in/paul-richards-47a6872b/',
+    linkedIn: 'https://www.linkedin.com/in/paul-richards-47a6872b/',
   },
-  {
-    name: 'Ross Bern',
-    role: 'Chief Operating Officer',
-    image: RossImage,
-    description: [
-      'Ross is energised by creating systems-thinking solutions that maximise value from waste and deliver real benefit to customers. He enjoys listening to music, playing sport and pub quizzes. A perpetual learner, (particularly licking his wounds after yet another disastrous pub quiz), he loves cross-fertilising best practise across different sectors and seeking new challenges to improve organisations.',
-      'Ross is a collaborative and results-oriented COO with over 25 years experience leading sizeable businesses across diverse, complex, and highly regulated sectors such as Energy utilities and Pharma manufacturing. A Lean 6-Sigma, MSP qualified change professional and Chartered Engineer, he has programme-managed a number of large scale, technology based, change portfolios for Financial Service and Higher Education clients and delivered numerous high value EPC contracts managing the design, construction, commissioning and operations of chemical processing facilities. ',
-    ],
-    linkedIn: 'https://www.linkedin.com@public/in/ross-bern-mba-ceng-93a53048/',
-  },
-
   {
     name: 'Amber Morton',
     role: 'Chief Client Officer',
@@ -40,8 +29,19 @@ export const teamData = [
       'Experienced at managing large operational teams, including software delivery teams, Amber enjoys motivating colleagues towards a common goal. With over 25 years’ experience in Financial Services and Utilities, she is an experienced leader with expertise in Collections & Recoveries and managing large-scale contact centres including voice and digital channels.',
       'Having obtained her degree while working full-time at Scottish Power, Amber understands the challenges of balancing work, personal and academical development. She was awarded the inaugural Student of the Year award in her final year in recognition of her academic results.',
     ],
-    linkedIn: 'https://www.linkedin.com@public/in/amber-morton-0b449a6/',
+    linkedIn: 'https://www.linkedin.com/in/amber-morton-0b449a6/',
   },
+  {
+    name: 'Ross Bern',
+    role: 'Chief Operating Officer',
+    image: RossImage,
+    description: [
+      'Ross is energised by creating systems-thinking solutions that maximise value from waste and deliver real benefit to customers. He enjoys listening to music, playing sport and pub quizzes. A perpetual learner, (particularly licking his wounds after yet another disastrous pub quiz), he loves cross-fertilising best practise across different sectors and seeking new challenges to improve organisations.',
+      'Ross is a collaborative and results-oriented COO with over 25 years experience leading sizeable businesses across diverse, complex, and highly regulated sectors such as Energy utilities and Pharma manufacturing. A Lean 6-Sigma, MSP qualified change professional and Chartered Engineer, he has programme-managed a number of large scale, technology based, change portfolios for Financial Service and Higher Education clients and delivered numerous high value EPC contracts managing the design, construction, commissioning and operations of chemical processing facilities. ',
+    ],
+    linkedIn: 'https://www.linkedin.com/in/ross-bern-mba-ceng-93a53048/',
+  },
+
   {
     name: 'Leanne McGuigan',
     role: 'Office Manager',
@@ -50,21 +50,9 @@ export const teamData = [
       'Leanne has 18 years experience in Executive Assistant and Office Manager roles and ensures a smooth running of the office whilst skilfully managing the Executive team’s busy diaries, travel arrangements and all administrative support.',
       'Outside of work Leanne enjoys keeping active by walking, going to the gym, playing badminton and spending time with family and friends.',
     ],
-    linkedIn: 'https://www.linkedin.com@public/in/leanne-mcguigan-7aab9a13a/',
+    linkedIn: 'https://www.linkedin.com/in/leanne-mcguigan-7aab9a13a/',
   },
-  {
-    name: 'Dave Philipson',
-    role: 'Senior Management Consultant',
-    image: DaveImage,
-    description: [
-      'Dave is an experienced Head Of Operations with a demonstrated history of working in the utilities industry. Skilled in Operations Management, Data Management, SQL, Energy, and Analysis, he enjoys the challenge of troubleshooting complex issues and investigating root causes, as well as designing solutions and integrating RPA.',
-      'Diplomatically agile and possessing a well-developed set of human skills from extensive experience building and managing relationships within complex, multi-agency and high-stakes environments.',
 
-      'He is an adept trainer and mentor, delivering training in subjects requiring a high level of specialist knowledge to his teams, and is constantly seeking to learn and improve his skillset.',
-      'A Royal Marines reservist for 10 years, currently at the rank of Sergeant where a high level of emotional intelligence and self-discipline is required to get the best from his team.',
-    ],
-    linkedIn: 'https://www.linkedin.com@public/in/david-philipson-50b57b222/',
-  },
   {
     name: 'Graham Mathie',
     role: 'Managing Director - Salesforce UK',
@@ -78,7 +66,20 @@ export const teamData = [
       'Receiving an MA specialising in business management from the University of Glasgow, Graham has 15 years of experience in management with a proven track record in account management, customer service and operations management, business analysis and project management.',
       'Graham is an avid lover of animals who enjoys learning new things.',
     ],
-    linkedIn: 'https://www.linkedin.com@public/in/graham-mathie-053664144/',
+    linkedIn: 'https://www.linkedin.com/in/graham-mathie-053664144/',
+  },
+  {
+    name: 'Dave Philipson',
+    role: 'Senior Management Consultant',
+    image: DaveImage,
+    description: [
+      'Dave is an experienced Head Of Operations with a demonstrated history of working in the utilities industry. Skilled in Operations Management, Data Management, SQL, Energy, and Analysis, he enjoys the challenge of troubleshooting complex issues and investigating root causes, as well as designing solutions and integrating RPA.',
+      'Diplomatically agile and possessing a well-developed set of human skills from extensive experience building and managing relationships within complex, multi-agency and high-stakes environments.',
+
+      'He is an adept trainer and mentor, delivering training in subjects requiring a high level of specialist knowledge to his teams, and is constantly seeking to learn and improve his skillset.',
+      'A Royal Marines reservist for 10 years, currently at the rank of Sergeant where a high level of emotional intelligence and self-discipline is required to get the best from his team.',
+    ],
+    linkedIn: 'https://www.linkedin.com/in/david-philipson-50b57b222/',
   },
   {
     name: 'Kate Davis',
@@ -92,7 +93,7 @@ export const teamData = [
       'Working with a billing software provider to energy and water utilities, Kate acted as a Subject Matter Expert and was responsible for building compliant workflows and industry leading processes in order to target clients and address pain points in the industry. ',
       'As a Salesforce Consultant, Kate has worked to implement Salesforce to an IT development company in LATAM. Engaging with key stakeholders and mapping out existing processes, building the company CRM aligned with regulatory requirements and business needs. ',
     ],
-    linkedIn: 'https://www.linkedin.com@public/in/kate-davis-4341aa22b/',
+    linkedIn: 'https://www.linkedin.com/in/kate-davis-4341aa22b/',
   },
   {
     name: 'Kerry Moran',
@@ -107,7 +108,7 @@ export const teamData = [
       'Water: Kerry has recently completed a project with a software client who provides metering, billing and debt services to UK utility clients. Kerry completed an assessment of the current regulatory framework to identify risks and opportunities for the client to create their UK Water Strategy for domestic customers. This included assessments of other billing platforms and high-level requirements for UK water companies. ',
       'People Leadership: Kerry has a strong background in leading and developing teams to be high performing. Kerry led on the innovative partnership with Strathclyde University to create the Internship programme to provide employment security to students in hardship during the pandemic. This involved the recruitment, selection and development of c.90 students to support internal service levels for a retail energy company. Many students returned for the full tenure of their studies. This also provided the energy company with quantifiable social benefits by supporting students in hardship. ',
     ],
-    linkedIn: 'https://www.linkedin.com@public/in/kerry-moran-0097421ba/',
+    linkedIn: 'https://www.linkedin.com/in/kerry-moran-0097421ba/',
   },
   {
     name: 'Cameron Smith',
@@ -121,7 +122,7 @@ export const teamData = [
       'Non-Profit: Worked as part of a small team that engaged a non-profit for the purpose of process analysis@public/improvement and automation. Designed and implemented a multi-faceted automation solution that resulted in an annual operating cost reduction of £20,000p.a.',
       'Retail Management: Managed a store of one of the UK’s largest outdoor retailers. Duties included staff and customer management, monthly P&L analysis, KPI reporting, and strategy development. Delivered an increase in net productivity of 21% in the first 6 months.',
     ],
-    linkedIn: 'https://www.linkedin.com@public/in/cameron-smith98/',
+    linkedIn: 'https://www.linkedin.com/in/cameron-smith98/',
   },
   {
     name: 'Luke Meadows',
@@ -132,6 +133,6 @@ export const teamData = [
       'Web Development: Luke is a web developer who embarked on an impressive journey of self-teaching to excel in the world of software development. Armed with a passion for coding, Luke honed his skills to become a formidable force in the technology space.',
       'Water Industry: Luke was an Implementation Analyst specialising in operational compliance at the largest UK water company. He possesses a comprehensive knowledge of industry-specific standards and regulations. By staying up-to-date with the latest advancements in technology, he continuously sought innovative solutions to address compliance requirements effectively. He helped dramatically increase the regulatory compliance of several operational departments by generating analytical insights from business data.',
     ],
-    linkedIn: 'https://www.linkedin.com@public/in/luke-meadows-846a2124b/',
+    linkedIn: 'https://www.linkedin.com/in/luke-meadows-846a2124b/',
   },
 ];

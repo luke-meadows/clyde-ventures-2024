@@ -6,14 +6,23 @@ export default function HeroNavigationStrip() {
   const pathName = usePathname();
   const splitPathName = pathName.split('/').slice(1);
 
+  const wordsToChangeCase = {
+    crm: 'CRM',
+    wacc: 'WACC',
+    opex: 'OPEX',
+    and: 'and',
+    independence: 'Independence,',
+    upskilling: 'Upskilling and',
+  };
+
   const formatNavString = (string) => {
     const regex = /-/g;
     return string
       .replace(regex, ' ')
       .split(' ')
       .map((item) =>
-        item.length === 3
-          ? item.toUpperCase()
+        wordsToChangeCase[item]
+          ? wordsToChangeCase[item]
           : `${item.charAt(0).toUpperCase()}${item.slice(1)}`
       )
       .join(' ');
