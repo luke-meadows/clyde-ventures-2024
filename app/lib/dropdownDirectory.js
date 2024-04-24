@@ -153,8 +153,12 @@ export const dropdownDirectory = {
       icon: '/icons/team.svg',
     },
   ],
-  industries: [
-    { title: 'Utilities', url: '', icon: '/icons/utilities.png' },
+  sectors: [
+    {
+      title: 'Utilities',
+      url: '/sectors/utilities',
+      icon: '/icons/utilities.png',
+    },
     {
       title: 'Professional Services',
       url: '',

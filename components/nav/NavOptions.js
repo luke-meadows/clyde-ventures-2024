@@ -24,8 +24,8 @@ export default function NavOptions({ dropdownActive, setDropdownActive }) {
         About Us <i className="icon-angle-down" />
       </p>
       <DropdownLink
-        href="/industries"
-        dropdownOption="industries"
+        href="/sectors"
+        dropdownOption="sectors"
         setDropdownActive={setDropdownActive}
         dropdownActive={dropdownActive}
       >

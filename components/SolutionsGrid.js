@@ -113,25 +113,25 @@ export const solutions = {
     {
       title: 'Sales Strategy',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Clyde Ventures can help you develop your Sales strategy in a range of ways. Speak to us about how we’ve supported Clients Maximise their sales by creating  enhanced value propositions Develop their Marketing Strategies and open up new Sales channels Leverage Technology to optimise lead generation and conversion',
       icon: '/icons/sales.svg',
     },
     {
       title: 'Debt Strategy',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Our extensive operational experience across multiple sectors has made us experts in the field of Debt Management. As well as directly running sizeable collections teams, we have delivered numerous projects across the consumption to collection lifecycle involving - Unbilled debt reduction by data cleansing, exceptions clearance and void management - Enhanced Credit Strategy and data analytics - Improved debt segmentation and tailored follow up  - Service excellence across Collection and Recovery Operations',
       icon: '/icons/service.svg',
     },
     {
       title: 'Margin Optimisation',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'All our consultants across the Clyde Ventures team are trained Lean Sigma practitioners equipped with the skills and toolkits needed to help optimise margin for our Clients by - Eliminating non value add and failure demand - Improving performance and increasing efficiency - Removing unnecessary demand through quality improvement and customer self serve - Maximising sales through enhanced value propositions',
       icon: '/icons/service.svg',
     },
     {
       title: 'Due Diligence',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        "Clyde Ventures have experience conducting due diligence from full M&A to more tactical compliance assurance and risk management. For one particular client, we were asked to provide the necessary assurance and recommend risk mitigations to enable the client to proceed with their investment by: - Creating cash flow models and developing scenarios to stress test the seller's assumptions - Analysing the company's accounts and forecasts to produce financial performance metrics - Critiquing the viability of the business model and the transferability of their Tech across international markets - Conducting peer group analysis and reviewing operational performance against industry benchmarks - Assessing the seller's hedging strategy and the validity of their unit economics and lifetime value projections - Ultimately producing a valuation and clear recommendations to mitigate investment risk and enable the client to proceed with confidence",
       icon: '/icons/service.svg',
     },
   ],
@@ -139,25 +139,25 @@ export const solutions = {
     {
       title: 'Contact Strategy',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        "By leveraging advanced analytics and industry insights Clyde Ventures can support the development of a bespoke approach to both inbound and outbound contact strategy tailored to each client's needs. Our solutions integrate cutting-edge communication technologies, to ensure seamless accessibility and responsiveness. Through proactive outreach initiatives and strategic touchpoints, we can enhance all areas of your customer communication to drive improved provision of service and meeting of business objectives. ",
       icon: '/icons/sales.svg',
     },
     {
       title: 'Complaints Strategy',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Our comprehensive approach to enhancing your complaints management framework typically involves diagnostic analysis of your current processes, identifying pain points and opportunities for improvement. Guided by industry best practice, data analytics, and innovative technologies, we design and implement tailored solutions that streamline complaint resolution, mitigate risks, aid prevention, and transform negative experiences into opportunities for customer retention and loyalty. We understand the regulatory frameworks that our clients operate within and can drive enhanced compliance and improved standing with external parties. ',
       icon: '/icons/service.svg',
     },
     {
       title: 'Vulnerability Strategy',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'We are committed to empowering organisations to serve all customers with compassion. We specialise in vulnerable customer training and conversation design that is not only functional but promotes empathy. Our team is skilled in creating communication protocols that prioritise understanding and support, ensuring that every interaction with vulnerable customers is meaningful and respectful. We excel in designing processes specifically tailored to the needs of vulnerable customers, integrating accessibility features, and implementing safeguards to protect their interests. Through rigorous reporting and analysis, we can help you measure and communicate the positive outcomes of your vulnerability strategy enhancing your social impact and reputation with external stakeholders.',
       icon: '/icons/service.svg',
     },
     {
       title: 'Existing Process Optimisation',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'We recognise the value of building upon the strengths of your current processes while identifying opportunities for enhancement and efficiency gains. We utilise extensive analysis of your existing workflows, advanced analytics, and industry benchmarks to identify areas for improvement. Leveraging our expertise in process optimisation methodologies such as Lean Six Sigma, we collaborate closely with your team to streamline operations, eliminate bottlenecks, and maximise resource utilisation. Through tailored recommendations and hands-on support, we empower your organisation to achieve greater agility, productivity, and cost-effectiveness while preserving the integrity of your established processes. ',
       icon: '/icons/service.svg',
     },
   ],
@@ -191,25 +191,25 @@ export const solutions = {
     {
       title: 'Service & TOM Design',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Clyde Ventures leverages our industry expertise, data-driven insights, and innovative methodologies to design service frameworks and TOMs that focus on driving operational excellence. We will collaborate closely with your teams to support the creation of agile and scalable service models and TOMs that optimise resource allocation, streamline workflows, and enhance organisational agility. ',
       icon: '/icons/sales.svg',
     },
     {
       title: 'Adoption & Engagement',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'We engage your team at every step through tailored communication strategies ensuring every team member understands the rationale behind the proposed changes and sees the value in adopting new practices. We immerse ourselves in your teams, in a non-disruptive manner, operating with full transparency in terms of our toolkit and analysis while sharing knowledge and upskilling your internal teams to deliver results long after our engagement is completed.',
       icon: '/icons/service.svg',
     },
     {
       title: 'Culture Change & Capability Building',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Our operational excellence team specialises in driving culture change and building organisational capabilities, understanding that shaping behaviours and outcomes is critical to sustainable growth. With our proven methodologies and targeted interventions, we cultivate a culture of innovation and continuous improvement empowering your people to navigate change confidently and achieve long-term success.',
       icon: '/icons/service.svg',
     },
     {
       title: 'Social Mobility D,E & I',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Clyde Ventures socially conscious recruitment strategy means that we are well-positioned to support you recruit and develop a diverse workforce that delivers a tangible societal impact to the communities you operate in. Our approach will help you unlock a diverse talent pool through our unique insights and strong relationships with charities and non-traditional recruitment channels.',
       icon: '/icons/service.svg',
     },
   ],

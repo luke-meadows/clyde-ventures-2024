@@ -56,13 +56,13 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/top-line-growth.jpg',
       title: 'Top Line Growth',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Clyde Ventures’ mission is to create social mobility by delivering top line growth for our clients. We teach people how to fish in new waters using the following range of solutions',
     },
     'service-excellence': {
       image: '/images/hero/service-excellence.jpg',
       title: 'Service Excellence',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Born from operations, our expertise lies in understanding customer needs and preferences, optimising processes, and implementing innovative strategies to enhance the overall customer experience. Through analysis of customer touchpoints, we identify areas for improvement and develop tailored solutions to address pain points and elevate satisfaction levels. With our guidance and support, our clients transform their service operations to cultivate enduring relationships with their customers, driving loyalty, advocacy, and sustainable business growth.',
     },
     'opex-optimisation': {
       image: '/images/hero/opex-optimisation.jpg',
@@ -74,7 +74,7 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/business-and-culture-change.jpg',
       title: 'Business and Culture Change',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'At Clyde Ventures we excel at driving business transformation and culture change for our clients. Using proven methodologies and our unique toolkit, our specialty lies in aligning strategic goals with your cultural values, ensuring engagement and adoption at every level. Our expertise and customer solutions help to empower your organisation to navigate transitions seamlessly, fostering sustainable growth and a culture of continuous improvement.',
     },
     'about-us': {
       image: '/images/hero/business-and-culture-change.jpg',
@@ -99,6 +99,12 @@ export default function MainHero({ children, hero }) {
       title: 'Consultancy',
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+    },
+    utilities: {
+      image: '/images/hero/top-line-growth.jpg',
+      title: 'Utilities',
+      subtitle:
+        "Discover Clyde Ventures' custom solutions for the utilities sector, enhancing compliance and efficiency to propel your business forward.",
     },
   };
 

@@ -76,10 +76,12 @@ export default function page() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr-1 gap-6 h-[100%]">
           {insightCards.map((card, i) => (
             <div key={i} className="rounded overflow-hidden relative">
-              <Image src={card.thumbnail} />
+              <div className="aspect-1 relative">
+                <Image src={card.thumbnail} className="h-64 object-cover" />
+              </div>
               <div className="px-2 py-1 bg-primary-orange  h-full">
-                <h5 className="font-semibold text-lg">{card.title}</h5>
-                <p className="font-light">
+                <h5 className="font-semibold text-md mb-1">{card.title}</h5>
+                <p className="font-light text-sm">
                   {card.author} - {card.date}
                 </p>
               </div>
@@ -87,6 +89,7 @@ export default function page() {
           ))}
         </div>
       </div>
+      <div className="page-break"></div>
     </AnimationWrapper>
   );
 }

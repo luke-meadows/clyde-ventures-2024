@@ -1,20 +1,38 @@
 import Image from 'next/image';
 
 export default function OutstandingCareItem({ item }) {
+  const items = {
+    industry: {
+      title: 'Industry',
+      blurb:
+        'Our team have held senior positions in multiple regulated sectors such as utilities and financial services. As such, we know these industries extensively and, more importantly, understand our Client’s challenges. We are not standard integrators; we are management consultants and industry experts who use technological solutions to support the delivery of operational goals, alongside a robust and detailed value model, underpinning the benefits of the transformation.',
+    },
+    salesforce: {
+      title: 'Salesforce',
+      blurb:
+        'Scotland’s largest independent Salesforce Integrator, we have a team of multi-certified implementation experts who have built up a compelling library of case studies on the back of numerous successful integrations which have delivered our client’s strategic outcomes. In addition, we are certified in both Net Zero Cloud and Energy and Utility Cloud implementations and are now the Salesforce partner holding the most E&U Cloud certifications in the entirety of the UK and Ireland.',
+    },
+    operations: {
+      title: 'Operations',
+      blurb:
+        'Our team are born from operations, so we understand the challenges involved and have the scars. We promote transparency and collaboration. Because we provide an operational solution which is systematised with Salesforce, we create much greater value than a systemic deployment alone. We approach our engagements with an operational head, so we don’t think like a standard software integrator. We ensure that everything we do ties back to quantifiable value and we deliver that value with agility. ',
+    },
+    'force-for-social-good': {
+      title: 'A Force For Social Good',
+      blurb:
+        'We recruit 90% of our staff from the most deprived 10% of postcodes and train them with the necessary technical, analytical and industry skills needed to work as professional management consultants. This unique recruitment approach has allowed us to overcome the traditional talent supply chain issues that hinder our competitors and enables us to accelerate project delivery across multiple continents. All of our staff own shares in the business consequently, we have a team that are engaged, loyal and keen to show our clients that our recruitment model works. We are on a mission to encourage all businesses to assess, build and develop talent like we do.',
+    },
+  };
   return (
     <div className="flex gap-4 mb-4">
       <div className="icon-wrapper bg-primary-orange">
         <Image src="/icons/tick.svg" width={28} height={28} />
       </div>
       <div>
-        <h5 className="text-xl font-semibold pt-1.5 mb-2">Placeholder Title</h5>
-        <p className="text-sm font-normal">
-          Place holder text place holder text place holder text place holder
-          text place holder text place holder text place holder text place
-          holder text place holder text place holder text place holder text
-          place holder text place holder text place holder text place holder
-          text.
-        </p>
+        <h5 className="text-xl font-semibold pt-1.5 mb-2">
+          {items[item].title}
+        </h5>
+        <p className="text-sm font-normal">{items[item].blurb}</p>
       </div>
     </div>
   );
