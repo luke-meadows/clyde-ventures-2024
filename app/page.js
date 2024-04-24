@@ -3,6 +3,7 @@ import HomepageHeroSwiper from '@components/HomepageHeroSwiper';
 import WhatWeDo from '@components/WhatWeDo';
 import IndustriesSection from '@components/IndustriesSection';
 import AnimationWrapper from '@components/AnimationWrapper';
+import WhyChooseClyde from '@components/WhyChooseClyde';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <div className="page-break" />
       <IndustriesSection />
       <div className="page-break" />
+      <WhyChooseClyde />
     </AnimationWrapper>
   );
 }

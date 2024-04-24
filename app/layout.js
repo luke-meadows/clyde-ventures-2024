@@ -5,6 +5,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css';
 import Nav from '@components/nav/Nav';
+import Footer from '@components/Footer';
 
 export const metadata = {
   title: 'Clyde Ventures | Salesforce | Consultancy | MBA | Fireproof Panels',
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className="app">
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );
