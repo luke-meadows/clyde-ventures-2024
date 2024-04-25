@@ -165,13 +165,13 @@ export const dropdownDirectory = {
       url: '/sectors/professional-services',
       icon: '/icons/professional-services.png',
     },
-    { title: 'Manufacturing', url: '', icon: '/icons/manufacturing.png' },
-    {
-      title: 'Information Technology',
-      url: '',
-      icon: '/icons/technology.png',
-    },
-    { title: 'Education', url: '', icon: '/icons/education.png' },
-    { title: 'Transport & Logistics', url: '', icon: '/icons/transport.png' },
+    // { title: 'Manufacturing', url: '', icon: '/icons/manufacturing.png' },
+    // {
+    //   title: 'Information Technology',
+    //   url: '',
+    //   icon: '/icons/technology.png',
+    // },
+    // { title: 'Education', url: '', icon: '/icons/education.png' },
+    // { title: 'Transport & Logistics', url: '', icon: '/icons/transport.png' },
   ],
 };
