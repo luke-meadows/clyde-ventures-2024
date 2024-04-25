@@ -9,6 +9,25 @@ export const solutions = {
       customBlurb: 'debt-strategy',
       icon: '/icons/service.svg',
     },
+    {
+      title: 'Salesforce',
+      blurb:
+        "We are a leading Salesforce integrator and Salesforce Partner that chooses to integrate Salesforce as the preferred CRM solution for its clients due to Salesforce's unparalleled capabilities in centralising customer data, providing valuable insights, enhancing customer service efficiency, automating processes, ensuring scalability, enabling customisation and integration, offering mobile accessibility, and prioritising security and compliance.",
+      icon: '/icons/sales.svg',
+      url: '/services/integration/salesforce',
+    },
+    {
+      title: 'Data & Analytics',
+      blurb:
+        'Clyde Ventures were born from Operations so we’re acutely aware of how important good quality data and analytics are in helping you optimise your resources and make better informed decisions. We have a strong track record in data analytics. Cleansing and manipulating data sets to crystallise new insights, we enable organisations to streamline their operations, reduce waste to enhance efficiency and ultimately lower operating costs.',
+      icon: '/icons/service.svg',
+    },
+    {
+      title: 'Existing Process Optimisation',
+      blurb:
+        'We recognise the value of building upon the strengths of your current processes while identifying opportunities for enhancement and efficiency gains. We utilise extensive analysis of your existing workflows, advanced analytics, and industry benchmarks to identify areas for improvement. Leveraging our expertise in process optimisation methodologies such as Lean Six Sigma, we collaborate closely with your team to streamline operations, eliminate bottlenecks, and maximise resource utilisation. Through tailored recommendations and hands-on support, we empower your organisation to achieve greater agility, productivity, and cost-effectiveness while preserving the integrity of your established processes. ',
+      icon: '/icons/service.svg',
+    },
   ],
   utilities: [
     {
