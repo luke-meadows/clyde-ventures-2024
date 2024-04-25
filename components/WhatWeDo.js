@@ -9,7 +9,7 @@ export default function WhatWeDo() {
       <h2 className="section-heading text-center text-black-text">
         What we do
       </h2>
-      <p className="section-subheading text-sm text-center ">
+      <p className="section-subheading">
         Place holder text place holder text place holder text place holder text
         place holder text place holder text place holder text place holder text
         place holder text place holder text place holder text place holder text

@@ -32,7 +32,7 @@ export default function CaseStudiesPage() {
     {
       insightId: '3',
       title:
-        'Developed a process control and exceptions management framework to facilitate the collection of over £13M in debt',
+        'Developed a process control and exceptions management framework to facilitate the collection of over £13M in debt.',
       date: '06/12/2023',
       author: 'Ross Bern',
       url: 'insights/debt-value',

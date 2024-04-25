@@ -38,15 +38,36 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          <div className="flex justify-between items-end mt-4">
-            <div className="logos flex gap-6">
-              <div className="bg-white px-2 rounded flex items-center justify-center">
-                <Image src="/images/logo.png" height={90} width={125} />
-              </div>
+          <div className="flex justify-between items-end mt-6">
+            <div className="logos flex gap-4 items-center">
+              {/* <div className="bg-white p-1 rounded flex items-center justify-center h-fit">
+                <Image
+                  src="/images/logo.png"
+                  height={85}
+                  width={165}
+                  className="object-contain"
+                />
+              </div> */}
               <Image
                 src="/images/sf-partner-logo-rectangle.png"
-                height={80}
-                width={150}
+                height={110}
+                width={185}
+                className="object-contain mr-2"
+              />
+              <Image
+                src="/images/accreditations-partners/CfA Cert Logo White UKAS ISO 9001.png"
+                height={40}
+                width={120}
+              />
+              <Image
+                src="/images/accreditations-partners/CfA Cert Logo White UKAS ISO 14001.png"
+                height={40}
+                width={120}
+              />
+              <Image
+                src="/images/accreditations-partners/CfA Cert Logo White UKAS ISO 27001.png"
+                height={40}
+                width={120}
               />
             </div>
             <div className="linkedin flex gap-6">

@@ -24,7 +24,7 @@ a {
   @apply inner-container flex flex-col justify-center h-full;
 }
 .section-heading {
-  @apply font-bold text-4xl mb-5;
+  @apply font-bold text-4xl mb-5 border-b-primary-orange border-b-4 w-fit pb-1;
 }
 .section-subheading {
   @apply text-base mb-12 font-normal;
