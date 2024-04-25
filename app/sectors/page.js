@@ -4,7 +4,7 @@ import WhyChooseClyde from '@components/WhyChooseClyde';
 import ContactSection from '@components/contact/ContactSection';
 import SectorIntroSection from '@components/sectors/SectorIntroSection';
 
-export default function SectorsPage({ sector }) {
+export default function SectorsPage({ sector = 'utilities' }) {
   return (
     <AnimationWrapper>
       <MainHero hero={sector}></MainHero>
