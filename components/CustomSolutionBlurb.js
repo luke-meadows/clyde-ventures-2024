@@ -2,6 +2,7 @@ import {
   DebtStrategyCustomSolutionBlurb,
   DueDiligenceCustomSolutionBlurb,
   MarginOptimisationCustomSolutionBlurb,
+  ProductDesignCustomSolutionBlurb,
   SalesStrategyCustomSolutionBlurb,
 } from './CustomSolutionBlurbs';
 
@@ -14,6 +15,7 @@ export default function CustomSolutionBlurb({ solution }) {
         <MarginOptimisationCustomSolutionBlurb />
       )}
       {solution === 'due-diligence' && <DueDiligenceCustomSolutionBlurb />}
+      {solution === 'product-design' && <ProductDesignCustomSolutionBlurb />}
     </div>
   );
 }

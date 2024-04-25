@@ -93,3 +93,24 @@ export function DueDiligenceCustomSolutionBlurb() {
     </div>
   );
 }
+
+export function ProductDesignCustomSolutionBlurb() {
+  return (
+    <div className="font-normal text-sm">
+      <p className="mb-2">
+        We are a forward-thinking company, that leverages product design to
+        assist its clients in achieving their business objectives. Here are the
+        tools we use :
+      </p>
+      <ul className="list-disc list-inside flex flex-col gap-1">
+        <li>Client-Centric Approach</li>
+        <li>User Experience (UX) Design</li>
+        <li>Strategic Planning</li>
+        <li>Conceptualisation and Ideation</li>
+        <li>Iterative Design Process</li>
+        <li>Collaboration with Development Teams</li>
+        <li>Continuous Improvement</li>
+      </ul>
+    </div>
+  );
+}

@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { SalesStrategyCustomSolutionBlurb } from './CustomSolutionBlurbs';
 import CustomSolutionBlurb from './CustomSolutionBlurb';
 
 export const solutions = {
@@ -50,23 +49,21 @@ export const solutions = {
   ],
   'process-design': [
     {
-      title:
-        'Product Design **This needs to be formatted due to copy writers using multiple layouts. Need to configure the component to accept bullet points, paragraphs and number lists**',
-      blurb:
-        'We are a forward-thinking company, that leverages product design to assist its clients in achieving their business objectives.Here is how we do it:Client-Centric Approach: We begin by understanding the unique needs and challenges faced by each client. We conduct thorough user research to gain insights into customer pain points and preferences.Strategic Planning:Our team at Clyde Ventures collaborates closely with clients to develop a product strategy. This involves identifying market gaps, analysing competitors, and defining clear goals for the product.Conceptualization and Ideation:Using our expertise in product design, we generate creative concepts. We brainstorm ideas, create prototypes, and explore different design directions.Iterative Design Process: We follow an iterative approach, refining designs based on feedback and testing. They create wireframes, mock-ups, and interactive prototypes to visualize the product. User Experience (UX) Design: We ensure that the product is intuitive, user-friendly, and aligned with the brand. We also focus on aspects such as navigation, information architecture, and visual aesthetics. As being born from operational we have a market advantage because we have the scars of using products as the user and understand what works better for users.Collaboration with Development Teams: The product design team collaborates closely with developers to ensure seamless implementation. They provide detailed design specifications and guidelines.Continuous Improvement:We don’t stop at launch. We monitor user feedback, track performance metrics, and make necessary adjustments to enhance the product over time.',
+      title: 'Product Design',
+      customBlurb: 'product-design',
       icon: '/icons/sales.svg',
     },
 
     {
       title: 'Process Design',
       blurb:
-        "We employ a strategic approach to process design, focusing on analysing, improving, and streamlining business processes to enhance efficiency, reduce costs, and drive growth. Through a collaborative and client-centric methodology, we work closely with organisations to identify pain points, bottlenecks, and inefficiencies in their current processes. By conducting thorough assessments and collecting data, we gain a comprehensive understanding of the client's operations and business objectives. We use our operational knowledge and experience to help develop and deliver tailored process improvement strategies that will add the most value to our client’s business while also aligning to our client's values and objectives.These strategies often involve redesigning workflows, implementing automation technologies, standardising procedures, and optimising resource allocation. We emphasise the importance of continuous improvement and provide ongoing support to help clients implement and sustain the recommended changes.By implementing efficient and effective processes, we help our clients to enhance productivity, responsiveness, and quality while reducing waste and errors.Ultimately, our process design services enable organisations to achieve operational excellence, boost competitiveness, and deliver value to their customers.",
+        'We employ a strategic approach to process design, focusing on analysing, improving, and streamlining business processes to enhance efficiency, reduce costs, and drive growth. Through a collaborative and client-centric methodology, we work closely with organisations to identify pain points, bottlenecks, and inefficiencies in their current processes. By implementing efficient and effective processes, we help our clients to enhance productivity, responsiveness, and quality while reducing waste and errors.',
       icon: '/icons/sales.svg',
     },
     {
       title: 'Automation & AI',
       blurb:
-        "We harness the power of process automation and artificial intelligence (AI) to assist our clients in revolutionising their operations and achieving significant business outcomes. We employ a forward-thinking approach to leverage technology for streamlining processes, increasing efficiency, and driving innovation.Through a meticulous assessment of the client's business processes and pain points using our process design services, we identify opportunities where automation and AI can be applied effectively to optimise workflows and tasks. By analysing data and understanding the client's unique needs and objectives, we tailor automation solutions to align with the client's strategic objectives and values.We specialise in developing and implementing automated processes that reduce manual intervention, minimise errors, and enhance speed and accuracy. By integrating cloud solutions that incorporate AI technologies such as machine learning, predictive AI and natural language processing, we enable our clients to extract valuable insights, make data-driven decisions, and improve predictive capabilities. With a focus on continuous improvement and innovation, we provide ongoing support to help our clients adapt to evolving technologies and stay ahead of the competition. By leveraging process automation and AI, we empower organisations to unlock new efficiencies, boost productivity, and deliver exceptional customer experiences. In summary, by utilising process automation and AI we help our clients transform their operations, drive growth, and unlock the full potential of their businesses in a rapidly evolving digital landscape.",
+        'We harness the power of process automation and artificial intelligence (AI) to assist our clients in revolutionising their operations and achieving significant business outcomes. We employ a forward-thinking approach to leverage technology for streamlining processes, increasing efficiency, and driving innovation. We specialise in developing and implementing automated processes that reduce manual intervention, minimise errors, and enhance speed and accuracy. ',
       icon: '/icons/sales.svg',
     },
   ],

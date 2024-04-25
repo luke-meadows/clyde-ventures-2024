@@ -13,7 +13,7 @@ export default function IntegrationPage() {
       <Solutions solution="process-design" />
       <div className="page-break" />
       <OrganisationalEffectivenessProductDevelopmentText />
-      <CaseStudies caseStudyTopic="Process Design" />
+      <CaseStudies caseStudyTopic="Organisational Effectiveness and Product Development" />
       <div className="page-break" />
       <WhyChooseClyde title="Why Choose Clyde Heading Placeholder" />
       <div className="page-break" />

@@ -38,7 +38,7 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/process-design.jpg',
       title: 'Organisational Effectiveness and Product Development',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        "Using visionary Product Design, strategic Process Design and cutting-edge Automation & AI, we propel your organisation towards success. Let's shape the future of your business together.",
     },
     'wacc-outperformance': {
       image: '/images/hero/wacc-outperformance.jpg',
