@@ -23,10 +23,7 @@ export default function ContactSection() {
               <div className="icon-wrapper bg-primary-orange">
                 <i className="icon-mail text-black" />
               </div>
-              <p className="text-normal">
-                0141 375 1472{' '}
-                <span className="text-red-500">**need to change icon</span>
-              </p>
+              <p className="text-normal">0141 375 1472</p>
             </div>
             <div className="flex mt-6 items-center gap-4">
               <div className="icon-wrapper bg-primary-orange">
