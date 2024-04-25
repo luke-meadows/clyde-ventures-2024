@@ -70,3 +70,10 @@ a {
 .transform-center {
   @apply translate-x-[-50%] left-1/2;
 }
+
+li {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-indent: -1.5em;
+  padding-left: 1.5em;
+}
