@@ -113,25 +113,25 @@ export const solutions = {
     {
       title: 'Sales Strategy',
       blurb:
-        'Clyde Ventures can help you develop your Sales strategy in a range of ways. Speak to us about how we’ve supported Clients Maximise their sales by creating  enhanced value propositions Develop their Marketing Strategies and open up new Sales channels Leverage Technology to optimise lead generation and conversion',
+        'Clyde Ventures can help you develop your Sales strategy in a range of ways. Speak to us about how we’ve supported Clients Maximise their sales by creating  enhanced value propositions Develop their Marketing Strategies and open up new Sales channels Leverage Technology to optimise lead generation and conversion.',
       icon: '/icons/sales.svg',
     },
     {
       title: 'Debt Strategy',
       blurb:
-        'Our extensive operational experience across multiple sectors has made us experts in the field of Debt Management. As well as directly running sizeable collections teams, we have delivered numerous projects across the consumption to collection lifecycle involving - Unbilled debt reduction by data cleansing, exceptions clearance and void management - Enhanced Credit Strategy and data analytics - Improved debt segmentation and tailored follow up  - Service excellence across Collection and Recovery Operations',
+        'Our extensive operational experience across multiple sectors has made us experts in the field of Debt Management. As well as directly running sizeable collections teams, we have delivered numerous projects across the consumption to collection lifecycle involving - Unbilled debt reduction by data cleansing, exceptions clearance and void management - Enhanced Credit Strategy and data analytics - Improved debt segmentation and tailored follow up  - Service excellence across Collection and Recovery Operations.',
       icon: '/icons/service.svg',
     },
     {
       title: 'Margin Optimisation',
       blurb:
-        'All our consultants across the Clyde Ventures team are trained Lean Sigma practitioners equipped with the skills and toolkits needed to help optimise margin for our Clients by - Eliminating non value add and failure demand - Improving performance and increasing efficiency - Removing unnecessary demand through quality improvement and customer self serve - Maximising sales through enhanced value propositions',
+        'All our consultants across the Clyde Ventures team are trained Lean Sigma practitioners equipped with the skills and toolkits needed to help optimise margin for our Clients by - Eliminating non value add and failure demand - Improving performance and increasing efficiency - Removing unnecessary demand through quality improvement and customer self serve - Maximising sales through enhanced value propositions.',
       icon: '/icons/service.svg',
     },
     {
       title: 'Due Diligence',
       blurb:
-        "Clyde Ventures have experience conducting due diligence from full M&A to more tactical compliance assurance and risk management. For one particular client, we were asked to provide the necessary assurance and recommend risk mitigations to enable the client to proceed with their investment by: - Creating cash flow models and developing scenarios to stress test the seller's assumptions - Analysing the company's accounts and forecasts to produce financial performance metrics - Critiquing the viability of the business model and the transferability of their Tech across international markets - Conducting peer group analysis and reviewing operational performance against industry benchmarks - Assessing the seller's hedging strategy and the validity of their unit economics and lifetime value projections - Ultimately producing a valuation and clear recommendations to mitigate investment risk and enable the client to proceed with confidence",
+        "Clyde Ventures have experience conducting due diligence from full M&A to more tactical compliance assurance and risk management. For one particular client, we were asked to provide the necessary assurance and recommend risk mitigations to enable the client to proceed with their investment by: - Creating cash flow models and developing scenarios to stress test the seller's assumptions - Analysing the company's accounts and forecasts to produce financial performance metrics - Critiquing the viability of the business model and the transferability of their Tech across international markets - Conducting peer group analysis and reviewing operational performance against industry benchmarks - Assessing the seller's hedging strategy and the validity of their unit economics and lifetime value projections - Ultimately producing a valuation and clear recommendations to mitigate investment risk and enable the client to proceed with confidence.",
       icon: '/icons/service.svg',
     },
   ],
@@ -277,7 +277,7 @@ export const solutions = {
 
 export default function SolutionsGrid({ solution }) {
   return (
-    <div className="grid grid-cols-2 gap-6 text-white">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-white">
       {solutions[solution].map((card, i) => {
         return (
           <div
@@ -294,7 +294,7 @@ export default function SolutionsGrid({ solution }) {
                 </h3>
               </div>
             </div>
-            <p className="font-light text-base">{card.blurb}</p>
+            <p className="font-normal text-sm">{card.blurb}</p>
             {card.url && (
               <Link href={card.url}>
                 <button className="button mt-4">Learn More</button>

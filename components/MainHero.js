@@ -118,10 +118,10 @@ export default function MainHero({ children, hero }) {
   return (
     <HeroWrapper>
       <HeroNavigationStrip />
-      <div className="h-[350px] relative">
+      <div className="h-[600px] md:h-[350px] relative">
         <div className="hero-inner-container">
           <h1 className="hero-title">{title}</h1>
-          <p className="hero-subtitle max-w-[80%]">{subtitle}</p>
+          <p className="hero-subtitle md:max-w-[80%]">{subtitle}</p>
           {/* Space for other elements tacked on the bottom of hero if required */}
           {children}
         </div>

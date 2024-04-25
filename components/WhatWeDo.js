@@ -10,10 +10,10 @@ export default function WhatWeDo() {
         What we do
       </h2>
       <p className="section-subheading">
-        Place holder text place holder text place holder text place holder text
-        place holder text place holder text place holder text place holder text
-        place holder text place holder text place holder text place holder text
-        place holder text place holder text place holder text.
+        We provide expertise with innovation to empower businesses navigating
+        the dynamic landscape of technology integration, sustainable energy and
+        business growth. Find out below how Clyde Ventures can transform your
+        organisation.
       </p>
       <div className="grid grid-cols-2 gap-6">
         {dropdownDirectory.services.map((item, i) => (
