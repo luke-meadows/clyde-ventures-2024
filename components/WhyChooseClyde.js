@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import OutstandingCareItem from './outstanding-customer-care/OutstandingCareItem';
 
-export default function WhyChooseClyde() {
+export default function WhyChooseClyde({ title }) {
   return (
     <div className="inner-container">
       <h2 className="section-heading">Why Choose Clyde Ventures</h2>
