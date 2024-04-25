@@ -214,7 +214,7 @@ export const solutions = {
     {
       title: 'Top Line Growth',
       blurb:
-        'Clyde Ventures’ mission is to create social mobility by delivering top line growth for our clients. We teach people how to fish in new waters using the following range of solutions',
+        'Clyde Ventures’ mission is to create social mobility by delivering top line growth for our clients. We teach people how to fish in new waters using the following range of solutions.',
       icon: '/icons/sales.svg',
       url: 'consultancy/top-line-growth',
     },

@@ -59,9 +59,8 @@ export default function CaseStudies({ caseStudyTopic }) {
       <div className="inner-container text-white">
         <h2 className="section-heading">{caseStudyTopic} Case Studies</h2>
         <p className="mb-6 font-normal">
-          Place holder text place holder text place holder text place holder
-          text place holder text place holder text place holder text place
-          holder text place holder text place holder text.
+          Learn how Clyde Ventures have provided value to our clients with{' '}
+          {caseStudyTopic}.
         </p>
         <div className="case-studies-swiper">
           <Swiper

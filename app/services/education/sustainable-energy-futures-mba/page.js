@@ -1,6 +1,7 @@
 import AnimationWrapper from '@components/AnimationWrapper';
 import InfoBox from '@components/InfoBox';
 import MainHero from '@components/MainHero';
+import ContactSection from '@components/contact/ContactSection';
 import CourseModules from '@components/education/CourseModules';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -23,6 +24,7 @@ export default function EducationMBAPage() {
       <div className="page-break" />
       <CourseModules />
       <div className="page-break" />
+      <ContactSection />
     </AnimationWrapper>
   );
 }

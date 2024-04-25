@@ -7,6 +7,7 @@ import Insight4Image from '@public/images/blog-images/thumbnail/opex-thumbnail.j
 import Insight5Image from '@public/images/blog-images/thumbnail/debt-trilemma-thumbnail.jpg';
 import Insight6Image from '@public/images/blog-images/thumbnail/service-standards-thumbnail.jpg';
 import Image from 'next/image';
+import ContactSection from '@components/contact/ContactSection';
 
 export default function page() {
   const insightCards = [
@@ -91,6 +92,7 @@ export default function page() {
         </div>
       </div>
       <div className="page-break"></div>
+      <ContactSection />
     </AnimationWrapper>
   );
 }

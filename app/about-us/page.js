@@ -1,5 +1,6 @@
 import AnimationWrapper from '@components/AnimationWrapper';
 import MainHero from '@components/MainHero';
+import ContactSection from '@components/contact/ContactSection';
 import Image from 'next/image';
 
 export default function AboutUsPage() {
@@ -39,17 +40,6 @@ export default function AboutUsPage() {
           />
         </div>
       </div>
-      <div className="page-break" />
-
-      <div className="inner-container">
-        <h2 className="section-heading ">Our Mission</h2>
-        <p style={{ fontWeight: 400 }}>
-          Creating social mobility by delivering top line growth for our
-          clients. We teach people how to fish in new waters.
-        </p>
-      </div>
-
-      <div className="page-break" />
       <div className="bg-gray-100">
         <div className="page-break" />
         <div className="inner-container">
@@ -64,6 +54,19 @@ export default function AboutUsPage() {
         </div>
         <div className="page-break" />
       </div>
+      <div className="page-break" />
+
+      <div className="inner-container">
+        <h2 className="section-heading ">Our Mission</h2>
+        <p style={{ fontWeight: 400 }}>
+          Creating social mobility by delivering top line growth for our
+          clients. We teach people how to fish in new waters.
+        </p>
+      </div>
+
+      <div className="page-break" />
+
+      <ContactSection />
     </AnimationWrapper>
   );
 }

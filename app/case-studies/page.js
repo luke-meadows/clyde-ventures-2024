@@ -1,5 +1,7 @@
 import AnimationWrapper from '@components/AnimationWrapper';
 import MainHero from '@components/MainHero';
+import ContactForm from '@components/contact/ContactForm';
+import ContactSection from '@components/contact/ContactSection';
 import Image from 'next/image';
 
 export default function CaseStudiesPage() {
@@ -102,6 +104,7 @@ export default function CaseStudiesPage() {
         </div>
       </div>
       <div className="page-break"></div>
+      <ContactSection />
     </AnimationWrapper>
   );
 }

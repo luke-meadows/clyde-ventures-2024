@@ -3,6 +3,7 @@ import CaseStudies from '@components/CaseStudies';
 import MainHero from '@components/MainHero';
 import Solutions from '@components/Solutions';
 import WhyChooseClyde from '@components/WhyChooseClyde';
+import ContactSection from '@components/contact/ContactSection';
 
 export default function IntegrationPage() {
   return (
@@ -14,6 +15,7 @@ export default function IntegrationPage() {
       <div className="page-break" />
       <WhyChooseClyde topic="Independence, Upskilling and Design Authority strategy" />
       <div className="page-break" />
+      <ContactSection />
     </AnimationWrapper>
   );
 }

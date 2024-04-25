@@ -12,8 +12,8 @@ export default function WhatWeDo() {
       <p className="section-subheading">
         We provide expertise with innovation to empower businesses navigating
         the dynamic landscape of technology integration, sustainable energy and
-        business growth. Find out below how Clyde Ventures can transform your
-        organisation.
+        business growth. Find out how Clyde Ventures can transform your
+        organisation below.
       </p>
       <div className="grid grid-cols-2 gap-6">
         {dropdownDirectory.services.map((item, i) => (

@@ -56,7 +56,7 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/top-line-growth.jpg',
       title: 'Top Line Growth',
       subtitle:
-        'Clyde Ventures’ mission is to create social mobility by delivering top line growth for our clients. We teach people how to fish in new waters using the following range of solutions',
+        'Clyde Ventures’ mission is to create social mobility by delivering top line growth for our clients. We teach people how to fish in new waters using the following range of solutions.',
     },
     'service-excellence': {
       image: '/images/hero/service-excellence.jpg',

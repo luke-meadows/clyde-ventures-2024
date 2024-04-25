@@ -5,6 +5,7 @@ import { teamData } from '@app/lib/teamData';
 import Image from 'next/image';
 import TeamModal from '@components/meet-the-team/TeamModal';
 import { useState } from 'react';
+import ContactSection from '@components/contact/ContactSection';
 
 export default function TeamPage() {
   const [activeTeamMember, setActiveTeamMember] = useState(null);
@@ -39,6 +40,7 @@ export default function TeamPage() {
           setActiveTeamMember={setActiveTeamMember}
         />
       )}
+      <ContactSection />
     </AnimationWrapper>
   );
 }

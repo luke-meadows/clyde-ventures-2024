@@ -4,6 +4,7 @@ import MainHero from '@components/MainHero';
 import OrganisationalEffectivenessProductDevelopmentText from '@components/OrganisationalEffectivenessProductDevelopmentText';
 import Solutions from '@components/Solutions';
 import WhyChooseClyde from '@components/WhyChooseClyde';
+import ContactSection from '@components/contact/ContactSection';
 import Image from 'next/image';
 
 export default function IntegrationPage() {
@@ -17,6 +18,7 @@ export default function IntegrationPage() {
       <div className="page-break" />
       <WhyChooseClyde title="Why Choose Clyde Heading Placeholder" />
       <div className="page-break" />
+      <ContactSection />
     </AnimationWrapper>
   );
 }
