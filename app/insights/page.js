@@ -79,11 +79,12 @@ export default function page() {
               <div className="aspect-1 relative">
                 <Image src={card.thumbnail} className="h-64 object-cover" />
               </div>
-              <div className="px-2 py-1 bg-primary-orange  h-full">
+              <div className="px-4 py-4 bg-black  h-full text-white">
                 <h5 className="font-semibold text-md mb-1">{card.title}</h5>
-                <p className="font-light text-sm">
+                <p className="font-light text-sm mb-2">
                   {card.author} - {card.date}
                 </p>
+                <button className="button text-sm">Read More</button>
               </div>
             </div>
           ))}

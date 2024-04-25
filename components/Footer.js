@@ -4,9 +4,8 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <>
-      <div className="page-break"></div>
-      <div className="bg-black text-white pt-16 pb-8">
+    <div>
+      <div className="bg-black text-white pt-16 pb-8 ">
         <div className="inner-container">
           <div className="grid grid-cols-3 gap-16">
             <div>
@@ -62,6 +61,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

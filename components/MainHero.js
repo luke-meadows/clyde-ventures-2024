@@ -106,6 +106,12 @@ export default function MainHero({ children, hero }) {
       subtitle:
         "Discover Clyde Ventures' custom solutions for the utilities sector, enhancing compliance and efficiency to propel your business forward.",
     },
+    'case-studies': {
+      image: '/images/hero/process-design.jpg',
+      title: 'Case Studies',
+      subtitle:
+        "Discover Clyde Ventures' custom solutions for the utilities sector, enhancing compliance and efficiency to propel your business forward.",
+    },
   };
 
   const { title, subtitle, image } = heroData[hero];
