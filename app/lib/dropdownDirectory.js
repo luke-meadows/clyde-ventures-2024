@@ -162,7 +162,7 @@ export const dropdownDirectory = {
     },
     {
       title: 'Professional Services',
-      url: '',
+      url: '/sectors/professional-services',
       icon: '/icons/professional-services.png',
     },
     { title: 'Manufacturing', url: '', icon: '/icons/manufacturing.png' },

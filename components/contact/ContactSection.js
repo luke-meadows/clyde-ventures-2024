@@ -21,7 +21,7 @@ export default function ContactSection() {
             </div>
             <div className="flex mt-6 items-center gap-4">
               <div className="icon-wrapper bg-primary-orange">
-                <i className="icon-mail text-black" />
+                <i className="icon-phone text-black" />
               </div>
               <p className="text-normal">0141 375 1472</p>
             </div>
