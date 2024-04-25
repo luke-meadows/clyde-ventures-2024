@@ -1,65 +1,6 @@
 export const dropdownDirectory = {
   services: [
     {
-      title: 'Integration',
-      url: '/services/integration',
-      icon: '/icons/integration.png',
-      options: [
-        {
-          title: 'Salesforce',
-          url: '/services/integration/salesforce',
-          options: [
-            'Sales Cloud',
-            '|',
-            'Marketing Cloud',
-            '|',
-            'Energy & Utilities Cloud',
-            '|',
-            'Account Engagement',
-            '|',
-            'Service Cloud',
-            '|',
-            'Experience Cloud',
-            '|',
-            'Field Service Cloud',
-          ],
-        },
-        {
-          title: 'Organisational Effectiveness and Product Development',
-          url: '/services/integration/organisational-effectiveness-and-product-development',
-          options: [
-            'Product Design',
-            '|',
-            'Process Design',
-            '|',
-            'Process Optimisation',
-          ],
-        },
-        {
-          title: 'WACC Outperformance',
-          url: '/services/integration/wacc-outperformance',
-          options: [
-            'ODI Integration & Design',
-            '|',
-            'Value Modelling',
-            '|',
-            'Business Case & ROI Due Diligence',
-          ],
-        },
-        {
-          title: 'Independence, Upskilling and Design Authority',
-          url: '/services/integration/independence-upskilling-design-authority',
-          options: [
-            'Design Assurance',
-            '|',
-            'Client Capability Cultivation',
-            '|',
-            'Social Mobility Enablement',
-          ],
-        },
-      ],
-    },
-    {
       title: 'Consultancy',
       url: '/services/consultancy',
       icon: '/icons/consultancy.png',
@@ -118,6 +59,66 @@ export const dropdownDirectory = {
         },
       ],
     },
+    {
+      title: 'Integration',
+      url: '/services/integration',
+      icon: '/icons/integration.png',
+      options: [
+        {
+          title: 'Salesforce',
+          url: '/services/integration/salesforce',
+          options: [
+            'Sales Cloud',
+            '|',
+            'Marketing Cloud',
+            '|',
+            'Energy & Utilities Cloud',
+            '|',
+            'Account Engagement',
+            '|',
+            'Service Cloud',
+            '|',
+            'Experience Cloud',
+            '|',
+            'Field Service Cloud',
+          ],
+        },
+        {
+          title: 'Organisational Effectiveness and Product Development',
+          url: '/services/integration/organisational-effectiveness-and-product-development',
+          options: [
+            'Product Design',
+            '|',
+            'Process Design',
+            '|',
+            'Process Optimisation',
+          ],
+        },
+        {
+          title: 'WACC Outperformance',
+          url: '/services/integration/wacc-outperformance',
+          options: [
+            'ODI Integration & Design',
+            '|',
+            'Value Modelling',
+            '|',
+            'Business Case & ROI Due Diligence',
+          ],
+        },
+        {
+          title: 'Independence, Upskilling and Design Authority',
+          url: '/services/integration/independence-upskilling-design-authority',
+          options: [
+            'Design Assurance',
+            '|',
+            'Client Capability Cultivation',
+            '|',
+            'Social Mobility Enablement',
+          ],
+        },
+      ],
+    },
+
     {
       title: 'Education',
       url: '/services/education',

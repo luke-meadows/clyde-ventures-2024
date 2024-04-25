@@ -11,12 +11,12 @@ export default function Footer() {
             <div>
               <h5 className="mb-4">Contact Us</h5>
               <ul className="text-xs font-normal flex flex-col gap-1">
-                <li>help@clydeventures.com</li>
-                <li>0141 375 1472</li>
-                <li>
+                <p>help@clydeventures.com</p>
+                <p>0141 375 1472</p>
+                <p>
                   Suite 405-407, Baltic Chambers, 50 Wellington Street, Glasgow,
                   G2 6HJ.
-                </li>
+                </p>
               </ul>
             </div>
             <div>

@@ -15,7 +15,7 @@ export default function WhatWeDo() {
         business growth. Find out how Clyde Ventures can transform your
         organisation below.
       </p>
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {dropdownDirectory.services.map((item, i) => (
           <DropdownGrid item={item} key={i} />
         ))}

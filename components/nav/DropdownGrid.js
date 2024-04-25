@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function DropdownGrid({ item }) {
   return (
-    <div className="border-[2px] border-medium-grey flex-1 card-rounding h-fit">
+    <div className="border-[2px] border-medium-grey flex-1 card-rounding h-full bg-black">
       {/* Card Top */}
       <Link
         href={item.url}
