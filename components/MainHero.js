@@ -112,6 +112,12 @@ export default function MainHero({ children, hero }) {
       subtitle:
         "From Salesforce implementations to sustainable energy initiatives, dive into detailed accounts of how we've helped businesses overcome challenges and achieve remarkable results. Get inspired, discover best practices, and envision the possibilities for your own organisation with Clyde Ventures.",
     },
+    'professional-services': {
+      image: '/images/industry-images/professional-services-card.jpg',
+      title: 'Professional Services',
+      subtitle:
+        'Navigate the complexities of the professional services landscape with Clyde Ventures. From client acquisition to regulatory compliance, we understand the challenges your industry faces. Our tailored solutions empower you to reduce operating costs, optimise returns, embrace sustainability, ensure fair treatment of customers, and elevate your customer service. Let Clyde Ventures be your partner in overcoming obstacles and achieving lasting success in professional services.',
+    },
   };
 
   const { title, subtitle, image } = heroData[hero];

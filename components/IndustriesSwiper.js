@@ -15,9 +15,9 @@ export default function IndustriesSwiper() {
     {
       title: 'Utilities',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'Most of the Clyde Ventures team have their roots in the Utility sector, we understand the operation at its foundation enabling us to tailor solutions to your needs. Partnering with us grants you access to a team of seasoned professionals, adept at crafting systems that harmonise with meeting the challenges of a modern Utility company.',
       image: UtilitiesImage,
-      url: '/industries/utilities',
+      url: '/sectors/utilities',
       icon: '/icons/utilities.png',
     },
     {
@@ -25,7 +25,7 @@ export default function IndustriesSwiper() {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: ProfessionalServicesImage,
-      url: '/industries/utilities',
+      url: '/sectors/utilities',
       icon: '/icons/professional-services.png',
     },
     {
@@ -33,7 +33,7 @@ export default function IndustriesSwiper() {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: ManufacturingImage,
-      url: '/industries/utilities',
+      url: '/sectors/utilities',
       icon: '/icons/manufacturing.png',
     },
     {
@@ -41,7 +41,7 @@ export default function IndustriesSwiper() {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: TechnologyImage,
-      url: '/industries/utilities',
+      url: '/sectors/utilities',
       icon: '/icons/technology.png',
     },
     {
@@ -49,7 +49,7 @@ export default function IndustriesSwiper() {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: EducationImage,
-      url: '/industries/utilities',
+      url: '/sectors/utilities',
       icon: '/icons/education.png',
     },
     {
@@ -57,7 +57,7 @@ export default function IndustriesSwiper() {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: LogisticsImage,
-      url: '/industries/utilities',
+      url: '/sectors/utilities',
       icon: '/icons/transport.png',
     },
   ];
@@ -76,7 +76,7 @@ export default function IndustriesSwiper() {
         {industries.map((industry, i) => {
           return (
             <SwiperSlide key={i} className="card-rounding mb-16 shadow-bottom">
-              <div className="h-full">
+              <div className="h-full bg-black-text">
                 {/* Card Top Section */}
                 <div className="top-section">
                   <div className="card-image relative h-44">

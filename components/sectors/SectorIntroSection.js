@@ -16,6 +16,19 @@ export default function SectorIntroSection({ sector = 'utilities' }) {
         'improving-customer-service',
       ],
     },
+    'professional-services': {
+      title:
+        'Practical Solutions Tailored for Professional Services Enterprises',
+      blurb:
+        "Elevate your professional services enterprise with tailored solutions designed to tackle the industry's most pressing challenges. At Clyde Ventures, we understand the intricacies of client acquisition and retention, the regulatory complexities, and the imperative of embracing technological innovation. Our comprehensive approach combines industry expertise with innovative strategies to help your business thrive in today's dynamic landscape.",
+      industryPainpoints: [
+        'reducing-operating-costs-to-improve-retail-margin',
+        'optimising-wacc-returns-in-regulated-utilities',
+        'decarbonisation-and-sustainability',
+        'treating-customers-fairly-and-managing-vulnerability',
+        'improving-customer-service',
+      ],
+    },
   };
   return (
     <>
@@ -32,7 +45,7 @@ export default function SectorIntroSection({ sector = 'utilities' }) {
         <div className="page-break" />
         <h2 className="section-heading">Clyde Ventures Utility Solutions</h2>
         <br />
-        <SectorSolutionsGrid solution="utilities" />
+        <SectorSolutionsGrid solution={sector} />
       </div>
     </>
   );

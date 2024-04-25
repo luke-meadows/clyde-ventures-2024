@@ -3,6 +3,13 @@ import Link from 'next/link';
 import CustomSolutionBlurb from './CustomSolutionBlurb';
 
 export const solutions = {
+  'professional-services': [
+    {
+      title: 'Debt Strategy',
+      customBlurb: 'debt-strategy',
+      icon: '/icons/service.svg',
+    },
+  ],
   utilities: [
     {
       title: 'Debt Strategy',
