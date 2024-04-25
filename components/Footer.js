@@ -10,14 +10,14 @@ export default function Footer() {
           <div className="grid grid-cols-4 gap-16">
             <div>
               <h5 className="mb-4">Contact Us</h5>
-              <ul className="text-xs font-normal flex flex-col gap-1">
+              <div className="text-xs font-normal flex flex-col gap-1">
                 <p>help@clydeventures.com</p>
                 <p>0141 375 1472</p>
                 <p>
                   Suite 405-407, Baltic Chambers, 50 Wellington Street, Glasgow,
                   G2 6HJ.
                 </p>
-              </ul>
+              </div>
             </div>
             <div>
               <h5 className="mb-4">Quick Links</h5>

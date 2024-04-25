@@ -92,7 +92,7 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/top-line-growth.jpg',
       title: 'Business Insights',
       subtitle:
-        "Explore our Business Insights page for expert analysis, industry trends, and actionable strategies to drive your organization forward. From Salesforce integration to sustainable energy initiatives, unlock the knowledge you need to thrive in today's dynamic marketplace. Discover the insights that fuel success with Clyde Ventures.",
+        "Explore our Business Insights page for expert analysis, industry trends, and actionable strategies to drive your organisation forward. From Salesforce integration to sustainable energy initiatives, unlock the knowledge you need to thrive in today's dynamic marketplace. Discover the insights that fuel success with Clyde Ventures.",
     },
     consultancy: {
       image: '/images/hero/top-line-growth.jpg',

@@ -15,9 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="app flex flex-col justify-between h-[100vh]">
+      <body className="app flex flex-col justify-between h-[100vh] max-w-[100vw]">
         <div>
-          <Nav />
+          {/* <Nav /> */}
           {children}
         </div>
         <Footer />

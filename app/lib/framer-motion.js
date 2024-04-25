@@ -46,7 +46,7 @@ export const dropdownBackgroundFramerVariant = {
     opacity: '0',
   },
   enter: {
-    opacity: 0.6,
+    opacity: 0.9,
     transition: {
       duration: 0.1,
       delay: 0,

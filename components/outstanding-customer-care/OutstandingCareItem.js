@@ -22,6 +22,46 @@ export default function OutstandingCareItem({ item }) {
       blurb:
         'We recruit 90% of our staff from the most deprived 10% of postcodes and train them with the necessary technical, analytical and industry skills needed to work as professional management consultants. This unique recruitment approach has allowed us to overcome the traditional talent supply chain issues that hinder our competitors and enables us to accelerate project delivery across multiple continents. All of our staff own shares in the business consequently, we have a team that are engaged, loyal and keen to show our clients that our recruitment model works. We are on a mission to encourage all businesses to assess, build and develop talent like we do.',
     },
+    'technology-adoption-and-innovation': {
+      title: 'Technology Adoption and Innovation',
+      blurb:
+        'Embracing technology and innovation is essential for remaining competitive and meeting client expectations. However, integrating new technologies, managing digital transformation, and staying ahead of technological advancements can be a daunting task. Balancing innovation with the need for security and data protection adds another layer of complexity. ',
+    },
+    'client-acquisition-and-retention': {
+      title: 'Client Acquisition and Retention',
+      blurb:
+        'Acquiring new clients and retaining existing ones can be challenging due to increasing competition and changing client demands. Building and maintaining strong client relationships while continuously delivering value is crucial.',
+    },
+    'regulatory-compliance': {
+      title: 'Regulatory Compliance',
+      blurb:
+        'Staying compliant with evolving regulatory frameworks, both domestically and internationally, is a significant concern for professional services firms. Navigating complex regulations while ensuring adherence to ethical standards adds complexity and can pose risks if not managed effectively.',
+    },
+    'reducing-operating-costs-to-improve-retail-margin': {
+      title: 'Reducing Operating Costs to Improve Retail Margin',
+      blurb:
+        'Efficient operations are essential for maintaining competitiveness and profitability in the utility sector. By reducing operating costs, we can enhance our retail margin, ensuring sustainable growth while delivering value to our customers.',
+    },
+    'optimising-wacc-returns-in-regulated-utilities': {
+      title: 'Optimising WACC Returns in Regulated Utilities',
+      blurb:
+        'As a regulated utility, optimising Weighted Average Cost of Capital (WACC) returns is crucial. It enables us to efficiently allocate capital, fund essential infrastructure projects, and maintain reliable service delivery—all while satisfying regulatory requirements and attracting investment.',
+    },
+    'decarbonisation-and-sustainability': {
+      title: 'Decarbonisation and Sustainability',
+      blurb:
+        'Addressing climate change and promoting sustainability are paramount. By investing in renewable energy sources and adopting sustainable practices, we mitigate environmental risks, comply with regulations, and enhance our reputation as responsible stewards of the environment.',
+    },
+    'treating-customers-fairly-and-managing-vulnerability': {
+      title: 'Treating Customers Fairly and Managing Vulnerability',
+      blurb:
+        'Our commitment to fair treatment and customer welfare is fundamental. By protecting vulnerable customers and implementing transparent pricing practices, we build trust, loyalty, and positive relationships within our communities.',
+    },
+    'improving-customer-service': {
+      title: 'Improving Customer Service',
+      blurb:
+        'Exceptional customer service is our priority. By investing in service improvement initiatives, we enhance satisfaction, loyalty, and retention—ensuring a positive experience for all our customers.',
+    },
   };
   return (
     <div className="flex gap-4 mb-4">

@@ -13,7 +13,7 @@ export default function WhyChooseClyde({ title }) {
         Industry, Operations and Salesforce with our social recruitment strategy
         to offer Clients an unparalleled value proposition
       </p>
-      <div className="bg-black py-12 rounded">
+      <div className="bg-black p-12 rounded">
         <Image
           src="/images/value-proposition.png"
           width={400}
@@ -21,7 +21,7 @@ export default function WhyChooseClyde({ title }) {
           className="mx-auto"
         />
         <div className="text-center text-white">
-          <h5 className="font-bold text-lg">Value Proposition</h5>
+          <h5 className="font-bold text-lg mb-1">Value Proposition</h5>
           <p className="font-normal max-w-[70ch] mx-auto">
             We combine these skills to provide a technical solution that meets
             operational needs and{' '}
@@ -32,7 +32,7 @@ export default function WhyChooseClyde({ title }) {
         </div>
       </div>
       <div className="page-break"></div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <OutstandingCareItem item="industry" />
         <OutstandingCareItem item="salesforce" />
         <OutstandingCareItem item="operations" />

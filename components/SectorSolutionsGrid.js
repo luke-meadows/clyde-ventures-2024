@@ -3,7 +3,56 @@ import Link from 'next/link';
 import CustomSolutionBlurb from './CustomSolutionBlurb';
 
 export const solutions = {
-  salesforce: [
+  utilities: [
+    {
+      title: 'Debt Strategy',
+      customBlurb: 'debt-strategy',
+      icon: '/icons/service.svg',
+    },
+    {
+      title: 'Salesforce',
+      blurb:
+        "We are a leading Salesforce integrator and Salesforce Partner that chooses to integrate Salesforce as the preferred CRM solution for its clients due to Salesforce's unparalleled capabilities in centralising customer data, providing valuable insights, enhancing customer service efficiency, automating processes, ensuring scalability, enabling customisation and integration, offering mobile accessibility, and prioritising security and compliance.",
+      icon: '/icons/sales.svg',
+      url: '/services/integration/salesforce',
+    },
+    {
+      title: 'Salesforce Energy and Utilities Cloud',
+      blurb:
+        'With the Energy and Utilities Cloud, we improved our clients’ customer interactions and streamlined their operations by integrating smart grid data and providing predictive maintenance insights. This not only reduced operational costs but also enhanced service reliability and customer trust in these sectors.',
+      icon: '/icons/utilities.png',
+    },
+    {
+      title: 'Salesforce Experience Cloud',
+      blurb:
+        'Utilising Experience Cloud, we created bespoke digital platforms that fostered community engagement and streamlined communication channels for our clients. Features such as personalised content and mobile-first communities enhanced user experience, boosting collaboration and engagement across stakeholders.',
+      icon: '/icons/experience.svg',
+    },
+    {
+      title: 'Product Design',
+      customBlurb: 'product-design',
+      icon: '/icons/sales.svg',
+    },
+    {
+      title: 'Opex Reduction & Lean Sigma',
+      blurb:
+        'We understand implicitly the imperative for driving efficiency in all that you do so whether its eliminating non value add activity, reducing variation across your processes through standardisation, increasing the quality of your outputs or balancing your ability to manage fluctuating demand Clyde Ventures can help you to significantly reduce your Operational costs.',
+      icon: '/icons/sales.svg',
+    },
+    {
+      title: 'RPA, Automation and AI',
+      blurb:
+        'Clyde Ventures have had considerable experience of using RPA to automate repetitive tasks, freeing up their Clients’ valuable resources to work on higher-value activity. As a certified Salesforce Integration Partner, we are adept at using technology to increase automation and in developing experience clouds that empower customers and increase self-serve. We have delivered a number of AI solutions,  leveraging machine learning and natural language processing to reduce costs through applications such as Intelligent Document Processing.',
+      icon: '/icons/service.svg',
+    },
+    {
+      title: 'Data & Analytics',
+      blurb:
+        'Clyde Ventures were born from Operations so we’re acutely aware of how important good quality data and analytics are in helping you optimise your resources and make better informed decisions. We have a strong track record in data analytics. Cleansing and manipulating data sets to crystallise new insights, we enable organisations to streamline their operations, reduce waste to enhance efficiency and ultimately lower operating costs.',
+      icon: '/icons/service.svg',
+    },
+  ],
+  theRest: [
     {
       title: 'Sales Cloud',
       blurb:
@@ -272,7 +321,7 @@ export const solutions = {
   ],
 };
 
-export default function SolutionsGrid({ solution, propSolutions = false }) {
+export default function SectorSolutionsGrid({ solution }) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-white">
       {solutions[solution].map((card, i) => {

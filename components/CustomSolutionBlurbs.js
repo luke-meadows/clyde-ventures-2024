@@ -100,7 +100,7 @@ export function ProductDesignCustomSolutionBlurb() {
       <p className="mb-2">
         We are a forward-thinking company, that leverages product design to
         assist its clients in achieving their business objectives. Here are the
-        tools we use :
+        tools we use:
       </p>
       <ul className="list-disc list-inside flex flex-col gap-1">
         <li>Client-Centric Approach</li>

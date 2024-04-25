@@ -9,7 +9,7 @@
 }
 /* Elements */
 .page-break {
-  @apply py-[35px];
+  @apply py-[18px] md:py-[35px];
 }
 a {
   cursor: pointer;
@@ -41,7 +41,7 @@ a {
   @apply h-10 w-10 aspect-square center-contents rounded-full p-1 text-lg cursor-pointer;
 }
 .inner-container {
-  @apply px-8 max-w-[1300px] mx-auto;
+  @apply px-2 md:px-8 max-w-[1300px] mx-auto;
 }
 .card-rounding {
   @apply rounded-2xl overflow-hidden;

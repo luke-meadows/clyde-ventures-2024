@@ -84,20 +84,22 @@ export default function CaseStudiesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr-1 gap-6 h-[100%]">
           {insightCards.map((card, i) => (
             <div key={i} className="rounded overflow-hidden relative bg-black ">
-              <div className="px-4 py-4  h-full text-white">
-                <div className="flex items-center gap-4">
-                  <Image
-                    src={avatars[card.author]}
-                    className="rounded-full mb-2"
-                    height={60}
-                    width={60}
-                  />
-                  <p className="font-normal text-sm mb-2">
-                    {card.author} - {card.date}
-                  </p>
+              <div className="px-4 py-4  h-full text-white flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center gap-4">
+                    <Image
+                      src={avatars[card.author]}
+                      className="rounded-full mb-2"
+                      height={60}
+                      width={60}
+                    />
+                    <p className="font-normal text-sm mb-2">
+                      {card.author} - {card.date}
+                    </p>
+                  </div>
+                  <h5 className="font-semibold text-md mb-3">{card.title}</h5>
                 </div>
-                <h5 className="font-semibold text-md mb-3">{card.title}</h5>
-                <button className="button text-sm">Read More</button>
+                <button className="button text-sm w-fit">Read More</button>
               </div>
             </div>
           ))}
