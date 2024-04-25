@@ -11,7 +11,7 @@ export default function SectorIntroSection({ sector }) {
   };
   return (
     <>
-      <div className="inner-container text-center">
+      <div className="inner-container">
         <h2 className="section-heading">{sectors.utilities.title}</h2>
         <p className="section-subheading">{sectors.utilities.blurb}</p>
         <br />
@@ -23,8 +23,7 @@ export default function SectorIntroSection({ sector }) {
           <OutstandingCareItem item="industry" />
           <OutstandingCareItem item="industry" />
         </div>
-        <br />
-
+        <div className="page-break" />
         <h2 className="section-heading">Clyde Ventures Utility Solutions</h2>
         <br />
         <SolutionsGrid solution="salesforce" />

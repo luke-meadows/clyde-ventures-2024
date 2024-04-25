@@ -64,8 +64,8 @@ export default function HomepageHeroSwiper() {
                   </p>
                 </Link> */}
                 <h1 className="hero-title">{item.title}</h1>
-                <p className="hero-subtitle">{item.subtitle}</p>
-                <button className="bg-primary-orange text-black-text  pr-2.5 pl-3 h-10 min-w-fit w-fit text-xs font-semibold rounded-l-[6px] rounded-r-[20px] ">
+                {/* <p className="hero-subtitle">{item.subtitle}</p> */}
+                <button className="bg-primary-orange text-black-text pr-2.5 pl-3 h-10 min-w-fit w-fit text-xs font-semibold rounded-l-[6px] rounded-r-[20px] ">
                   Read Article <i className="icon-angle-right" />
                 </button>
               </div>

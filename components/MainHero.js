@@ -8,13 +8,13 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/integration.jpg',
       title: 'Services',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        "Discover the power of innovation with Clyde Ventures, your trusted partner in Salesforce and General Consultancy. Elevate your business with our tailored solutions while exploring new horizons in sustainable energy through our promoted MBA program. Let's embark on a journey towards sustainable success together.",
     },
     integration: {
       image: '/images/hero/integration.jpg',
       title: 'Integration',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        "Empowerment through integration defines Clyde Ventures. As a leading Salesforce integrator and partner, we harness Salesforce's unparalleled capabilities to streamline operations, enhance insights, and prioritise security. Additionally, our expertise extends to optimising WACC returns for Regulated Network Operators. But our commitment doesn't end there. We foster independence and upskill our clients, ensuring self-sufficiency and genuine partnership. ",
     },
     'salesforce-service-cloud': {
       image: '/images/hero/service-cloud.jpg',
@@ -92,16 +92,16 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/top-line-growth.jpg',
       title: 'Business Insights',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        "Explore our Business Insights page for expert analysis, industry trends, and actionable strategies to drive your organization forward. From Salesforce integration to sustainable energy initiatives, unlock the knowledge you need to thrive in today's dynamic marketplace. Discover the insights that fuel success with Clyde Ventures.",
     },
     consultancy: {
       image: '/images/hero/top-line-growth.jpg',
       title: 'Consultancy',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        "Empower your business with Clyde Ventures, a leading  Consultancy firm. Explore our innovative strategies tailored to your needs. Together, let's redefine success and drive positive change.",
     },
     utilities: {
-      image: '/images/hero/top-line-growth.jpg',
+      image: '/images/industry-images/utilities-card.jpg',
       title: 'Utilities',
       subtitle:
         "Discover Clyde Ventures' custom solutions for the utilities sector, enhancing compliance and efficiency to propel your business forward.",
@@ -110,7 +110,7 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/process-design.jpg',
       title: 'Case Studies',
       subtitle:
-        "Discover Clyde Ventures' custom solutions for the utilities sector, enhancing compliance and efficiency to propel your business forward.",
+        "From Salesforce implementations to sustainable energy initiatives, dive into detailed accounts of how we've helped businesses overcome challenges and achieve remarkable results. Get inspired, discover best practices, and envision the possibilities for your own organisation with Clyde Ventures.",
     },
   };
 

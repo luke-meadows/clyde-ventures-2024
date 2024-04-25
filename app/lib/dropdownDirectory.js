@@ -1,65 +1,6 @@
 export const dropdownDirectory = {
   services: [
     {
-      title: 'Consultancy',
-      url: '/services/consultancy',
-      icon: '/icons/consultancy.png',
-      options: [
-        {
-          title: 'Top Line Growth',
-          url: '/services/consultancy/top-line-growth',
-          options: [
-            'Sales Strategy',
-            '|',
-            'Debt Strategy',
-            '|',
-            'Margin Optimisation',
-            '|',
-            'Due Diligence',
-          ],
-        },
-        {
-          title: 'Service Excellence',
-          url: '/services/consultancy/service-excellence',
-          options: [
-            'Contact Strategy',
-            '|',
-            'Complaints Strategy',
-            '|',
-            'Vulnerability Strategy',
-            '|',
-            'Existing Process Optimisation',
-          ],
-        },
-        {
-          title: 'OPEX Optimisation',
-          url: '/services/consultancy/opex-optimisation',
-          options: [
-            'OPEX reduction & Lean Sigma',
-            '|',
-            'RPA, Automation & AI',
-            '|',
-            'Data & Analytics',
-            '|',
-            'Business Case & ROI Due Diligence',
-          ],
-        },
-        {
-          title: 'Business and Culture Change',
-          url: '/services/consultancy/business-and-culture-change',
-          options: [
-            'Service & TOM Design',
-            '|',
-            'Adoption & Engagement',
-            '|',
-            'Culture Change & Capability Building',
-            '|',
-            'Social Mobility D,E & I',
-          ],
-        },
-      ],
-    },
-    {
       title: 'Integration',
       url: '/services/integration',
       icon: '/icons/integration.png',
@@ -119,6 +60,65 @@ export const dropdownDirectory = {
       ],
     },
     {
+      title: 'Consultancy',
+      url: '/services/consultancy',
+      icon: '/icons/consultancy.png',
+      options: [
+        {
+          title: 'Top Line Growth',
+          url: '/services/consultancy/top-line-growth',
+          options: [
+            'Sales Strategy',
+            '|',
+            'Debt Strategy',
+            '|',
+            'Margin Optimisation',
+            '|',
+            'Due Diligence',
+          ],
+        },
+        {
+          title: 'Service Excellence',
+          url: '/services/consultancy/service-excellence',
+          options: [
+            'Contact Strategy',
+            '|',
+            'Complaints Strategy',
+            '|',
+            'Vulnerability Strategy',
+            '|',
+            'Existing Process Optimisation',
+          ],
+        },
+        {
+          title: 'OPEX Optimisation',
+          url: '/services/consultancy/opex-optimisation',
+          options: [
+            'OPEX reduction & Lean Sigma',
+            '|',
+            'RPA, Automation & AI',
+            '|',
+            'Data & Analytics',
+            '|',
+            'Business Case & ROI Due Diligence',
+          ],
+        },
+        {
+          title: 'Business and Culture Change',
+          url: '/services/consultancy/business-and-culture-change',
+          options: [
+            'Service & TOM Design',
+            '|',
+            'Adoption & Engagement',
+            '|',
+            'Culture Change & Capability Building',
+            '|',
+            'Social Mobility D,E & I',
+          ],
+        },
+      ],
+    },
+    {
       title: 'Education',
       url: '/services/education',
       icon: '/icons/education.png',
@@ -129,17 +129,17 @@ export const dropdownDirectory = {
         },
       ],
     },
-    {
-      title: 'Manufacturing',
-      url: '/services/manufacturing',
-      icon: '/icons/manufacturing.png',
-      options: [
-        {
-          title: 'Fire Resistant Panels',
-          url: '/services/manufacturing/frp',
-        },
-      ],
-    },
+    // {
+    //   title: 'Manufacturing',
+    //   url: '/services/manufacturing',
+    //   icon: '/icons/manufacturing.png',
+    //   options: [
+    //     {
+    //       title: 'Fire Resistant Panels',
+    //       url: '/services/manufacturing/frp',
+    //     },
+    //   ],
+    // },
   ],
   'about-us': [
     {

@@ -77,7 +77,7 @@ export default function CourseModules() {
 
   return (
     <div className="relative ">
-      <div className="inner-container text-center">
+      <div className="inner-container">
         <h2 className="section-heading ">Course Modules</h2>
         <p className="section-subheading">
           The programme is designed to fully engage participants in peer to peer

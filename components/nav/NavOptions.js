@@ -9,6 +9,7 @@ export default function NavOptions({ dropdownActive, setDropdownActive }) {
         dropdownOption="services"
         setDropdownActive={setDropdownActive}
         dropdownActive={dropdownActive}
+        onClick={() => setDropdownActive(false)}
       >
         Services <i className="icon-angle-down" />
       </DropdownLink>

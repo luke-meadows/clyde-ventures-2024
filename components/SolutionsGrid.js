@@ -251,7 +251,7 @@ export const solutions = {
     {
       title: 'Organisational Effectiveness and Product Development',
       blurb:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        "Using visionary Product Design, strategic Process Design and cutting-edge Automation & AI, we propel your organisation towards success. Let's shape the future of your business together.",
       icon: '/icons/service.svg',
       url: 'integration/organisational-effectiveness-and-product-development',
     },
