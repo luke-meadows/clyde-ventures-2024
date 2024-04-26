@@ -25,7 +25,7 @@ export default function page() {
       insightId: '2',
       thumbnail: Insight2Image,
       title:
-        '£1.95M in domestic sales benefits without the need for technology investment',
+        "Domestic Sales: LEAN review across a client's operations to deliver £1.95M in benefits",
       date: '01/12/2023',
       author: 'Amber Morton',
       url: 'insights/domestic-sales',
@@ -82,13 +82,17 @@ export default function page() {
                 <Image src={card.thumbnail} className="h-64 object-cover" />
               </div>
               <div className="px-4 py-4 bg-black  h-full text-white">
-                <h5 className="font-semibold text-md mb-1">{card.title}</h5>
-                <p className="font-light text-sm mb-2">
-                  {card.author} - {card.date}
-                </p>
-                <Link href={card.url}>
-                  <button className="button text-sm">Read More</button>
-                </Link>
+                <div className=" h-full">
+                  <h5 className="font-semibold text-md mb-1">{card.title}</h5>
+                  <p className="font-light text-sm mb-2">
+                    {card.author} - {card.date}
+                  </p>
+                  <Link href={card.url}>
+                    <button className="button text-sm mt-auto">
+                      Read More
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           ))}
