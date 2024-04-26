@@ -18,7 +18,7 @@ a {
   @apply text-white text-5xl font-semibold leading-tight mb-2 md:mb-6;
 }
 .hero-title-2 {
-  @apply text-white text-3xl font-semibold leading-tight mb-2;
+  @apply text-white text-4xl font-semibold leading-tight mb-2 md:mb-4;
 }
 .hero-subtitle {
   @apply text-white font-normal text-base mb-6;

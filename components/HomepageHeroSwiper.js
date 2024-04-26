@@ -54,7 +54,7 @@ export default function HomepageHeroSwiper() {
           {heroContentData.map((item) => (
             <SwiperSlide>
               <div className="hero-inner-container">
-                <p className="text-primary-orange ml-1 text-xs font-normal w-fit rounded mb-2">
+                <p className="text-primary-orange ml-1 text-sm font-normal w-fit rounded mb-2">
                   {item.type}
                 </p>
                 <h1 className="hero-title-2">{item.title}</h1>
