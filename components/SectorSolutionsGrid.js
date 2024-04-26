@@ -353,9 +353,6 @@ export default function SectorSolutionsGrid({ solution }) {
           >
             <div className="card-top flex justify-between pb-4">
               <div className="card-top-left flex gap-4 items-center">
-                <div className="bg-primary-orange h-8 w-8 aspect-square center-contents rounded-full text-lg cursor-pointer">
-                  <Image src={card.icon} width={18} height={18} />
-                </div>
                 <h3 className="font-normal text-xl text-primary-orange">
                   {card.title}
                 </h3>
@@ -371,7 +368,7 @@ export default function SectorSolutionsGrid({ solution }) {
 
             {card.url && (
               <Link href={card.url}>
-                <button className="button mt-4">Learn More</button>
+                <button className="button mt-4 text-sm">Learn More</button>
               </Link>
             )}
           </div>

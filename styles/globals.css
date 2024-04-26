@@ -15,7 +15,7 @@ a {
   cursor: pointer;
 }
 .hero-title {
-  @apply text-white text-4xl font-bold leading-tight mb-6;
+  @apply text-white text-4xl font-bold leading-tight mb-2 md:mb-6;
 }
 .hero-subtitle {
   @apply text-white font-normal text-base mb-6;
@@ -41,7 +41,7 @@ a {
   @apply h-10 w-10 aspect-square center-contents rounded-full p-1 text-lg cursor-pointer;
 }
 .inner-container {
-  @apply px-2 md:px-8 max-w-[1300px] mx-auto;
+  @apply px-4 md:px-8 max-w-[1300px] mx-auto;
 }
 .card-rounding {
   @apply rounded-2xl overflow-hidden;

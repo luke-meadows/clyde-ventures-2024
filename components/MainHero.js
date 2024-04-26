@@ -26,7 +26,7 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/education-mba.jpg',
       title: 'MBA: Sustainable Energy Futures',
       subtitle:
-        'This program in collaboration with industry experts and academics, aims to address industrial challenges faced by organisations trying to achieve Net Zero. As well as equipping Business Leaders with the tools to tackle these challenges, the course fosters an environment for meaningful discussions that lead to real social impact.',
+        'This program in collaboration with industry experts and academics, aims to address industrial challenges faced by organisations striving to achieve Net Zero. As well as equipping business leaders with the tools to tackle these challenges, the course fosters an environment for meaningful discussions that lead to real social impact.',
     },
     salesforce: {
       image: '/images/hero/salesforce.jpeg',

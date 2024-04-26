@@ -206,7 +206,7 @@ export const solutions = {
     {
       title: 'Social Mobility D,E & I',
       blurb:
-        'Clyde Ventures socially conscious recruitment strategy means that we are well-positioned to support you recruit and develop a diverse workforce that delivers a tangible societal impact to the communities you operate in. Our approach will help you unlock a diverse talent pool through our unique insights and strong relationships with charities and non-traditional recruitment channels.',
+        'Clyde Ventures socially conscious recruitment strategy means that we are well-positioned to support you to recruit and develop a diverse workforce that delivers a tangible societal impact to the communities you operate in. Our approach will help you unlock a diverse talent pool through our unique insights and strong relationships with charities and non-traditional recruitment channels.',
       icon: '/icons/service.svg',
     },
   ],
@@ -281,29 +281,29 @@ export default function SolutionsGrid({ solution, propSolutions = false }) {
             key={i}
             className="shadow-card rounded-md bg-black-text p-6 h-full"
           >
-            <div className="card-top flex justify-between pb-4">
-              <div className="card-top-left flex gap-4 items-center">
-                <div className="bg-primary-orange h-8 w-8 aspect-square center-contents rounded-full text-lg cursor-pointer">
-                  <Image src={card.icon} width={18} height={18} />
+            <div className="h-full flex flex-col justify-between">
+              <div>
+                <div className="card-top flex justify-between pb-4">
+                  <div className="card-top-left flex gap-4 items-center">
+                    <h3 className="font-normal text-xl text-primary-orange">
+                      {card.title}
+                    </h3>
+                  </div>
                 </div>
-                <h3 className="font-normal text-xl text-primary-orange">
-                  {card.title}
-                </h3>
+                {card.customBlurb ? (
+                  // Custom solution blurb to accommodate bullets etc
+                  <CustomSolutionBlurb solution={card.customBlurb} />
+                ) : (
+                  // Otherwise render the standard solution blurb
+                  <p className="font-normal text-sm">{card.blurb}</p>
+                )}
               </div>
+              {card.url && (
+                <Link href={card.url}>
+                  <button className="button mt-4 text-sm">Learn More</button>
+                </Link>
+              )}
             </div>
-            {card.customBlurb ? (
-              // Custom solution blurb to accommodate bullets etc
-              <CustomSolutionBlurb solution={card.customBlurb} />
-            ) : (
-              // Otherwise render the standard solution blurb
-              <p className="font-normal text-sm">{card.blurb}</p>
-            )}
-
-            {card.url && (
-              <Link href={card.url}>
-                <button className="button mt-4">Learn More</button>
-              </Link>
-            )}
           </div>
         );
       })}
