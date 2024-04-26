@@ -1,6 +1,6 @@
 export default function ContactForm() {
   return (
-    <div className="right w-1/2 p-8 card-rounding bg-white border-2 border-gray-200 shadow-bottom">
+    <div className="right w-full md:w-1/2 p-8 card-rounding bg-white border-2 border-gray-200 shadow-bottom">
       <h2 className="text-2xl font-semibold text-gray-700">
         We'd love to hear from you!
       </h2>

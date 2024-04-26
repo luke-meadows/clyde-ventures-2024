@@ -5,8 +5,8 @@ export default function ContactSection() {
     <div className="bg-gray-100">
       <div className="inner-container">
         <div className="page-break"></div>
-        <div className="flex justify-between items-center gap-16">
-          <div className="left w-1/2">
+        <div className="flex-col md:flex-row flex justify-between items-center gap-16">
+          <div className="left w-full md:w-1/2">
             <h5 className="text-4xl mb-6 section-heading">Contact us</h5>
             <p className="max-w-[50ch]">
               We&apos;re always here to help. Whether you have inquiries,
