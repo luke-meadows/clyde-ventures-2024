@@ -84,7 +84,7 @@ export default function page() {
                   className="h-[100%] w-[100%] object-cover"
                 />
               </div>
-              <div className="px-4 py-4 bg-black  h-48 text-white relative flex flex-col justify-between">
+              <div className="px-4 py-4 bg-black h-fit md:h-44 text-white relative flex flex-col justify-between">
                 <div className="">
                   <h5 className="font-semibold text-md mb-1">{card.title}</h5>
                   <p className="font-light text-sm mb-2">

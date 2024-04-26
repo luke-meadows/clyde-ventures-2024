@@ -38,21 +38,21 @@ export default function page() {
           fastest way to improve your cash position.
         </h2>
         <br />
-        <h4 className="blog-section-heading">
+        <p className="blog-p">
           We identified £1.95m of benefits opportunity within the Domestic Sales
           function of a UK wide fuel distributor as part of a revenue growth
           programme. Without the need for any technology investment, we
           delivered:
-        </h4>
+        </p>
         <ul className="mt-4 font-normal">
           <li>Improved call abandonment rate by 13%</li>
           <br />
           <li>Reduced failure demand by 20%</li>
           <br />
           <li>Improved FCR by 15% without adding to AHT</li>
+          <br />
           <li>Equivalent of 8 FTE released through capacity creation</li>
         </ul>
-        <br />
         <br />
         <h4 className="blog-section-heading">Background</h4>
         <p className="blog-p">

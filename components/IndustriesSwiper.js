@@ -76,7 +76,7 @@ export default function IndustriesSwiper() {
         {industries.map((industry, i) => {
           return (
             <SwiperSlide key={i} className="card-rounding mb-16 shadow-bottom">
-              <div className="h-full bg-black-text">
+              <div className="h-full bg-black-text  ">
                 {/* Card Top Section */}
                 <div className="top-section">
                   <div className="card-image relative h-44">

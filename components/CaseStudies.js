@@ -9,7 +9,7 @@ export default function CaseStudies({ caseStudyTopic }) {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: '/images/blog-images/hero/compliance-stores-background.jpg',
-      url: '/insights',
+      url: '/insights/1',
       type: 'Case Study',
     },
     {
@@ -17,7 +17,7 @@ export default function CaseStudies({ caseStudyTopic }) {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: '/images/blog-images/hero/opex-background.jpg',
-      url: '/insights',
+      url: '/insights/2',
       type: 'Insight',
     },
     {
@@ -25,7 +25,7 @@ export default function CaseStudies({ caseStudyTopic }) {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: '/images/blog-images/hero/domestic-sales-background.jpeg',
-      url: '/insights',
+      url: '/insights/3',
       type: 'Case Study',
     },
     {
@@ -33,7 +33,7 @@ export default function CaseStudies({ caseStudyTopic }) {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: '/images/blog-images/hero/compliance-stores-background.jpg',
-      url: '/insights',
+      url: '/insights/4',
       type: 'Case Study',
     },
     {
@@ -41,7 +41,7 @@ export default function CaseStudies({ caseStudyTopic }) {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: '/images/blog-images/hero/opex-background.jpg',
-      url: '/insights',
+      url: '/insights/5',
       type: 'Insight',
     },
     {
@@ -49,7 +49,7 @@ export default function CaseStudies({ caseStudyTopic }) {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: '/images/blog-images/hero/domestic-sales-background.jpeg',
-      url: '/insights',
+      url: '/insights/6',
       type: 'Case Study',
     },
   ];

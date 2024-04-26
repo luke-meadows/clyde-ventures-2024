@@ -152,6 +152,11 @@ export default function MainHero({ children, hero }) {
         'Energy Retailers: Elevating service standards while controlling downside risk to margin',
       subtitle: '',
     },
+    'case-study': {
+      image: '/images/hero-background.jpg',
+      title: '',
+      subtitle: '',
+    },
   };
 
   const { title, subtitle, image } = heroData[hero];
@@ -160,8 +165,10 @@ export default function MainHero({ children, hero }) {
       <HeroNavigationStrip />
       <div className="h-[600px] md:h-[350px] relative">
         <div className="hero-inner-container">
-          <h1 className="hero-title">{title}</h1>
-          <p className="hero-subtitle md:max-w-[80%]">{subtitle}</p>
+          {title && <h1 className="hero-title">{title}</h1>}
+          {subtitle && (
+            <p className="hero-subtitle md:max-w-[80%]">{subtitle}</p>
+          )}
           {/* Space for other elements tacked on the bottom of hero if required */}
           {children}
         </div>

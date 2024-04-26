@@ -39,7 +39,7 @@ export default function InfoBox({ infobox = 'sales-cloud', children }) {
             {p}
           </p>
         ))}
-        <div className="flex gap-6 items-center mt-[25px] mx-auto w-fit">
+        <div className="flex gap-6 items-center mt-[25px] mx-auto w-fit text-sm">
           <Link href="/contact" className="button py-3 center-contents">
             Contact us
           </Link>
