@@ -26,7 +26,7 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/education-mba.jpg',
       title: 'MBA: Sustainable Energy Futures',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        'This program in collaboration with industry experts and academics, aims to address industrial challenges faced by organisations trying to achieve Net Zero. As well as equipping Business Leaders with the tools to tackle these challenges, the course fosters an environment for meaningful discussions that lead to real social impact.',
     },
     salesforce: {
       image: '/images/hero/salesforce.jpeg',
@@ -117,6 +117,40 @@ export default function MainHero({ children, hero }) {
       title: 'Professional Services',
       subtitle:
         'Navigate the complexities of the professional services landscape with Clyde Ventures. From client acquisition to regulatory compliance, we understand the challenges your industry faces. Our tailored solutions empower you to reduce operating costs, optimise returns, embrace sustainability, ensure fair treatment of customers, and elevate your customer service. Let Clyde Ventures be your partner in overcoming obstacles and achieving lasting success in professional services.',
+    },
+    'consumer-standards': {
+      image: '/images/blog-images/hero/consumer-standards-background.jpeg',
+      title: 'Consumer Standards Reform',
+      subtitle: '',
+    },
+    'domestic-sales': {
+      image: '/images/blog-images/hero/domestic-sales-background.jpeg',
+      title:
+        "Domestic Sales: LEAN review across a client's operations to deliver £1.95M in benefits",
+      subtitle: '',
+    },
+    'debt-value': {
+      image: '/images/blog-images/hero/debt-value-background.jpg',
+      title:
+        'Confirmed the level of debt associated with leakage and segmented the cleansed portfolio to deliver a £2m upside',
+      subtitle: '',
+    },
+    'debt-trilemma': {
+      image: '/images/blog-images/hero/debt-trilemma-background.jpg',
+      title: 'Energy Retailers: Addressing the Debt Trilemma',
+      subtitle: '',
+    },
+    'opex-pressures': {
+      image: '/images/blog-images/hero/opex-background.jpg',
+      title:
+        'Energy Retailers: Delivering a trusted service whilst managing OPEX pressures',
+      subtitle: '',
+    },
+    'service-standards': {
+      image: '/images/blog-images/hero/service-standards-background.jpg',
+      title:
+        'Energy Retailers: Elevating service standards while controlling downside risk to margin',
+      subtitle: '',
     },
   };
 

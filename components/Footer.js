@@ -80,7 +80,7 @@ export default function Footer() {
             </div>
             <div className="linkedin items-center flex gap-2">
               <div className="icon-wrapper bg-primary-orange">
-                <i className="icon-mail text-black" />
+                <i className="icon-mail-alt text-black" />
               </div>
               <a
                 href="https://www.linkedin.com/company/clyde-ventures"

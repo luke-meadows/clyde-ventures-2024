@@ -1,17 +1,11 @@
 import AnimationWrapper from '@components/AnimationWrapper';
+import AvatarAndDate from '@components/AvatarAndDate';
 import MainHero from '@components/MainHero';
 import ContactForm from '@components/contact/ContactForm';
 import ContactSection from '@components/contact/ContactSection';
 import Image from 'next/image';
 
 export default function CaseStudiesPage() {
-  const avatars = {
-    'Ross Bern': '/images/team-images/avatars/circlular/ross-avatar.png',
-    'Graham Mathie': '/images/team-images/avatars/circlular/graham-avatar.png',
-    'Amber Morton': '/images/team-images/avatars/circlular/amber-avatar.png',
-    'Kerry Moran': '/images/team-images/avatars/circlular/kerry-avatar.png',
-    'David Philipson': '/images/team-images/avatars/circlular/dave-avatar.png',
-  };
   const insightCards = [
     {
       insightId: '1',
@@ -86,17 +80,11 @@ export default function CaseStudiesPage() {
             <div key={i} className="rounded overflow-hidden relative bg-black ">
               <div className="px-4 py-4  h-full text-white flex flex-col justify-between">
                 <div>
-                  <div className="flex items-center gap-4">
-                    <Image
-                      src={avatars[card.author]}
-                      className="rounded-full mb-2"
-                      height={60}
-                      width={60}
-                    />
-                    <p className="font-normal text-sm mb-2">
-                      {card.author} - {card.date}
-                    </p>
-                  </div>
+                  <AvatarAndDate
+                    author={card.author}
+                    date={card.date}
+                    color="white"
+                  />
                   <h5 className="font-semibold text-md mb-3">{card.title}</h5>
                 </div>
                 <button className="button text-sm w-fit">Read More</button>

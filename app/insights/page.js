@@ -8,6 +8,7 @@ import Insight5Image from '@public/images/blog-images/thumbnail/debt-trilemma-th
 import Insight6Image from '@public/images/blog-images/thumbnail/service-standards-thumbnail.jpg';
 import Image from 'next/image';
 import ContactSection from '@components/contact/ContactSection';
+import Link from 'next/link';
 
 export default function page() {
   const insightCards = [
@@ -17,7 +18,7 @@ export default function page() {
       title: 'Energy: How suppliers can improve customer experience',
       date: '29/11/2023',
       author: 'Kerry Moran',
-      url: 'insights/consumer-standards-reform',
+      url: 'insights/consumer-standards',
       tags: ['Energy', 'Consumer Standards', 'Customer Experience'],
     },
     {
@@ -85,7 +86,9 @@ export default function page() {
                 <p className="font-light text-sm mb-2">
                   {card.author} - {card.date}
                 </p>
-                <button className="button text-sm">Read More</button>
+                <Link href={card.url}>
+                  <button className="button text-sm">Read More</button>
+                </Link>
               </div>
             </div>
           ))}

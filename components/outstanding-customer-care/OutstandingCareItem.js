@@ -60,7 +60,7 @@ export default function OutstandingCareItem({ item }) {
     'improving-customer-service': {
       title: 'Improving Customer Service',
       blurb:
-        'Exceptional customer service is our priority. By investing in service improvement initiatives, we enhance satisfaction, loyalty, and retention—ensuring a positive experience for all our customers.',
+        'Exceptional customer service is a priority for any organisation in the utilities sector. By investing in service improvement initiatives, we enhance satisfaction, loyalty, and retention ensuring a positive experience for all our customers.',
     },
   };
   return (
