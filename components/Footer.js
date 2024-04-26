@@ -5,22 +5,22 @@ import Image from 'next/image';
 export default function Footer() {
   return (
     <div>
-      <div className="hidden md:block bg-black text-white pt-16">
+      <div className=" bg-black text-white pt-16">
         <div className="inner-container">
-          <div className="grid grid-cols-4 gap-16">
-            <div>
-              <h5 className="mb-4">Contact Us</h5>
+          <div className="flex-col md:flex-row flex gap-16">
+            <div className="flex-1">
+              <h5 className="mb-2 underline-offset-2 underline">Contact Us</h5>
               <div className="text-xs font-normal flex flex-col gap-1">
                 <p>help@clydeventures.com</p>
                 <p>0141 375 1472</p>
-                <p>
+                <p className="max-w-[37ch]">
                   Suite 405-407, Baltic Chambers, 50 Wellington Street, Glasgow,
                   G2 6HJ.
                 </p>
               </div>
             </div>
-            <div>
-              <h5 className="mb-4">Quick Links</h5>
+            <div className="flex-1">
+              <h5 className="mb-2 underline-offset-2 underline">Quick Links</h5>
               <ul className="text-xs font-normal flex flex-col gap-1">
                 <Link href="/">About Us</Link>
                 <Link href="/">Sectors</Link>
@@ -29,16 +29,16 @@ export default function Footer() {
                 <Link href="/">Contact Us</Link>
               </ul>
             </div>
-            <div>
-              <h5 className="mb-4">Services</h5>
+            <div className="flex-1">
+              <h5 className="mb-2 underline-offset-2 underline">Services</h5>
               <ul className="text-xs font-normal flex flex-col gap-1">
                 <Link href="/">Consultancy</Link>
                 <Link href="/">Integration</Link>
                 <Link href="/">Education</Link>
               </ul>
             </div>
-            <div>
-              <h5 className="mb-4">Policies</h5>
+            <div className="flex-1">
+              <h5 className="mb-2 underline-offset-2 underline">Policies</h5>
               <ul className="text-xs font-normal flex flex-col gap-1">
                 <Link href="/">Privacy Statement</Link>
                 <Link href="/">Modern Slavery Statement</Link>

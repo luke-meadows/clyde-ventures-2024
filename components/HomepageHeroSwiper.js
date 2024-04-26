@@ -54,16 +54,10 @@ export default function HomepageHeroSwiper() {
           {heroContentData.map((item) => (
             <SwiperSlide>
               <div className="hero-inner-container">
-                {/* <Link
-                  href={
-                    item.type === 'Case Study' ? '/case-studies' : '/insights'
-                  }
-                >
-                  <p className="text-primary-orange mb-1 ml-1 underline-offset-2 underline text-sm">
-                    {item.type}
-                  </p>
-                </Link> */}
-                <h1 className="hero-title">{item.title}</h1>
+                <p className="text-primary-orange ml-1 text-xs font-normal w-fit rounded mb-2">
+                  {item.type}
+                </p>
+                <h1 className="hero-title-2">{item.title}</h1>
                 {/* <p className="hero-subtitle">{item.subtitle}</p> */}
                 <button className="bg-primary-orange text-black-text pr-2.5 pl-3 h-10 min-w-fit w-fit text-xs font-semibold rounded-l-[6px] rounded-r-[20px] ">
                   Read Article <i className="icon-angle-right" />

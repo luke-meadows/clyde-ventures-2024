@@ -44,7 +44,7 @@ export default function ContactForm() {
             type="text"
             placeholder="Area of Interest"
           >
-            <option className="">Choose one</option>
+            <option className="">Interested in (required)</option>
             <option className="">Consultancy</option>
             <option className="">Integration</option>
             <option className="">Education</option>
