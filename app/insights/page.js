@@ -78,7 +78,7 @@ export default function page() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6">
           {insightCards.map((card, i) => (
             <div key={i} className="rounded overflow-hidden relative bg-black ">
-              <div className="relative h-48">
+              <div className="relative h-64">
                 <Image
                   src={card.thumbnail}
                   className="h-[100%] w-[100%] object-cover"

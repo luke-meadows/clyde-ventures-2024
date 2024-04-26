@@ -11,6 +11,7 @@ export default function HeroNavigationStrip() {
     wacc: 'WACC',
     opex: 'OPEX',
     and: 'and',
+    mba: 'MBA',
     independence: 'Independence,',
     upskilling: 'Upskilling and',
   };
