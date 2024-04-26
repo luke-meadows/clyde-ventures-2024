@@ -40,15 +40,25 @@ export default function ContactForm() {
             placeholder="Company (required)"
           />
           <select
-            className="contact-form-input text-red-500"
+            className="font-normal border-2 border-gray-100 px-1 py-1 rounded w-1/2 text-sm text-gray-400 focus:ring-blue-500"
             type="text"
-            placeholder="Area of Interest"
+            id="interest"
           >
-            <option className="">Interested in (required)</option>
-            <option className="">Consultancy</option>
-            <option className="">Integration</option>
-            <option className="">Education</option>
-            <option className="">Other</option>
+            <option disabled selected value="" className="text-gray-400">
+              Interested in (required)
+            </option>
+            <option className="" value="consultancy">
+              Consultancy
+            </option>
+            <option className="" value="integration">
+              Integration
+            </option>
+            <option className="" value="education">
+              Education
+            </option>
+            <option className="" value="other">
+              Other
+            </option>
           </select>
         </div>
         <div className="w-full">
