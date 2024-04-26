@@ -5,11 +5,6 @@ import CustomSolutionBlurb from './CustomSolutionBlurb';
 export const solutions = {
   'professional-services': [
     {
-      title: 'Debt Strategy',
-      customBlurb: 'debt-strategy',
-      icon: '/icons/service.svg',
-    },
-    {
       title: 'Salesforce',
       blurb:
         "We are a leading Salesforce integrator and Salesforce Partner that chooses to integrate Salesforce as the preferred CRM solution for its clients due to Salesforce's unparalleled capabilities in centralising customer data, providing valuable insights, enhancing customer service efficiency, automating processes, ensuring scalability, enabling customisation and integration, offering mobile accessibility, and prioritising security and compliance.",

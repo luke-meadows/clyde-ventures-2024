@@ -75,24 +75,25 @@ export default function page() {
     <AnimationWrapper>
       <MainHero hero="insights" />
       <div className="inner-container">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr-1 gap-6 h-[100%]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6">
           {insightCards.map((card, i) => (
-            <div key={i} className="rounded overflow-hidden relative">
-              <div className="aspect-1 relative">
-                <Image src={card.thumbnail} className="h-64 object-cover" />
+            <div key={i} className="rounded overflow-hidden relative bg-black ">
+              <div className="relative h-48">
+                <Image
+                  src={card.thumbnail}
+                  className="h-[100%] w-[100%] object-cover"
+                />
               </div>
-              <div className="px-4 py-4 bg-black  h-full text-white">
-                <div className=" h-full">
+              <div className="px-4 py-4 bg-black  h-48 text-white relative flex flex-col justify-between">
+                <div className="">
                   <h5 className="font-semibold text-md mb-1">{card.title}</h5>
                   <p className="font-light text-sm mb-2">
                     {card.author} - {card.date}
                   </p>
-                  <Link href={card.url}>
-                    <button className="button text-sm mt-auto">
-                      Read More
-                    </button>
-                  </Link>
                 </div>
+                <Link href={card.url}>
+                  <button className="button text-sm mt-auto">Read More</button>
+                </Link>
               </div>
             </div>
           ))}

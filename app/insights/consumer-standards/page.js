@@ -175,7 +175,7 @@ export default function page() {
           </li>
         </ul>
         <br />
-        <p>
+        <p className="blog-p">
           Read our case study on how we supported a recent client to optimise
           their revenue without the need for investment in new technology{' '}
           <Link
@@ -187,7 +187,7 @@ export default function page() {
           .
         </p>
         <br />
-        <p>
+        <p className="blog-p">
           For more information on how we can help you transform your customer
           operations for excellence contact Kerry Moran or Amber Morton.
         </p>
