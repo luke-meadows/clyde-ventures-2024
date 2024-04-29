@@ -101,7 +101,7 @@ export default function MainHero({ children, hero }) {
         "Empower your business with Clyde Ventures, a leading  Consultancy firm. Explore our innovative strategies tailored to your needs. Together, let's redefine success and drive positive change.",
     },
     utilities: {
-      image: '/images/industry-images/utilities-card.jpg',
+      image: '/images/hero/utilities.jpeg',
       title: 'Utilities',
       // subtitle:
       //   "Discover Clyde Ventures' custom solutions for the utilities sector, enhancing compliance and efficiency to propel your business forward.",

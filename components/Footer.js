@@ -5,9 +5,9 @@ import Image from 'next/image';
 export default function Footer() {
   return (
     <div>
-      <div className=" bg-black text-white pt-16">
+      <div className=" bg-black text-white pt-6 md:pt-16">
         <div className="inner-container">
-          <div className="flex-col md:flex-row flex gap-16">
+          <div className="flex-col md:flex-row flex gap-8 md:gap-16">
             <div className="flex-1">
               <h5 className="mb-2 underline-offset-2 underline">Contact Us</h5>
               <div className="text-xs font-normal flex flex-col gap-1">
@@ -22,46 +22,34 @@ export default function Footer() {
             <div className="flex-1">
               <h5 className="mb-2 underline-offset-2 underline">Quick Links</h5>
               <ul className="text-xs font-normal flex flex-col gap-1">
-                <Link href="/">About Us</Link>
-                <Link href="/">Sectors</Link>
-                <Link href="/">Insights</Link>
-                <Link href="/">Case Studies</Link>
-                <Link href="/">Contact Us</Link>
+                <Link href="/about-us">About us</Link>
+                <Link href="/about-us/meet-the-team">Meet the team</Link>
+                <Link href="/insights">Insights</Link>
+                <Link href="/case-studies">Case Studies</Link>
+                <Link href="/contact">Contact Us</Link>
               </ul>
             </div>
             <div className="flex-1">
               <h5 className="mb-2 underline-offset-2 underline">Services</h5>
               <ul className="text-xs font-normal flex flex-col gap-1">
-                <Link href="/">Consultancy</Link>
-                <Link href="/">Integration</Link>
-                <Link href="/">Education</Link>
+                <Link href="/services/consultancy">Consultancy</Link>
+                <Link href="/services/integration">Integration</Link>
+                <Link href="/services/education/sustainable-energy-futures-mba">
+                  Education
+                </Link>
               </ul>
             </div>
             <div className="flex-1">
               <h5 className="mb-2 underline-offset-2 underline">Policies</h5>
               <ul className="text-xs font-normal flex flex-col gap-1">
-                <Link href="/">Privacy Statement</Link>
+                <Link href="/">Privacy Policy</Link>
                 <Link href="/">Modern Slavery Statement</Link>
                 <Link href="/">Carbon Accounting</Link>
               </ul>
             </div>
           </div>
-          <div className="flex justify-between items-center mt-6">
-            <div className="logos flex items-center">
-              {/* <div className="bg-white p-1 rounded flex items-center justify-center h-fit">
-                <Image
-                  src="/images/logo.png"
-                  height={85}
-                  width={165}
-                  className="object-contain"
-                />
-              </div> */}
-              <Image
-                src="/images/sf-partner-logo-square.png"
-                height={110}
-                width={80}
-                className="object-contain mr-2"
-              />
+          <div className="flex justify-between items-end mt-6 mb-6">
+            <div className="logos grid grid-cols-2 md:flex items-center ml-[-10px] gap-4">
               <Image
                 src="/images/accreditations-partners/CfA Cert Logo White UKAS ISO 9001.png"
                 height={50}
@@ -77,8 +65,14 @@ export default function Footer() {
                 height={50}
                 width={158}
               />
+              <Image
+                src="/images/sf-partner-logo-square.png"
+                height={110}
+                width={90}
+                className="object-contain"
+              />
             </div>
-            <div className="linkedin items-center flex gap-2">
+            <div className="linkedin items-center flex gap-2 ">
               <div className="icon-wrapper bg-primary-orange">
                 <i className="icon-mail-alt text-black" />
               </div>
@@ -94,7 +88,7 @@ export default function Footer() {
         </div>
         <div className="border-gray-500 border-t-[1px] py-2">
           <div className="inner-container">
-            <p className="text-xs font-light">
+            <p className="text-xs font-light text-right">
               © Clyde Ventures 2022 | Registered in Scotland: SC723600
             </p>
           </div>

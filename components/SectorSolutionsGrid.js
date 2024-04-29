@@ -18,6 +18,12 @@ export const solutions = {
       icon: '/icons/service.svg',
     },
     {
+      title: 'Energy and Utilities Cloud',
+      blurb:
+        'With the Energy and Utilities Cloud, we improved our clients’ customer interactions and streamlined their operations by integrating smart grid data and providing predictive maintenance insights. This not only reduced operational costs but also enhanced service reliability and customer trust in these sectors.',
+      icon: '/icons/utilities.png',
+    },
+    {
       title: 'Service & TOM Design',
       blurb:
         'Clyde Ventures leverages our industry expertise, data-driven insights, and innovative methodologies to design service frameworks and TOMs that focus on driving operational excellence. We will collaborate closely with your teams to support the creation of agile and scalable service models and TOMs that optimise resource allocation, streamline workflows, and enhance organisational agility. ',

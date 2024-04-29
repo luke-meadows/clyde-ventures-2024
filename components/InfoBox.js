@@ -23,7 +23,7 @@ export default function InfoBox({ infobox = 'sales-cloud', children }) {
     mba: {
       title: 'Proudly Partnered With Strathclyde University',
       subtitle: [
-        'We are proud to have supported Strathclyde Business School, a leading university, in creating a first-of-its-kind collaborative executive MBA program This innovative MBA focuses on equipping future leaders with the necessary skills to address the challenges of delivering net-zero emissions and reversing global warming.',
+        'We are proud to support Strathclyde Business School, a leading university, in creating a first-of-its-kind collaborative executive MBA program. This innovative MBA focuses on equipping future leaders with the necessary skills to address the challenges of delivering net-zero emissions and reversing global warming.',
         'In collaboration with Strathclyde Business School, we have formed strategic partnerships with industry leaders who are at the forefront of trailblazing new and innovative strategies to create a better world. This course is specifically designed for professionals who aspire to make a significant impact in their respective fields.',
         ,
       ],

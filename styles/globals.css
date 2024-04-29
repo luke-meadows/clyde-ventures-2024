@@ -41,7 +41,7 @@ a {
 }
 
 .icon-wrapper {
-  @apply h-10 w-10 aspect-square center-contents rounded-full p-1 text-lg cursor-pointer;
+  @apply h-8 w-8 aspect-square center-contents rounded-full p-1 text-lg cursor-pointer;
 }
 .inner-container {
   @apply px-4 md:px-8 max-w-[1300px] mx-auto;

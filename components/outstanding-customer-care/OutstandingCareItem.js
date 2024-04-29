@@ -80,7 +80,7 @@ export default function OutstandingCareItem({ item }) {
   };
   return (
     <div className="flex gap-4 mb-4">
-      <div className="icon-wrapper bg-primary-orange">
+      <div className=" icon-wrapper bg-primary-orange">
         <Image src="/icons/tick.svg" width={28} height={28} />
       </div>
       <div>
