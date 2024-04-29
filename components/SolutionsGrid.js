@@ -168,7 +168,7 @@ export const solutions = {
     {
       title: 'RPA, Automation and AI',
       blurb:
-        'Clyde Ventures have had considerable experience of using RPA to automate repetitive tasks, freeing up their Clients’ valuable resources to work on higher-value activity. As a certified Salesforce Integration Partner, we are adept at using technology to increase automation and in developing experience clouds that empower customers and increase self-serve. We have delivered a number of AI solutions,  leveraging machine learning and natural language processing to reduce costs through applications such as Intelligent Document Processing.',
+        'Clyde Ventures have had considerable experience of using RPA to automate repetitive tasks, freeing up our Clients’ valuable resources to work on higher-value activity. As a certified Salesforce Integration Partner, we are adept at using technology to increase automation and in developing experience clouds that empower customers and increase self-serve. We have delivered a number of AI solutions,  leveraging machine learning and natural language processing to reduce costs through applications such as Intelligent Document Processing.',
       icon: '/icons/service.svg',
     },
     {
