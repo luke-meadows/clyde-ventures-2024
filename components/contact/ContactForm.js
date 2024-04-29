@@ -71,6 +71,7 @@ export default function ContactForm() {
             placeholder="Message"
           ></textarea>
         </div>
+        <button className="button">Send</button>
       </form>
     </div>
   );
