@@ -103,8 +103,8 @@ export default function MainHero({ children, hero }) {
     utilities: {
       image: '/images/industry-images/utilities-card.jpg',
       title: 'Utilities',
-      subtitle:
-        "Discover Clyde Ventures' custom solutions for the utilities sector, enhancing compliance and efficiency to propel your business forward.",
+      // subtitle:
+      //   "Discover Clyde Ventures' custom solutions for the utilities sector, enhancing compliance and efficiency to propel your business forward.",
     },
     'case-studies': {
       image: '/images/hero/process-design.jpg',
@@ -113,10 +113,10 @@ export default function MainHero({ children, hero }) {
         "From Salesforce implementations to sustainable energy initiatives, dive into detailed accounts of how we've helped businesses overcome challenges and achieve remarkable results. Get inspired, discover best practices, and envision the possibilities for your own organisation with Clyde Ventures.",
     },
     'professional-services': {
-      image: '/images/industry-images/professional-services-card.jpg',
+      image: '/images/hero/professional-services.jpeg',
       title: 'Professional Services',
-      subtitle:
-        'Navigate the complexities of the professional services landscape with Clyde Ventures. From client acquisition to regulatory compliance, we understand the challenges your industry faces. Our tailored solutions empower you to reduce operating costs, optimise returns, embrace sustainability, ensure fair treatment of customers, and elevate your customer service. Let Clyde Ventures be your partner in overcoming obstacles and achieving lasting success in professional services.',
+      // subtitle:
+      //   'Navigate the complexities of the professional services landscape with Clyde Ventures. Our tailored solutions empower you to reduce operating costs, optimise returns, embrace sustainability, ensure fair treatment of customers, and elevate your customer service.',
     },
     'consumer-standards': {
       image: '/images/blog-images/hero/consumer-standards-background.jpeg',
@@ -155,6 +155,11 @@ export default function MainHero({ children, hero }) {
     'case-study': {
       image: '/images/hero-background.jpg',
       title: '',
+      subtitle: '',
+    },
+    technology: {
+      image: '/images/hero/technology.jpg',
+      title: 'Technology',
       subtitle: '',
     },
   };

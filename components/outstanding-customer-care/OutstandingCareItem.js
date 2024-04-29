@@ -62,6 +62,21 @@ export default function OutstandingCareItem({ item }) {
       blurb:
         'Exceptional customer service is a priority for any organisation in the utilities sector. By investing in service improvement initiatives, we enhance satisfaction, loyalty, and retention ensuring a positive experience for all our customers.',
     },
+    'regulatory-compliance-technology': {
+      title: 'Regulatory Compliance',
+      blurb:
+        'Technology companies face a complex landscape of regulations and compliance requirements, both domestically and internationally, which can be challenging to navigate and adapt to.',
+    },
+    'environmental-sustainability': {
+      title: 'Environmental Sustainability',
+      blurb:
+        'The energy consumption and environmental impact of technology infrastructure, including data centers and electronic devices, contribute to climate change. Finding sustainable solutions, such as renewable energy sources and eco-friendly manufacturing practices, is essential for mitigating these effects.',
+    },
+    'workforce-diversity-and-inclusion': {
+      title: 'Workforce Diversity and Inclusion',
+      blurb:
+        'The tech industry has been criticized for its lack of diversity and inclusion, particularly in terms of gender and racial representation. Building a more diverse and inclusive workforce is crucial for driving innovation and addressing the needs of a diverse global population.',
+    },
   };
   return (
     <div className="flex gap-4 mb-4">

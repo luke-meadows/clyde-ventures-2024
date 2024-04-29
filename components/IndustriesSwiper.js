@@ -23,7 +23,7 @@ export default function IndustriesSwiper() {
     {
       title: 'Professional Services',
       subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+        "Elevate your professional services enterprise with tailored solutions designed to tackle the industry's most pressing challenges. At Clyde Ventures, we understand the intricacies of client acquisition and retention, the regulatory complexities, and the imperative of embracing technological innovation. Our comprehensive approach combines industry expertise with innovative strategies to help your business thrive in today's dynamic landscape.",
       image: ProfessionalServicesImage,
       url: '/sectors/utilities',
       icon: '/icons/professional-services.png',
@@ -94,8 +94,8 @@ export default function IndustriesSwiper() {
                 </div>
 
                 {/* Card Lower Section */}
-                <div className="lower-section pt-10 text-center text-white p-6 bg-black-text h-full]">
-                  <h3 className="font-semibold text-2xl mb-2 grow text-primary-orange">
+                <div className="lower-section pt-10  text-white p-6 bg-black-text h-full]">
+                  <h3 className="font-semibold text-xl mb-2 grow text-primary-orange">
                     {industry.title}
                   </h3>
 

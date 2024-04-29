@@ -3,6 +3,45 @@ import Link from 'next/link';
 import CustomSolutionBlurb from './CustomSolutionBlurb';
 
 export const solutions = {
+  technology: [
+    {
+      title: 'Salesforce',
+      blurb:
+        "We are a leading Salesforce integrator and Salesforce Partner that chooses to integrate Salesforce as the preferred CRM solution for its clients due to Salesforce's unparalleled capabilities in centralising customer data, providing valuable insights, enhancing customer service efficiency, automating processes, ensuring scalability, enabling customisation and integration, offering mobile accessibility, and prioritising security and compliance.",
+      icon: '/icons/sales.svg',
+      url: '/services/integration/salesforce',
+    },
+    {
+      title: 'Data & Analytics',
+      blurb:
+        'Clyde Ventures were born from Operations so we’re acutely aware of how important good quality data and analytics are in helping you optimise your resources and make better informed decisions. We have a strong track record in data analytics. Cleansing and manipulating data sets to crystallise new insights, we enable organisations to streamline their operations, reduce waste to enhance efficiency and ultimately lower operating costs.',
+      icon: '/icons/service.svg',
+    },
+    {
+      title: 'Service & TOM Design',
+      blurb:
+        'Clyde Ventures leverages our industry expertise, data-driven insights, and innovative methodologies to design service frameworks and TOMs that focus on driving operational excellence. We will collaborate closely with your teams to support the creation of agile and scalable service models and TOMs that optimise resource allocation, streamline workflows, and enhance organisational agility. ',
+      icon: '/icons/sales.svg',
+    },
+    {
+      title: 'Adoption & Engagement',
+      blurb:
+        'We engage your team at every step through tailored communication strategies ensuring every team member understands the rationale behind the proposed changes and sees the value in adopting new practices. We immerse ourselves in your teams, in a non-disruptive manner, operating with full transparency in terms of our toolkit and analysis while sharing knowledge and upskilling your internal teams to deliver results long after our engagement is completed.',
+      icon: '/icons/service.svg',
+    },
+    {
+      title: 'Culture Change & Capability Building',
+      blurb:
+        'Our operational excellence team specialises in driving culture change and building organisational capabilities, understanding that shaping behaviours and outcomes is critical to sustainable growth. With our proven methodologies and targeted interventions, we cultivate a culture of innovation and continuous improvement empowering your people to navigate change confidently and achieve long-term success.',
+      icon: '/icons/service.svg',
+    },
+    {
+      title: 'Social Mobility D,E & I',
+      blurb:
+        'Clyde Ventures socially conscious recruitment strategy means that we are well-positioned to support you recruit and develop a diverse workforce that delivers a tangible societal impact to the communities you operate in. Our approach will help you unlock a diverse talent pool through our unique insights and strong relationships with charities and non-traditional recruitment channels.',
+      icon: '/icons/service.svg',
+    },
+  ],
   'professional-services': [
     {
       title: 'Salesforce',

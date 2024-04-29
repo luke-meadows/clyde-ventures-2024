@@ -27,6 +27,17 @@ export default function SectorIntroSection({ sector = 'utilities' }) {
         'regulatory-compliance',
       ],
     },
+    technology: {
+      header: 'Technology',
+      title: 'Solutions Tailored for Technology Enterprises',
+      blurb:
+        'Unlock your potential in the Technology sector. From harnessing emerging technologies to streamlining operations, we empower tech enterprises to thrive in a rapidly evolving landscape. Discover how our tailored strategies propel innovation and drive success in the digital age.',
+      industryPainpoints: [
+        'regulatory-compliance-technology',
+        'environmental-sustainability',
+        'workforce-diversity-and-inclusion',
+      ],
+    },
   };
 
   return (
