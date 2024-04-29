@@ -68,7 +68,7 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/opex-optimisation.jpg',
       title: 'Opex Optimisation',
       subtitle:
-        'Clyde Ventures can help you reduce your Operational expenditure in numerous ways. Leveraging Lean sigma to reduce waste, re-designing processes to be more efficient, improving end-to-end connectivity across supply chains using big data and harnessing the power of RPA and AI to work smarter, we have cuts our Clients’ costs without compromising quality or customer experience.',
+        'Clyde Ventures can help you reduce your Operational expenditure in numerous ways. Leveraging Lean sigma to reduce waste, re-designing processes to be more efficient, improving end-to-end connectivity across supply chains using big data and harnessing the power of RPA and AI to work smarter, we have cut our Clients’ costs without compromising quality or customer experience.',
     },
     'business-and-culture-change': {
       image: '/images/hero/business-and-culture-change.jpg',
