@@ -86,7 +86,7 @@ export default function ContactForm() {
             </p>
           </div>
         </div>
-        <button className="button max-w-48">Send</button>
+        <button className="button max-w-32">Send</button>
       </form>
     </div>
   );
