@@ -180,7 +180,7 @@ export const solutions = {
     {
       title: 'Business Case and ROI',
       blurb:
-        'Value is central to everything we do. Regardless of the project delivery mode, Clyde Ventures’ own internal Governance demands that all our consultants identify and articulate a clear benefit opportunity aligned to the clients’ needs during project mobilisation. We have helped develop strong business cases with compelling ROIs for numerous public and private Clients adopting the preferred frameworks across the respective sectors such as the HMT 5 case model. We are particularly adept in helping Regulated Network Operators optimise their WACC returns through targeted process improvement and asset optimisation that enhance underperforming ODIs.',
+        'Value is central to everything we do. Regardless of the project delivery mode, Clyde Ventures’ own internal Governance demands that all our consultants identify and articulate a clear benefit opportunity aligned to the clients’ needs during project mobilisation. We have helped develop strong business cases with compelling ROIs for numerous public and private Clients adopting the preferred frameworks across the respective sectors such as the HMT 5 case model. We are particularly adept in helping Regulated Network Operators outperform their WACC through targeted process improvement and asset optimisation that enhance underperforming ODIs.',
       icon: '/icons/service.svg',
     },
   ],
