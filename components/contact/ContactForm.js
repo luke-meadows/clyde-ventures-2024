@@ -70,8 +70,23 @@ export default function ContactForm() {
             rows="10"
             placeholder="Message"
           ></textarea>
+          <div className="flex items-center gap-4 py-2">
+            <div className="checkbox-container">
+              <input type="checkbox" className="checkbox" />
+            </div>
+            <p className="text-xs font-normal">
+              I confirm I accept the Clyde Ventures{' '}
+              <a
+                href="https://www.clydeventures.com/privacy-policy"
+                target="blank"
+              >
+                privacy policy
+              </a>{' '}
+              <span style={{ color: 'red' }}>*</span>
+            </p>
+          </div>
         </div>
-        <button className="button">Send</button>
+        <button className="button max-w-48">Send</button>
       </form>
     </div>
   );
