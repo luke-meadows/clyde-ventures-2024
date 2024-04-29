@@ -16,7 +16,7 @@ export default function HomepageHeroSwiper() {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: Article3Image,
-      url: '/insights',
+      url: '/case-studies/value-model',
       type: 'Case Study',
     },
     {
@@ -24,7 +24,7 @@ export default function HomepageHeroSwiper() {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: Article1Image,
-      url: '/insights',
+      url: '/insights/consumer-standards',
       type: 'Insight',
     },
     {
@@ -33,8 +33,8 @@ export default function HomepageHeroSwiper() {
       subtitle:
         'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
       image: Article2Image,
-      url: '/insights',
-      type: 'Case Study',
+      url: '/insights/domestic-sales',
+      type: 'Insight',
     },
   ];
   return (
@@ -51,17 +51,19 @@ export default function HomepageHeroSwiper() {
             disableOnInteraction: false,
           }}
         >
-          {heroContentData.map((item) => (
-            <SwiperSlide>
+          {heroContentData.map((item, i) => (
+            <SwiperSlide key={i}>
               <div className="hero-inner-container">
                 <p className="text-primary-orange ml-1 text-sm font-normal w-fit rounded mb-2">
                   {item.type}
                 </p>
                 <h1 className="hero-title-2">{item.title}</h1>
                 {/* <p className="hero-subtitle">{item.subtitle}</p> */}
-                <button className="bg-primary-orange text-black-text pr-2.5 pl-3 h-10 min-w-fit w-fit text-xs font-semibold rounded-l-[6px] rounded-r-[20px] ">
-                  Read Article <i className="icon-angle-right" />
-                </button>
+                <Link href={item.url}>
+                  <button className="bg-primary-orange text-black-text pr-2.5 pl-3 h-10 min-w-fit w-fit text-xs font-semibold rounded-l-[6px] rounded-r-[20px] ">
+                    Read Article <i className="icon-angle-right" />
+                  </button>
+                </Link>
               </div>
               <BackgroundImage image={item.image} />
             </SwiperSlide>

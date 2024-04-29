@@ -42,9 +42,17 @@ export default function Footer() {
             <div className="flex-1">
               <h5 className="mb-2 underline-offset-2 underline">Policies</h5>
               <ul className="text-xs font-normal flex flex-col gap-1">
-                <Link href="/">Privacy Policy</Link>
-                <Link href="/">Modern Slavery Statement</Link>
-                <Link href="/">Carbon Accounting</Link>
+                <Link href="/privacy-policy">Privacy Policy</Link>
+                <Link href="/modern-slavery-statement">
+                  Modern Slavery Statement
+                </Link>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://go.clydeventures.com/l/1049802/2024-04-23/5hqy/1049802/1713861915hAcJzvpp/Clyde_Ventures_Carbon_Accounting_PDF.pdf"
+                >
+                  Carbon Accounting
+                </a>
               </ul>
             </div>
           </div>
