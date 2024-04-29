@@ -6,8 +6,8 @@ export default function OrganisationalEffectivenessProductDevelopmentText() {
           Organisational effectiveness and product development play crucial
           roles in a business&apos;s success:
         </h2>
-        <div className="flex gap-8">
-          <div className="w-[50%]">
+        <div className="flex flex-col md:flex-row gap-8">
+          <div className="md:w-[50%]">
             <h5 className="font-semibold text-xl mb-4 text-primary-orange bg-black pl-2 py-2 rounded">
               Organisational Effectiveness:
             </h5>
@@ -34,7 +34,7 @@ export default function OrganisationalEffectivenessProductDevelopmentText() {
               </li>
             </ul>
           </div>
-          <div className="w-[50%]">
+          <div className="md:w-[50%]">
             <h5 className="font-semibold text-xl mb-4 text-primary-orange bg-black pl-2 py-2 rounded">
               Product Development:
             </h5>

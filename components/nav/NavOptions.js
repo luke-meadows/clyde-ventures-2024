@@ -3,7 +3,7 @@ import DropdownLink from './DropdownLink';
 
 export default function NavOptions({ dropdownActive, setDropdownActive }) {
   return (
-    <ul className="ml-16 flex items-center gap-4">
+    <ul className="hidden md:flex ml-16 items-center gap-4">
       <DropdownLink
         href="/services"
         dropdownOption="services"
