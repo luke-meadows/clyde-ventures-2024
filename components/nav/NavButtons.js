@@ -1,3 +1,4 @@
+import MobileNavButton from '@components/MobileNavButton';
 import Link from 'next/link';
 
 export default function NavButtons({ setDropdownActive }) {
@@ -19,9 +20,10 @@ export default function NavButtons({ setDropdownActive }) {
         <i className="icon-linkedin" />
       </a>
       {/* Contact Button */}
-      <Link href="/contact">
+      <Link href="/contact" className="hidden lg:block">
         <button className="button">Contact us</button>
       </Link>
+      <MobileNavButton />
     </div>
   );
 }

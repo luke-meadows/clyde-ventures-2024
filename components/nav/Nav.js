@@ -16,7 +16,7 @@ export default function Nav() {
       className={`text-sm fixed top-0 left-0 right-0 z-50 `}
       onMouseLeave={() => setDropdownActive('none')}
     >
-      <div className="nav-outer bg-white">
+      <div className="nav-outer bg-white relative">
         <nav className="flex items-center justify-between h-24 text-dark-grey inner-container ">
           <div className="flex align-center">
             <Link href="/" onClick={() => setDropdownActive('none')}>
