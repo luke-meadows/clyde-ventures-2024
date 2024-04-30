@@ -44,7 +44,7 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/wacc-outperformance.jpg',
       title: 'WACC Outperformance',
       subtitle:
-        'Clyde Ventures are particularly adept in helping Regulated Network Operators optimise their WACC returns through targeted process improvement and asset optimisation that drive up performance across all of their lagging outcome delivery incentives.',
+        'Clyde Ventures are particularly adept in helping Regulated Network Operators optimise their returns through targeted process improvement and asset optimisation that drive up performance across all of their lagging outcome delivery incentives.',
     },
     'independence-upskilling-and-design-authority': {
       image: '/images/hero/wacc-outperformance.jpg',
