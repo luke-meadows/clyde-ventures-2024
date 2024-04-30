@@ -285,7 +285,7 @@ export default function SolutionsGrid({ solution, propSolutions = false }) {
               <div>
                 <div className="card-top flex justify-between pb-4">
                   <div className="card-top-left flex gap-4 items-center">
-                    <h3 className="font-normal text-xl text-primary-orange">
+                    <h3 className="font-semibold text-xl text-primary-orange">
                       {card.title}
                     </h3>
                   </div>
