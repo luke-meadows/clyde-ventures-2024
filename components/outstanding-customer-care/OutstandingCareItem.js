@@ -55,12 +55,12 @@ export default function OutstandingCareItem({ item }) {
     'treating-customers-fairly-and-managing-vulnerability': {
       title: 'Treating Customers Fairly and Managing Vulnerability',
       blurb:
-        'Our commitment to fair treatment and customer welfare is fundamental. By protecting vulnerable customers and implementing transparent pricing practices, we build trust, loyalty, and positive relationships within our communities.',
+        'Customers with vulnerable characteristics and those who are transiently vulnerable have never required more support from their utility providers, due to a whole host of factors such as the cost of living and wholesale price crises. It is the challenge of suppliers to commit to servicing customers in a manner that allows for the identification of vulnerable customers, implements safeguarding to protect their interests, integrates accessibility features, and equips front-line staff with both the soft and technological tools needed to ensure transactions are respectful and promote empathy. ',
     },
     'improving-customer-service': {
       title: 'Improving Customer Service',
       blurb:
-        'Exceptional customer service is a priority for any organisation in the utilities sector. By investing in service improvement initiatives, we enhance satisfaction, loyalty, and retention ensuring a positive experience for all our customers.',
+        'Long wait times, substandard complaint handling, and convoluted processes have all been cited as contributing factors to erosion of consumer trust in the UK Utilities sector and triggered reform by the energy and water regulators aimed at elevating service standards. Investing in building a customer-centric culture will go a long way in regaining consumer trust in the industries while complying with regulatory standards and improving customer experience. ',
     },
     'regulatory-compliance-technology': {
       title: 'Regulatory Compliance',
@@ -76,6 +76,11 @@ export default function OutstandingCareItem({ item }) {
       title: 'Workforce Diversity and Inclusion',
       blurb:
         'The tech industry has been criticized for its lack of diversity and inclusion, particularly in terms of gender and racial representation. Building a more diverse and inclusive workforce is crucial for driving innovation and addressing the needs of a diverse global population.',
+    },
+    debt: {
+      title: 'Debt',
+      blurb:
+        'It is undeniable that the U.K. Utilities sector is in the grip of a debt-related crisis. Debt collection requires a balanced and customer-centric approach, improving collections activities in utilities involves innovative strategies to improve debt recovery while maintaining positive customer relationships by combining effective communication, technological solutions, and flexibility.',
     },
   };
   return (

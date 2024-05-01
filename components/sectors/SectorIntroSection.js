@@ -7,13 +7,14 @@ export default function SectorIntroSection({ sector = 'utilities' }) {
       header: 'Utility',
       title: 'Practical Solutions Tailored for Utility Enterprises',
       blurb:
-        'Most of the Clyde Ventures team have their roots in the Utility sector, we understand the operation at its foundation enabling us to tailor solutions to your needs. Partnering with us grants you access to a team of seasoned professionals, adept at crafting systems that harmonise with meeting the challenges of a modern Utility company.',
+        'At Clyde Ventures, we pride ourselves on being operational and industry experts as opposed to career consultants. Most of our team have held senior positions across the supply chain in Water, Energy, and Distribution, bringing unparalleled industry knowledge and insight to our clients. Our deep expertise within the complex regulatory landscape, market dynamics, and technological advancements shaping the UK utilities sector places us in a unique position to support our clients achieve their objectives. We provide tailored solutions that drive tangible results, aiding clients and the sector as a whole, tackling a host of challenges from regulatory compliance to sustainability initiatives and digital transformation. ',
       industryPainpoints: [
         'reducing-operating-costs-to-improve-retail-margin',
         'optimising-wacc-returns-in-regulated-utilities',
-        'decarbonisation-and-sustainability',
         'treating-customers-fairly-and-managing-vulnerability',
         'improving-customer-service',
+        'debt',
+        'decarbonisation-and-sustainability',
       ],
     },
     'professional-services': {

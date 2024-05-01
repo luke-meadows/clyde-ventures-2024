@@ -125,14 +125,12 @@ export default function MainHero({ children, hero }) {
     },
     'domestic-sales': {
       image: '/images/blog-images/hero/domestic-sales-background.jpeg',
-      title:
-        "Domestic Sales: LEAN review across a client's operations to deliver £1.95M in benefits",
+      title: 'LEAN review to deliver £1.95M in benefits',
       subtitle: '',
     },
     'debt-value': {
       image: '/images/blog-images/hero/debt-value-background.jpg',
-      title:
-        'Confirmed the level of debt associated with leakage and segmented the cleansed portfolio to deliver a £2m upside',
+      title: 'Cleansed portfolio to deliver a £2m upside',
       subtitle: '',
     },
     'debt-trilemma': {
@@ -168,7 +166,7 @@ export default function MainHero({ children, hero }) {
   return (
     <HeroWrapper>
       <HeroNavigationStrip />
-      <div className="h-[250px] md:h-[350px] relative">
+      <div className="h-[350px] md:h-[350px] relative">
         <div className="hero-inner-container">
           {title && <h1 className="hero-title">{title}</h1>}
           {subtitle && (

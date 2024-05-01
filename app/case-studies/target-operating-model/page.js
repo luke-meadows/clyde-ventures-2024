@@ -20,7 +20,7 @@ export default function page() {
   return (
     <AnimationWrapper>
       <MainHero hero="case-study">
-        <h1 className="hero-title">Case Study: {insightCard.title}</h1>
+        <h1 className="hero-title-2">Case Study: {insightCard.title}</h1>
       </MainHero>
       <div className="inner-container">
         <AvatarAndDate

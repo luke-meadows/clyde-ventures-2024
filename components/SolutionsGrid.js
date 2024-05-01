@@ -83,7 +83,7 @@ export const solutions = {
     {
       title: 'Business Case and ROI Due Diligence',
       blurb:
-        'We have helped develop strong business cases with compelling ROIs for numerous public and private Clients adopting the preferred frameworks across the respective sectors such as the HMT 5 case model. We are particularly adept in helping Regulated Network Operators optimise their WACC returns through targeted process improvement and asset optimisation that enhance underperforming ODIs.',
+        'We have helped develop strong business cases with compelling ROIs for numerous public and private clients adopting the preferred frameworks across the respective sectors such as the HMT 5 case model. We are particularly adept in helping Regulated Network Operators optimise their WACC returns through targeted process improvement and asset optimisation that enhance underperforming ODIs.',
       icon: '/icons/sales.svg',
     },
   ],
@@ -104,7 +104,7 @@ export const solutions = {
     {
       title: 'Social Mobility Enablement',
       blurb:
-        'Our social values are important to us. We recruit 90% of our staff from the most deprived 10% of postcodes and train them with the necessary technical, analytical and Utility Sector skills and knowledge needed to work as professional management consultants.By working with us, not only are you collaborating with a company with these strong social, diversity and inclusion values but, we also offer this to our clients so that we can develop people for your business so that you can further enhance your own social, diversity and inclusion values and support social mobility.',
+        'Our social values are important to us. We recruit 90% of our staff from the most deprived 10% of postcodes and train them with the necessary technical and analytical skills, equipping them with the knowledge needed to work as professional management consultants. By working with us, not only are you collaborating with a company with strong social, diversity, and inclusion values but, we also support clients via leveraging our unique recruitment channels and facilitating our proven training programme that develops people for your business and allows you to unlock a diverse talent pool and further enhance your own societal impact. ',
       icon: '/icons/sales.svg',
     },
   ],
@@ -265,7 +265,7 @@ export const solutions = {
     {
       title: 'Independence, Upskilling and Design Authority',
       blurb:
-        'At Clyde Ventures, we have no wish to create a scenario where our clients are continually dependent on us. We believe that ensuring our clients are capable of self-serving will lead to them returning because they want to; not because they have to. We ensure that we upskill our clients and we also offer to support assessment of design and delivery that other integrators have carried out as we understand that, sometimes a client does not have sufficient internal skillset to make these assessments.',
+        'At Clyde Ventures, we aim to help our clients improve their internal capabilities, we believe that ensuring our clients are capable of self-serving will lead to them returning because they want to; not because they need to. We ensure that we upskill our clients and we also offer to support assessment of design and delivery that other integrators have carried out as we understand that, sometimes a client does not have sufficient internal skillset to make these assessments.',
       icon: '/icons/service.svg',
       url: 'integration/independence-upskilling-design-authority',
     },
