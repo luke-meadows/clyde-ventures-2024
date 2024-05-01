@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useScrollLock } from '@app/lib/useScrollLock';
 import MobileNav from './MobileNav';
 export default function MobileNavButton() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const { lockScroll, unlockScroll } = useScrollLock();
   useEffect(() => {
     if (open) {
