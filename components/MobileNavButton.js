@@ -16,11 +16,17 @@ export default function MobileNavButton() {
     <>
       <button onClick={() => setOpen(!open)} className="lg:hidden">
         {open && (
-          <div>
-            <i className="icon-cancel text-3xl" /> <MobileNav />
+          <div className="icon-wrapper flex flex-col">
+            <i className="icon-cancel text-2xl mb-[-5px]" />
+            <p className="text-xs">close</p>
+            <MobileNav />
           </div>
         )}
-        {!open && <i className="icon-menu text-3xl" />}
+        {!open && (
+          <div className=" icon-wrapper flex flex-col">
+            <i className="icon-menu text-2xl mb-[-5px]" />
+          </div>
+        )}
       </button>
     </>
   );
