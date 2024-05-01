@@ -62,63 +62,124 @@ export default function IndustriesSwiper() {
     // },
   ];
   return (
-    <div className="industries-swiper">
-      <Swiper
-        modules={[Pagination, A11y, Autoplay]}
-        spaceBetween={40}
-        slidesPerView={3}
-        pagination={{ clickable: true }}
-        autoplay={{
-          delay: 8000,
-          disableOnInteraction: false,
-        }}
-      >
-        {industries.map((industry, i) => {
-          return (
-            <SwiperSlide
-              key={i}
-              className="card-rounding mb-16 shadow-bottom bg-black-text pb-1"
-            >
-              <div className="h-[90%] bg-black-text  relative">
-                {/* Card Top Section */}
-                <div className="top-section">
-                  <div className="card-image relative h-44">
-                    <div className="absolute left-0 top-0 h-full w-full">
-                      <Image
-                        src={industry.image}
-                        layout="fill"
-                        className="object-cover"
-                      />
-                    </div>
-                    <div className="card-icon h-16 aspect-square center-contents rounded-full bg-primary-orange absolute bottom-0 z-[1] translate-y-[50%] transform-center fill-primary-orange">
-                      <Image src={industry.icon} width={35} height={35} />
+    <div>
+      <div className="lg:hidden industries-swiper">
+        <Swiper
+          modules={[Pagination, A11y, Autoplay]}
+          spaceBetween={40}
+          slidesPerView={1}
+          pagination={{ clickable: true }}
+          autoplay={{
+            delay: 8000,
+            disableOnInteraction: false,
+          }}
+        >
+          {industries.map((industry, i) => {
+            return (
+              <SwiperSlide
+                key={i}
+                className="card-rounding-2 mb-16 shadow-bottom bg-black-text pb-4"
+              >
+                <div className="h-[90%] bg-black-text  relative">
+                  {/* Card Top Section */}
+                  <div className="top-section">
+                    <div className="card-image relative h-44">
+                      <div className="absolute left-0 top-0 h-full w-full">
+                        <Image
+                          src={industry.image}
+                          layout="fill"
+                          className="object-cover"
+                        />
+                      </div>
+                      <div className="card-icon h-16 aspect-square center-contents rounded-full bg-primary-orange absolute bottom-0 z-[1] translate-y-[50%] transform-center fill-primary-orange">
+                        <Image src={industry.icon} width={35} height={35} />
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                {/* Card Lower Section */}
-                <div className="lower-section pt-10  text-white p-6  h-auto">
-                  <h3 className="font-semibold text-xl mb-2 grow text-primary-orange">
-                    {industry.title}
-                  </h3>
+                  {/* Card Lower Section */}
+                  <div className="lower-section pt-10  text-white p-6  h-auto">
+                    <h3 className="font-semibold text-xl mb-2 grow text-primary-orange">
+                      {industry.title}
+                    </h3>
 
-                  <p className="text-sm font-normal text-card-bg pb-6">
-                    {industry.subtitle}
-                  </p>
+                    <p className="text-sm font-normal text-card-bg pb-6">
+                      {industry.subtitle}
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="mt-auto px-6">
-                <Link href={industry.url}>
-                  <button className="button text-xs font-black-text font-semibold mt-auto">
-                    Learn More{' '}
-                    <i className="icon-angle-right text-sm mr-[-10px]" />
-                  </button>
-                </Link>
-              </div>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
+                <div className="mt-auto px-6">
+                  <Link href={industry.url}>
+                    <button className="button text-xs font-black-text font-semibold">
+                      Learn More{' '}
+                      <i className="icon-angle-right text-sm mr-[-10px]" />
+                    </button>
+                  </Link>
+                </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
+
+      <div className="hidden lg:block industries-swiper">
+        <Swiper
+          modules={[Pagination, A11y, Autoplay]}
+          spaceBetween={40}
+          slidesPerView={3}
+          pagination={{ clickable: true }}
+          autoplay={{
+            delay: 8000,
+            disableOnInteraction: false,
+          }}
+        >
+          {industries.map((industry, i) => {
+            return (
+              <SwiperSlide
+                key={i}
+                className="card-rounding-2 mb-16 shadow-bottom bg-black-text pb-1"
+              >
+                <div className="h-[90%] bg-black-text  relative">
+                  {/* Card Top Section */}
+                  <div className="top-section">
+                    <div className="card-image relative h-44">
+                      <div className="absolute left-0 top-0 h-full w-full">
+                        <Image
+                          src={industry.image}
+                          layout="fill"
+                          className="object-cover"
+                        />
+                      </div>
+                      <div className="card-icon h-16 aspect-square center-contents rounded-full bg-primary-orange absolute bottom-0 z-[1] translate-y-[50%] transform-center fill-primary-orange">
+                        <Image src={industry.icon} width={35} height={35} />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Card Lower Section */}
+                  <div className="lower-section pt-10  text-white p-6  h-auto">
+                    <h3 className="font-semibold text-xl mb-2 grow text-primary-orange">
+                      {industry.title}
+                    </h3>
+
+                    <p className="text-sm font-normal text-card-bg pb-6">
+                      {industry.subtitle}
+                    </p>
+                  </div>
+                </div>
+                <div className="mt-auto px-6">
+                  <Link href={industry.url}>
+                    <button className="button text-xs font-black-text font-semibold">
+                      Learn More{' '}
+                      <i className="icon-angle-right text-sm mr-[-10px]" />
+                    </button>
+                  </Link>
+                </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
     </div>
   );
 }
