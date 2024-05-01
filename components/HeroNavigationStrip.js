@@ -37,8 +37,8 @@ export default function HeroNavigationStrip() {
       .join('/');
 
   return (
-    <div className=" bg-black text-off-white w-full py-3 text-sm">
-      <div className="inner-container w-full flex gap-4">
+    <div className=" bg-black text-off-white w-full py-3 text-xs md:text-sm">
+      <div className="inner-container w-full flex gap-4 flex-wrap">
         {splitPathName.map((item, i) =>
           i === splitPathName.length - 1 ? (
             <p className="text-primary-orange">{formatNavString(item)}</p>

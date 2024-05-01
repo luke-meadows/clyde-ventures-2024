@@ -17,7 +17,7 @@ export default function WhatWeDo() {
           organisation below.
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 pb-6 md:pb-0 gap-6 max-w-[1300px] mx-auto md:px-8 bg-black-text md:bg-white">
+      <div className="grid grid-cols-1 lg:grid-cols-2 pb-6 md:p-0 gap-6 max-w-[1300px] mx-auto md:px-8 bg-black md:bg-white">
         {dropdownDirectory.services.map((item, i) => (
           <DropdownGrid item={item} key={i} />
         ))}

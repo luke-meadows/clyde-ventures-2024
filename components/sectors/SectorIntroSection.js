@@ -57,6 +57,8 @@ export default function SectorIntroSection({ sector = 'utilities' }) {
           Clyde Ventures {sectors[sector]?.header} Solutions
         </h2>
         <br />
+      </div>
+      <div className="max-w-[1300px] mx-auto md:px-8">
         <SectorSolutionsGrid solution={sector} />
       </div>
     </>

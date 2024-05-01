@@ -62,37 +62,71 @@ export default function CaseStudies({ caseStudyTopic }) {
           Learn how Clyde Ventures have provided value to our clients with{' '}
           {caseStudyTopic}.
         </p>
-        <div className="case-studies-swiper">
-          <Swiper
-            modules={[Pagination, A11y, Autoplay]}
-            spaceBetween={20}
-            slidesPerView={3}
-            pagination={{ clickable: true }}
-            autoplay={{
-              delay: 8000,
-              disableOnInteraction: false,
-            }}
-          >
-            {caseStudiesContentData.map((item, i) => {
-              return (
-                <SwiperSlide className=" bg-super-light-grey  rounded-lg p-4 relative card-rounding shadow-bottom">
-                  <div className="flex flex-col justify-between gap-6 h-full text-white">
-                    <div>
-                      <h5 className="text-xl mb-2 font-semibold">
-                        {item.title}
-                      </h5>
-                      {/* <p className="text-sm font-normal mb-2">{item.subtitle}</p> */}
-                    </div>
+        <div>
+          <div className="case-studies-swiper md:hidden">
+            <Swiper
+              modules={[Pagination, A11y, Autoplay]}
+              spaceBetween={20}
+              slidesPerView={1}
+              pagination={{ clickable: true }}
+              autoplay={{
+                delay: 8000,
+                disableOnInteraction: false,
+              }}
+            >
+              {caseStudiesContentData.map((item, i) => {
+                return (
+                  <SwiperSlide className=" bg-super-light-grey  rounded-lg p-4 relative card-rounding shadow-bottom">
+                    <div className="flex flex-col justify-between gap-6 h-full text-white">
+                      <div>
+                        <h5 className="text-xl mb-2 font-semibold">
+                          {item.title}
+                        </h5>
+                        {/* <p className="text-sm font-normal mb-2">{item.subtitle}</p> */}
+                      </div>
 
-                    <button className="bg-primary-orange text-black-text  pr-2.5 pl-3 h-10 min-w-fit w-fit text-xs font-semibold rounded-l-[6px] rounded-r-[20px] ">
-                      Read Article <i className="icon-angle-right" />
-                    </button>
-                  </div>
-                  <BackgroundImage image={item.image} />
-                </SwiperSlide>
-              );
-            })}
-          </Swiper>
+                      <button className="bg-primary-orange text-black-text  pr-2.5 pl-3 h-10 min-w-fit w-fit text-xs font-semibold rounded-l-[6px] rounded-r-[20px] ">
+                        Read Article <i className="icon-angle-right" />
+                      </button>
+                    </div>
+                    <BackgroundImage image={item.image} />
+                  </SwiperSlide>
+                );
+              })}
+            </Swiper>
+          </div>
+          <div className="case-studies-swiper hidden md:block">
+            <Swiper
+              modules={[Pagination, A11y, Autoplay]}
+              spaceBetween={20}
+              slidesPerView={3}
+              pagination={{ clickable: true }}
+              autoplay={{
+                delay: 8000,
+                disableOnInteraction: false,
+              }}
+            >
+              {caseStudiesContentData.map((item, i) => {
+                return (
+                  <SwiperSlide className=" bg-super-light-grey  rounded-lg p-4 relative card-rounding shadow-bottom">
+                    <div className="flex flex-col justify-between gap-6 h-full text-white">
+                      <div>
+                        <h5 className="text-xl mb-2 font-semibold">
+                          {item.title}
+                        </h5>
+                        {/* <p className="text-sm font-normal mb-2">{item.subtitle}</p> */}
+                      </div>
+
+                      <button className="bg-primary-orange text-black-text  pr-2.5 pl-3 h-10 min-w-fit w-fit text-xs font-semibold rounded-l-[6px] rounded-r-[20px] ">
+                        Read Article <i className="icon-angle-right" />
+                      </button>
+                    </div>
+                    <BackgroundImage image={item.image} />
+                  </SwiperSlide>
+                );
+              })}
+            </Swiper>
+          </div>
         </div>
       </div>
       <div className="page-break" />

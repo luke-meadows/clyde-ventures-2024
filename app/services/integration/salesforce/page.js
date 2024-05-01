@@ -10,11 +10,20 @@ export default function IntegrationPage() {
   return (
     <AnimationWrapper>
       <MainHero hero="salesforce">
-        <Image
-          src="/images/sf-partner-logo-rectangle.png"
-          width={200}
-          height={100}
-        />
+        <div className="md:hidden mt-2">
+          <Image
+            src="/images/sf-partner-logo-square.png"
+            width={100}
+            height={100}
+          />
+        </div>
+        <div className="hidden md:block">
+          <Image
+            src="/images/sf-partner-logo-rectangle.png"
+            width={200}
+            height={100}
+          />
+        </div>
       </MainHero>
       <SalesforceSolutions solution="salesforce" />
       <div className="page-break" />

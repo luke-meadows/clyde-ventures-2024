@@ -57,7 +57,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex justify-between items-end mt-6 mb-6">
-            <div className="logos grid grid-cols-2 md:flex items-center ml-[-10px] gap-4">
+            <div className="logos grid grid-cols-2 md:flex items-center  gap-4">
               <Image
                 src="/images/accreditations-partners/CfA Cert Logo White UKAS ISO 9001.png"
                 height={50}

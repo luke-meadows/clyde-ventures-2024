@@ -279,7 +279,7 @@ export default function SolutionsGrid({ solution, propSolutions = false }) {
         return (
           <div
             key={i}
-            className="shadow-card rounded-md bg-black-text p-6 h-full"
+            className="shadow-card md:rounded-md bg-black-text p-6 h-full"
           >
             <div className="h-full flex flex-col justify-between">
               <div>

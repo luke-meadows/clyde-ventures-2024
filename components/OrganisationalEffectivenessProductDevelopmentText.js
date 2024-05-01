@@ -1,6 +1,6 @@
 export default function OrganisationalEffectivenessProductDevelopmentText() {
   return (
-    <div className="bg-gray-100 py-16">
+    <div className="bg-gray-100 py-8 md:py-16">
       <div className="inner-container">
         <h2 className="text-3xl font-semibold mb-6">
           Organisational effectiveness and product development play crucial

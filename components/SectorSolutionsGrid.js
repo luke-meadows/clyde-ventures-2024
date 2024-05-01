@@ -394,7 +394,7 @@ export default function SectorSolutionsGrid({ solution }) {
         return (
           <div
             key={i}
-            className="shadow-card rounded-md bg-black-text p-6 h-full"
+            className="shadow-card md:rounded-md bg-black-text p-6 h-full"
           >
             <div className="card-top flex justify-between pb-4">
               <div className="card-top-left flex gap-4 items-center">
