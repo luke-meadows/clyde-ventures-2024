@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function ContactForm() {
   return (
-    <div className="right w-full md:w-1/2 p-4 md:p-8 card-rounding bg-white border-2 border-gray-200 shadow-bottom">
+    <div className="right w-full md:w-1/2 py-8 md:py-4 px-4 md:px-8 card-rounding bg-white border-2 border-gray-200 shadow-bottom">
       <div className="flex gap-4 mb-6 items-center">
         <h2 className="text-2xl font-semibold text-gray-700">
           Let's get in touch, we'd love to hear from you!

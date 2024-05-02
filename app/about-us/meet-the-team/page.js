@@ -22,7 +22,7 @@ export default function TeamPage() {
               <Image
                 key={i}
                 src={item.image}
-                className="h-[600px] md:h-[500px] object-cover object-top w-[100%] rounded-t"
+                className="h-[400px] md:h-[500px] object-cover object-top w-[100%] rounded-t"
                 objectPosition="bottom"
               />
               <div className="px-2 py-1 bg-primary-orange">
@@ -34,12 +34,14 @@ export default function TeamPage() {
         </div>
         <div className="page-break"></div>
       </div>
-      {activeTeamMember && (
-        <TeamModal
-          activeTeamMember={activeTeamMember}
-          setActiveTeamMember={setActiveTeamMember}
-        />
-      )}
+      <div className="hidden md:block">
+        {activeTeamMember && (
+          <TeamModal
+            activeTeamMember={activeTeamMember}
+            setActiveTeamMember={setActiveTeamMember}
+          />
+        )}
+      </div>
       <ContactSection />
     </AnimationWrapper>
   );

@@ -31,7 +31,7 @@ export default function InfoBox({ infobox = 'sales-cloud', children }) {
   };
   const { title, subtitle } = infoboxes[infobox];
   return (
-    <div className="inner-container text-center">
+    <div className="inner-container-2 text-center">
       <div className="p-8 bg-black text-white card-rounding">
         <h2 className="text-3xl mb-6 font-semibold ">{title}</h2>
         {subtitle.map((p, i) => (
@@ -39,10 +39,12 @@ export default function InfoBox({ infobox = 'sales-cloud', children }) {
             {p}
           </p>
         ))}
-        <div className="flex gap-6 items-center mt-[25px] mx-auto w-fit text-sm">
-          <Link href="/contact" className="button py-3 center-contents">
-            Contact us
-          </Link>
+        <div className="flex gap-6 items-center mt-[25px] mx-auto w-fit text-sm ">
+          <div className="hidden md:block">
+            <Link href="/contact" className="button py-3 center-contents">
+              Contact us
+            </Link>
+          </div>
           {/* Additional buttons */}
           {children}
         </div>

@@ -3,10 +3,10 @@ import ContactForm from './ContactForm';
 export default function ContactSection() {
   return (
     <div className="bg-gray-100">
-      <div className="inner-container">
+      <div className="inner-container-2">
         <div className="page-break"></div>
         <div className="flex-col md:flex-row flex justify-between items-center gap-16">
-          <div className="left w-full md:w-1/2">
+          <div className="left w-full md:w-1/2 p-4 md:p-0">
             <h5 className="text-4xl mb-6 section-heading">Contact us</h5>
             <p className="max-w-[50ch]">
               We&apos;re always here to help. Whether you have inquiries,
@@ -37,7 +37,7 @@ export default function ContactSection() {
           </div>
           <ContactForm />
         </div>
-        <div className="page-break"></div>
+        <div className="page-break hidden md:block"></div>
       </div>
     </div>
   );

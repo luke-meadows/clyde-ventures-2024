@@ -84,12 +84,12 @@ export default function CourseModules() {
           learning and to provide access to relevant and impactful guest
           speakers, case studies and examples from the business world.
         </p>
-        <div className="grid grid-cols-2 gap-4 mt-8 text-left">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 text-left">
           {modules.map((module, i) => {
             return (
               <div
                 key={i}
-                className="p-4 bg-black card-rounding text-white shadow-bottom"
+                className="p-4 bg-black rounded-2xl text-white shadow-bottom"
               >
                 <div>
                   <h5 className="text-lg mb-1 text-primary-orange">
