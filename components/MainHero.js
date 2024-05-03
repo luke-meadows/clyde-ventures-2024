@@ -32,7 +32,7 @@ export default function MainHero({ children, hero }) {
       image: '/images/hero/salesforce.jpeg',
       title: 'Salesforce',
       subtitle:
-        "We are a leading Salesforce integrator and Salesforce Partner that chooses to integrate Salesforce as the preferred CRM solution for its clients due to Salesforce's unparalleled capabilities in centralising customer data, providing valuable insights, enhancing customer service efficiency, automating processes, ensuring scalability, enabling customisation and integration, offering mobile accessibility, and prioritising security and compliance.",
+        'We are a multi-certified Salesforce integrator and consulting partner and have implemented and integrated Salesforce across multiple continents to deliver functionality across Sales, Service, Marketing, Industries and many other areas. In addition, because our background is both, operational and from the industries in which we operate, we do not think like other software integrators. We always ensure that the technology serves the operational need, user experience and interface is paramount, and it is configured in such a way as to maximise value creation and optimise customer experience and impact.',
     },
     'process-design': {
       image: '/images/hero/process-design.jpg',

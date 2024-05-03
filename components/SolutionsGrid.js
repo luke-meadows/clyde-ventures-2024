@@ -7,44 +7,38 @@ export const solutions = {
     {
       title: 'Sales Cloud',
       blurb:
-        "Leveraging Sales Cloud, we optimised our clients' sales cycles and increased the efficiency of their CRM processes. Features like opportunity management and sales forecasting allowed for better resource allocation and a clearer visibility into sales pipelines. This enabled sales teams to focus on high-value activities, thus driving up conversion rates and revenue.",
+        'Our team of certified Salesforce professionals are experts in system architecture, guaranteeing that your Sales Cloud solution aligns perfectly with your business requirements. Clyde Ventures are here to assist you with your new implementation or improving your current Sales Cloud setup by incorporating extra features as needed. We also provide ongoing support for your Sales Cloud implementation through managed services packages, giving your business access to certified Salesforce experts.',
       icon: '/icons/sales.svg',
     },
     {
       title: 'Service Cloud',
       blurb:
-        'Our use of Service Cloud revolutionised customer service operations for our clients, incorporating features like AI-driven case routing and real-time service analytics. This not only sped up response times but also elevated the quality of service. As a result, our clients reported higher customer retention and satisfaction levels.',
+        "Our seasoned consultants provide customised solutions that guarantee maximum business value, whether it's suggesting efficient  business solutions tailored to your needs or recommending best practices for optimising case management. Our tailored Salesforce Service Cloud implementation services address both existing and new instances, with a focus on implementing or optimising modules such as case management, Omnichannel support, customer and contact management, field service management, and workflow automation.",
       icon: '/icons/service.svg',
     },
     {
       title: 'Marketing Cloud & Marketing Cloud Account Engagement',
       blurb:
-        'By combining the power of Marketing Cloud with Account Engagement, we crafted personalised marketing journeys and optimised campaign management. Enhanced analytics and segmentation tools led to more effective targeting and engagement strategies, significantly improving campaign performance and customer acquisition rates.',
+        'Drawing from years of experience with Marketing Cloud and Account Engagement (Pardot), our team of expert consultants provide you confidence that your team possesses the resources to execute and report error-free marketing campaigns. From data segmentation and platform integration to achieving seamless reports and analytics, we ensure that everything functions smoothly.',
       icon: '/icons/marketing.svg',
     },
     {
       title: 'Energy and Utilities Cloud',
       blurb:
-        'With the Energy and Utilities Cloud, we improved our clients’ customer interactions and streamlined their operations by integrating smart grid data and providing predictive maintenance insights. This not only reduced operational costs but also enhanced service reliability and customer trust in these sectors.',
+        'Clyde Ventures specialises in providing consulting and integration services for Energy & Utilities Cloud, enabling utility businesses to manage and integrate their entire operation into one system. We pride ourselves on being operational and industry experts as opposed to career consultants. Most of our team have held senior positions across the supply chain in Water, Energy, and Distribution, bringing unparalleled industry knowledge and insight to our clients. Using Energy and Utilities Cloud, we apply the full power of Salesforce’s AI, data and CRM capabilities to create powerful processes with customers at the centre.',
       icon: '/icons/utilities.png',
     },
     {
       title: 'Experience Cloud',
       blurb:
-        'Utilising Experience Cloud, we created bespoke digital platforms that fostered community engagement and streamlined communication channels for our clients. Features such as personalised content and mobile-first communities enhanced user experience, boosting collaboration and engagement across stakeholders.',
+        'When implementing Salesforce Experience Cloud, Clyde Ventures goes above and beyond basic implementation to ensure that clients maximise their investment. We provide comprehensive services that encompass initial project guidance, ongoing Admin and Development support, training, data analytics, and more. At Clyde Ventures, we specialise in crafting user-centric experiences that drive customer engagement and satisfaction. Our team possesses the necessary expertise in product design to build engaging digital experiences.',
       icon: '/icons/experience.svg',
     },
     {
       title: 'Net Zero Cloud',
       blurb:
-        'Implementing Net Zero Cloud, we helped clients accurately track their sustainability efforts and manage their carbon accounting. This facilitated effective reporting on environmental impact and supported the development of more sustainable business practices, reinforcing their commitment to environmental stewardship.',
+        'At Clyde Ventures, we have several certified Net Zero Cloud consultants, making us the ideal partner for your carbon accounting implementation.  We leverage Net Zero Cloud for our clients, enabling them to manage emissions, streamline data analytics, and drive productivity. Partner with Clyde Ventures to make sustainability a seamless part of your organisational strategy.',
       icon: '/icons/net-zero.svg',
-    },
-    {
-      title: 'Field Service Cloud',
-      blurb:
-        "Our deployment of Salesforce’s Field Service solution included mobile workforce enablement and real-time operations visibility, which significantly improved our clients' service efficiency. Automated scheduling and resource optimization ensured that the right personnel were dispatched at the right times, sharply increasing on-time service delivery and customer satisfaction.",
-      icon: '/icons/field-service.svg',
     },
   ],
   'process-design': [
@@ -244,7 +238,7 @@ export const solutions = {
     {
       title: 'Salesforce',
       blurb:
-        "We are a leading Salesforce integrator and Salesforce Partner that chooses to integrate Salesforce as the preferred CRM solution for its clients due to Salesforce's unparalleled capabilities in centralising customer data, providing valuable insights, enhancing customer service efficiency, automating processes, ensuring scalability, enabling customisation and integration, offering mobile accessibility, and prioritising security and compliance.",
+        'We are a multi-certified Salesforce integrator and consulting partner and have implemented and integrated Salesforce across multiple continents to deliver functionality across Sales, Service, Marketing, Industries and many other areas. In addition, because our background is both, operational and from the industries in which we operate, we do not think like other software integrators. We always ensure that the technology serves the operational need, user experience and interface is paramount, and it is configured in such a way as to maximise value creation and optimise customer experience and impact.',
       icon: '/icons/sales.svg',
       url: 'integration/salesforce',
     },
