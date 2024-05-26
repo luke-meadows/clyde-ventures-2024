@@ -2,65 +2,92 @@
 import { Pagination, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import BackgroundImage from './BackgroundImage';
+import Link from 'next/link';
 export default function CaseStudies({ caseStudyTopic }) {
-  const caseStudiesContentData = [
+  const insightCards = [
     {
-      title: 'Regulatory outcome delivery incentives for UK Energy company.',
-      subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      insightId: '1',
+      title:
+        'Reduced unbilled debt resulting in collections uplift of £20m over 18 months.',
+      date: '29/11/2023',
+      author: 'Graham Mathie',
+      url: '/case-studies/unbilled-debt',
       image: '/images/blog-images/hero/compliance-stores-background.jpg',
-      url: '/insights/1',
-      type: 'Case Study',
+
+      tags: ['Energy', 'Consumer Standards', 'Customer Experience'],
     },
     {
-      title: 'Energy: How suppliers can improve customer experience.',
-      subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      insightId: '2',
+      title:
+        'Confirmed the level of debt associated with leakage and segmented the cleansed portfolio to deliver a £2m upside.',
+      date: '01/12/2023',
+      author: 'Ross Bern',
+
+      url: '/insights/debt-value',
       image: '/images/blog-images/hero/opex-background.jpg',
-      url: '/insights/2',
-      type: 'Insight',
+      tags: ['Revenue Generation', 'Customer Experience'],
     },
     {
-      title: '£1.95m of benefits identified in a revenue growth programme.',
-      subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      insightId: '3',
+      title:
+        'Developed a process control and exceptions management framework to facilitate the collection of over £13M in debt.',
+      date: '06/12/2023',
+      author: 'Ross Bern',
+      url: '/case-studies/controls-and-exception-management',
       image: '/images/blog-images/hero/domestic-sales-background.jpeg',
-      url: '/insights/3',
-      type: 'Case Study',
+
+      tags: ['Utilities', 'Debt'],
     },
     {
-      title: 'Regulatory outcome delivery incentives for UK Energy company.',
-      subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      insightId: '4',
+      title:
+        "Conducted a LEAN review across a client's operations to deliver £1.95M in benefits.",
+      date: '18/12/2023',
+      author: 'Amber Morton',
+      url: 'insights/domestic-sales',
       image: '/images/blog-images/hero/compliance-stores-background.jpg',
-      url: '/insights/4',
-      type: 'Case Study',
+
+      tags: ['Utilities', 'OPEX', 'Energy', 'Consumer Standards'],
     },
     {
-      title: 'Energy: How suppliers can improve customer experience.',
-      subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      insightId: '5',
+      title:
+        'Developed a value model linking operational activities to optimise regulatory outcome delivery incentives.',
+      date: '08/01/2024',
+      author: 'David Philipson',
+      url: '/case-studies/value-model',
+      image: '/images/blog-images/thumbnail/debt-value-thumbnail.jpg',
+      tags: ['Utilities', 'Debt', 'Energy'],
+    },
+    {
+      insightId: '6',
+      title:
+        'Implemented operational excellence and developed a new Target Operating Model to reduce headcount by 25%.',
+      date: '11/01/2024',
+      author: 'Kerry Moran',
+      url: '/case-studies/target-operating-model',
       image: '/images/blog-images/hero/opex-background.jpg',
-      url: '/insights/5',
-      type: 'Insight',
+
+      tags: ['Utilities', 'Consumer Standards', 'Energy'],
     },
     {
-      title: '£1.95m of benefits identified in a revenue growth programme.',
-      subtitle:
-        'Place holder text place holder text place holder text place holder text place holder text place holder text place holder text.',
+      insightId: '6',
+      title:
+        "Conducted financial and operational due diligence on a technology led, energy retailer to provide assurance to support our client's proposed $20m investment.",
+      date: '11/01/2024',
+      author: 'Ross Bern',
+      url: '/case-studies/financial-operational-due-diligence',
       image: '/images/blog-images/hero/domestic-sales-background.jpeg',
-      url: '/insights/6',
-      type: 'Case Study',
+      tags: ['Utilities', 'Consumer Standards', 'Energy'],
     },
   ];
   return (
     <div className="bg-black-text noselect">
       <div className="page-break" />
       <div className="inner-container text-white">
-        <h2 className="section-heading">{caseStudyTopic} Case Studies</h2>
+        <h2 className="section-heading">Case Studies</h2>
         <p className="mb-6 font-normal">
-          Learn how Clyde Ventures have provided value to our clients with{' '}
-          {caseStudyTopic}.
+          Clyde Ventures: Learn how we provide value to our clients.
         </p>
         <div>
           <div className="case-studies-swiper md:hidden">
@@ -74,7 +101,7 @@ export default function CaseStudies({ caseStudyTopic }) {
                 disableOnInteraction: false,
               }}
             >
-              {caseStudiesContentData.map((item, i) => {
+              {insightCards.map((item, i) => {
                 return (
                   <SwiperSlide className=" bg-super-light-grey  rounded-lg p-4 relative card-rounding shadow-bottom">
                     <div className="flex flex-col justify-between gap-6 h-full text-white">
@@ -106,7 +133,7 @@ export default function CaseStudies({ caseStudyTopic }) {
                 disableOnInteraction: false,
               }}
             >
-              {caseStudiesContentData.map((item, i) => {
+              {insightCards.map((item, i) => {
                 return (
                   <SwiperSlide className=" bg-super-light-grey  rounded-lg p-4 relative card-rounding shadow-bottom">
                     <div className="flex flex-col justify-between gap-6 h-full text-white">
@@ -116,10 +143,11 @@ export default function CaseStudies({ caseStudyTopic }) {
                         </h5>
                         {/* <p className="text-sm font-normal mb-2">{item.subtitle}</p> */}
                       </div>
-
-                      <button className="bg-primary-orange text-black-text  pr-2.5 pl-3 h-10 min-w-fit w-fit text-xs font-semibold rounded-l-[6px] rounded-r-[20px] ">
-                        Read Article <i className="icon-angle-right" />
-                      </button>
+                      <Link href={item.url}>
+                        <button className="bg-primary-orange text-black-text  pr-2.5 pl-3 h-10 min-w-fit w-fit text-xs font-semibold rounded-l-[6px] rounded-r-[20px] ">
+                          Read Article <i className="icon-angle-right" />
+                        </button>
+                      </Link>
                     </div>
                     <BackgroundImage image={item.image} />
                   </SwiperSlide>

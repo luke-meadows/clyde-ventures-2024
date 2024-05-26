@@ -16,8 +16,8 @@ export default function TeamPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 auto-rows-fr-1 gap-6">
           {teamData.map((item, i) => (
             <div
-              className="shadow-button  w-[100%] col-span-1 cursor-pointer noselect rounded overflow-hidden"
-              onClick={() => setActiveTeamMember(item)}
+              className="shadow-button  w-[100%] col-span-1 noselect rounded overflow-hidden"
+              // onClick={() => setActiveTeamMember(item)}
             >
               <Image
                 key={i}

@@ -9,7 +9,7 @@ export const solutions = {
       blurb:
         'We are a multi-certified Salesforce integrator and consulting partner and have implemented and integrated Salesforce across multiple continents to deliver functionality across Sales, Service, Marketing, Industries and many other areas. In addition, because our background is both, operational and from the industries in which we operate, we do not think like other software integrators. We always ensure that the technology serves the operational need, user experience and interface is paramount, and it is configured in such a way as to maximise value creation and optimise customer experience and impact.',
       icon: '/icons/sales.svg',
-      url: 'integration/salesforce',
+      url: '/services/integration/salesforce',
     },
     {
       title: 'Net Zero Cloud',
@@ -25,7 +25,7 @@ export const solutions = {
       blurb:
         'We are a multi-certified Salesforce integrator and consulting partner and have implemented and integrated Salesforce across multiple continents to deliver functionality across Sales, Service, Marketing, Industries and many other areas. In addition, because our background is both, operational and from the industries in which we operate, we do not think like other software integrators. We always ensure that the technology serves the operational need, user experience and interface is paramount, and it is configured in such a way as to maximise value creation and optimise customer experience and impact.',
       icon: '/icons/sales.svg',
-      url: 'integration/salesforce',
+      url: '/services/integration/salesforce',
     },
     {
       title: 'Marketing Cloud & Marketing Cloud Account Engagement',
@@ -41,7 +41,7 @@ export const solutions = {
       blurb:
         'We are a multi-certified Salesforce integrator and consulting partner and have implemented and integrated Salesforce across multiple continents to deliver functionality across Sales, Service, Marketing, Industries and many other areas. In addition, because our background is both, operational and from the industries in which we operate, we do not think like other software integrators. We always ensure that the technology serves the operational need, user experience and interface is paramount, and it is configured in such a way as to maximise value creation and optimise customer experience and impact.',
       icon: '/icons/sales.svg',
-      url: 'integration/salesforce',
+      url: '/services/integration/salesforce',
     },
     {
       title: 'Net Zero Cloud',
