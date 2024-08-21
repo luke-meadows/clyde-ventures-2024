@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <GoogleAnalytics gaId="G-9LMM3RJ14F" />
+      <GoogleAnalytics gaId="G-E3MCN6VM29" />
       <body className="app flex flex-col justify-between h-[100vh] max-w-[100vw]">
         <div>
           <Nav />
