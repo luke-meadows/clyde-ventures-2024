@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css';
 import Nav from '@components/nav/Nav';
 import Footer from '@components/Footer';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export const metadata = {
   title: 'Clyde Ventures | Salesforce | Consultancy | MBA | Fireproof Panels',
@@ -15,6 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <GoogleAnalytics gaId="GTM-5BM8HV9L" />
       <body className="app flex flex-col justify-between h-[100vh] max-w-[100vw]">
         <div>
           <Nav />
