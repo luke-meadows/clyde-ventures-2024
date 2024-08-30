@@ -2,11 +2,14 @@
 import AnimationWrapper from '@components/AnimationWrapper';
 import MainHero from '@components/MainHero';
 import Insight1Image from '@public/images/blog-images/thumbnail/consumer-standards-thumbnail.jpg';
-import Image from 'next/image';
 import ContactSection from '@components/contact/ContactSection';
 import AvatarAndDate from '@components/AvatarAndDate';
 import Link from 'next/link';
-
+export const metadata = {
+  title: 'Clyde Ventures - Insights on Consumer Standards',
+  description:
+    'Learn about consumer standards and how Clyde Ventures helps businesses meet and exceed customer expectations.',
+};
 export default function page() {
   const insightCard = {
     insightId: '1',

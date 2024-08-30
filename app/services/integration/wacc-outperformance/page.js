@@ -4,7 +4,11 @@ import MainHero from '@components/MainHero';
 import Solutions from '@components/Solutions';
 import WhyChooseClyde from '@components/WhyChooseClyde';
 import ContactSection from '@components/contact/ContactSection';
-
+export const metadata = {
+  title: 'Clyde Ventures - WACC Outperformance Integration',
+  description:
+    'Discover how Clyde Ventures’ integration services help businesses achieve WACC outperformance and financial efficiency.',
+};
 export default function IntegrationPage() {
   return (
     <AnimationWrapper>

@@ -4,7 +4,11 @@ import MainHero from '@components/MainHero';
 import Solutions from '@components/Solutions';
 import WhyChooseClyde from '@components/WhyChooseClyde';
 import ContactSection from '@components/contact/ContactSection';
-
+export const metadata = {
+  title: 'Clyde Ventures - Service Excellence Consultancy',
+  description:
+    'Explore how Clyde Ventures helps businesses achieve service excellence through strategic consultancy and tailored solutions.',
+};
 export default function ServiceExcellencePage() {
   return (
     <AnimationWrapper>

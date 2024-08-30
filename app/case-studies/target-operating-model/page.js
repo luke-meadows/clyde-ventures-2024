@@ -1,12 +1,14 @@
 // insight1
 import AnimationWrapper from '@components/AnimationWrapper';
 import MainHero from '@components/MainHero';
-import Insight1Image from '@public/images/blog-images/thumbnail/consumer-standards-thumbnail.jpg';
-import Image from 'next/image';
 import ContactSection from '@components/contact/ContactSection';
 import AvatarAndDate from '@components/AvatarAndDate';
-import Link from 'next/link';
 
+export const metadata = {
+  title: 'Clyde Ventures - Target Operating Model Case Study',
+  description:
+    'Read this case study on how Clyde Ventures developed and implemented a target operating model to improve business performance.',
+};
 export default function page() {
   const insightCard = {
     insightId: '6',

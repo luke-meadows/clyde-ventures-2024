@@ -4,7 +4,12 @@ import MainHero from '@components/MainHero';
 import Solutions from '@components/Solutions';
 import WhyChooseClyde from '@components/WhyChooseClyde';
 import ContactSection from '@components/contact/ContactSection';
-
+export const metadata = {
+  title:
+    'Clyde Ventures - Independence & Upskilling Design Authority Integration',
+  description:
+    'Discover how Clyde Ventures helps businesses achieve independence and upskill through specialized design authority integration services.',
+};
 export default function IntegrationPage() {
   return (
     <AnimationWrapper>

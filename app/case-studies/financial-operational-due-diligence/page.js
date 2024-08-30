@@ -1,12 +1,13 @@
-// insight1
 import AnimationWrapper from '@components/AnimationWrapper';
 import MainHero from '@components/MainHero';
-import Insight1Image from '@public/images/blog-images/thumbnail/consumer-standards-thumbnail.jpg';
-import Image from 'next/image';
 import ContactSection from '@components/contact/ContactSection';
 import AvatarAndDate from '@components/AvatarAndDate';
-import Link from 'next/link';
 
+export const metadata = {
+  title: 'Clyde Ventures - Financial & Operational Due Diligence Case Study',
+  description:
+    'Explore how Clyde Ventures conducted financial and operational due diligence to ensure successful business transactions.',
+};
 export default function page() {
   const insightCard = {
     insightId: '6',

@@ -4,7 +4,11 @@ import MainHero from '@components/MainHero';
 import Solutions from '@components/Solutions';
 import WhyChooseClyde from '@components/WhyChooseClyde';
 import ContactSection from '@components/contact/ContactSection';
-
+export const metadata = {
+  title: 'Clyde Ventures - Top-Line Growth Consultancy',
+  description:
+    'Discover Clyde Ventures’ consultancy services focused on driving top-line growth through innovative strategies and solutions.',
+};
 export default function TopLineGrowthPage() {
   return (
     <AnimationWrapper>

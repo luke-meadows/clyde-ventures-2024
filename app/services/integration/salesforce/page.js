@@ -5,7 +5,11 @@ import SalesforceSolutions from '@components/Solutions';
 import WhyChooseClyde from '@components/WhyChooseClyde';
 import ContactSection from '@components/contact/ContactSection';
 import Image from 'next/image';
-
+export const metadata = {
+  title: 'Clyde Ventures - Salesforce Integration',
+  description:
+    'Explore how Clyde Ventures helps businesses implement and optimize Salesforce to enhance customer relationship management.',
+};
 export default function IntegrationPage() {
   return (
     <AnimationWrapper>

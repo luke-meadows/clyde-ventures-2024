@@ -5,8 +5,12 @@ import OrganisationalEffectivenessProductDevelopmentText from '@components/Organ
 import Solutions from '@components/Solutions';
 import WhyChooseClyde from '@components/WhyChooseClyde';
 import ContactSection from '@components/contact/ContactSection';
-import Image from 'next/image';
-
+export const metadata = {
+  title:
+    'Clyde Ventures - Organizational Effectiveness & Product Development Integration',
+  description:
+    'Explore Clyde Ventures’ integration services focused on enhancing organizational effectiveness and driving product development.',
+};
 export default function IntegrationPage() {
   return (
     <AnimationWrapper>
