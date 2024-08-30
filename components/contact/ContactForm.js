@@ -32,7 +32,7 @@ export default function ContactForm() {
     if (!inputs.interest || inputs.interest === 'Area of Interest (required)')
       return;
 
-    // window.location.href = `https://go.clydeventures.com/l/1049802/2023-11-24/6r5?email=${inputs.email}&firstname=${inputs.firstName}&lastname=${inputs.surname}&company=${inputs.company}&phone=${inputs.telephone}&interest=${inputs.interest}&message=${inputs.message}`;
+    window.location.href = `https://go.clydeventures.com/l/1049802/2023-11-24/6r5?email=${inputs.email}&firstname=${inputs.firstName}&lastname=${inputs.surname}&company=${inputs.company}&phone=${inputs.telephone}&interest=${inputs.interest}&message=${inputs.message}`;
     clearForm();
   }
 
