@@ -3,6 +3,7 @@ import MainHero from '@components/MainHero';
 import { teamData } from '@app/lib/teamData';
 import Image from 'next/image';
 import ContactSection from '@components/contact/ContactSection';
+import ActiveTeamMember from '@components/meet-the-team/ActiveTeamMember';
 export const metadata = {
   title: 'Clyde Ventures - Meet the Team',
   description:
