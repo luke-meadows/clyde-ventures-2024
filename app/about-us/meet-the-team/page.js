@@ -1,10 +1,7 @@
-'use client';
 import AnimationWrapper from '@components/AnimationWrapper';
 import MainHero from '@components/MainHero';
 import { teamData } from '@app/lib/teamData';
 import Image from 'next/image';
-import TeamModal from '@components/meet-the-team/TeamModal';
-import { useState } from 'react';
 import ContactSection from '@components/contact/ContactSection';
 export const metadata = {
   title: 'Clyde Ventures - Meet the Team',
@@ -12,7 +9,6 @@ export const metadata = {
     'Get to know the dynamic team at Clyde Ventures, including our experienced leaders and dedicated professionals who drive our success.',
 };
 export default function TeamPage() {
-  const [activeTeamMember, setActiveTeamMember] = useState(null);
   return (
     <AnimationWrapper>
       <MainHero hero="meet-the-team" />
@@ -38,14 +34,7 @@ export default function TeamPage() {
         </div>
         <div className="page-break"></div>
       </div>
-      <div className="hidden md:block">
-        {activeTeamMember && (
-          <TeamModal
-            activeTeamMember={activeTeamMember}
-            setActiveTeamMember={setActiveTeamMember}
-          />
-        )}
-      </div>
+      <ActiveTeamMember />
       <ContactSection />
     </AnimationWrapper>
   );
