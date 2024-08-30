@@ -4,6 +4,11 @@ import MainHero from '@components/MainHero';
 import Solutions from '@components/Solutions';
 import WhyChooseClyde from '@components/WhyChooseClyde';
 import ContactSection from '@components/contact/ContactSection';
+export const metadata = {
+  title: 'Clyde Ventures - Consultancy Services',
+  description:
+    'Discover Clyde Ventures’ consultancy services designed to drive growth, optimize operations, and achieve service excellence.',
+};
 
 export default function ConsultancyPage() {
   return (

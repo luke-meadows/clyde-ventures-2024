@@ -6,7 +6,11 @@ import Image from 'next/image';
 import TeamModal from '@components/meet-the-team/TeamModal';
 import { useState } from 'react';
 import ContactSection from '@components/contact/ContactSection';
-
+export const metadata = {
+  title: 'Clyde Ventures - Meet the Team',
+  description:
+    'Get to know the dynamic team at Clyde Ventures, including our experienced leaders and dedicated professionals who drive our success.',
+};
 export default function TeamPage() {
   const [activeTeamMember, setActiveTeamMember] = useState(null);
   return (

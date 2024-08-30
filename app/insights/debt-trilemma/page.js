@@ -9,6 +9,11 @@ import ContactSection from '@components/contact/ContactSection';
 import AvatarAndDate from '@components/AvatarAndDate';
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'Clyde Ventures - Insights on Debt Trilemma',
+  description:
+    'Dive into our insights on the debt trilemma, examining the trade-offs and strategies for managing complex debt scenarios.',
+};
 export default function page() {
   const insightCard = {
     insightId: '5',

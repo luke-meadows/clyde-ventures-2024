@@ -6,7 +6,11 @@ import Image from 'next/image';
 import ContactSection from '@components/contact/ContactSection';
 import AvatarAndDate from '@components/AvatarAndDate';
 import Link from 'next/link';
-
+export const metadata = {
+  title: 'Clyde Ventures - Privacy Policy',
+  description:
+    'Read Clyde Ventures’ privacy policy to understand how we handle your data and protect your privacy.',
+};
 export default function page() {
   return (
     <AnimationWrapper>

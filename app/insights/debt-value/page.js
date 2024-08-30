@@ -10,7 +10,11 @@ import Insight6Image from '@public/images/blog-images/thumbnail/service-standard
 import Image from 'next/image';
 import ContactSection from '@components/contact/ContactSection';
 import AvatarAndDate from '@components/AvatarAndDate';
-
+export const metadata = {
+  title: 'Clyde Ventures - Insights on Debt Value',
+  description:
+    'Read our latest insights on debt value, exploring the complexities and opportunities in managing debt effectively.',
+};
 export default function page() {
   const insightCard = {
     insightId: '3',

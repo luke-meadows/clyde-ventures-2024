@@ -9,7 +9,11 @@ import Insight6Image from '@public/images/blog-images/thumbnail/service-standard
 import Image from 'next/image';
 import ContactSection from '@components/contact/ContactSection';
 import Link from 'next/link';
-
+export const metadata = {
+  title: 'Clyde Ventures - Insights',
+  description:
+    'Explore the latest insights and thought leadership from Clyde Ventures on various industry topics and trends.',
+};
 export default function page() {
   const insightCards = [
     {

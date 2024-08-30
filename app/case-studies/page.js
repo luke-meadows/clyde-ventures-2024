@@ -5,7 +5,11 @@ import ContactForm from '@components/contact/ContactForm';
 import ContactSection from '@components/contact/ContactSection';
 import Image from 'next/image';
 import Link from 'next/link';
-
+export const metadata = {
+  title: 'Clyde Ventures - Case Studies',
+  description:
+    'Explore case studies showcasing the successful projects and solutions Clyde Ventures has delivered for various clients.',
+};
 export default function CaseStudiesPage() {
   const insightCards = [
     {

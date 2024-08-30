@@ -3,9 +3,9 @@ import WhyChooseClyde from '@components/WhyChooseClyde';
 import ContactSection from '@components/contact/ContactSection';
 import Image from 'next/image';
 export const metadata = {
-  title: 'Clyde Ventures - Contact us',
+  title: 'Clyde Ventures - Thank You',
   description:
-    'We have received your message, one of our team will be in contact shortly.',
+    'Thank you for reaching out to Clyde Ventures. We will get back to you as soon as possible.',
 };
 export default function ContactPage() {
   return (
@@ -16,8 +16,8 @@ export default function ContactPage() {
           <Image src="/images/success.png" width={100} height={100} />
           <h1 className="section-heading mt-8">Thank you </h1>
           <p className="section-subheading">
-            We have received your message, one of our team will be in contact
-            shortly.
+            Thank you for reaching out to Clyde Ventures. We will get back to
+            you as soon as possible.
           </p>
         </div>
         <div className="page-break hidden md:block"></div>

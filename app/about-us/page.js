@@ -2,7 +2,11 @@ import AnimationWrapper from '@components/AnimationWrapper';
 import MainHero from '@components/MainHero';
 import ContactSection from '@components/contact/ContactSection';
 import Image from 'next/image';
-
+export const metadata = {
+  title: 'Clyde Ventures - About Us',
+  description:
+    'Learn more about Clyde Ventures, our mission, values, and the impact we strive to create in various sectors.',
+};
 export default function AboutUsPage() {
   return (
     <AnimationWrapper>

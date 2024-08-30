@@ -4,7 +4,11 @@ import MainHero from '@components/MainHero';
 import Solutions from '@components/Solutions';
 import WhyChooseClyde from '@components/WhyChooseClyde';
 import ContactSection from '@components/contact/ContactSection';
-
+export const metadata = {
+  title: 'Clyde Ventures - Integration Services',
+  description:
+    'Explore Clyde Ventures’ integration services, from Salesforce implementation to organizational effectiveness and product development.',
+};
 export default function IntegrationPage() {
   return (
     <AnimationWrapper>
