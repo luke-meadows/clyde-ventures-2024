@@ -13,7 +13,7 @@ export default function ContactPage() {
       <div className="inner-container-2">
         <div className="page-break"></div>
         <div className="flex items-center text-center flex-col">
-          <Image src="/images/success.png" width={200} height={200} />
+          <Image src="/images/success.png" width={100} height={100} />
           <h1 className="section-heading mt-8">Thank you </h1>
           <p className="section-subheading">
             We have received your message, one of our team will be in contact
