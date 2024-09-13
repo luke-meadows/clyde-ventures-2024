@@ -16,7 +16,6 @@ export default function CookiePopup() {
   }, []);
 
   const handleAccept = () => {
-    setCookiesAccepted(true);
     localStorage.setItem('cookiesAccepted', 'true');
     setIsVisible(false);
   };
