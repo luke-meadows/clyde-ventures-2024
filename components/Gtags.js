@@ -1,3 +1,4 @@
+'use client';
 import { useEffect, useState } from 'react';
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 
