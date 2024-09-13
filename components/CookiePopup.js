@@ -32,7 +32,7 @@ export default function CookiePopup({ onAccept, onReject }) {
           We use cookies
         </h2>
         <p className="text-grey-text mb-6">
-          We use cookies to enhance your browsing experience and analyze site
+          We use cookies to enhance your browsing experience and analyse site
           traffic through Google Analytics and Google Tag Manager. By accepting,
           you consent to the use of cookies for tracking your IP address and
           other browsing data.
