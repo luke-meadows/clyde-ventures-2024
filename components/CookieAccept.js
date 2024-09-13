@@ -1,8 +1,10 @@
 'use client';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function CookiePopup() {
   const [isVisible, setIsVisible] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     const cookieConsent = localStorage.getItem('cookiesAccepted');
@@ -18,6 +20,7 @@ export default function CookiePopup() {
   const handleAccept = () => {
     localStorage.setItem('cookiesAccepted', 'true');
     setIsVisible(false);
+    router.refresh();
   };
 
   const handleReject = () => {
