@@ -1,30 +1,25 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
 
-export default function CookiePopup() {
+export default function CookiePopup({ onAccept, onReject }) {
   const [isVisible, setIsVisible] = useState(false);
-  const router = useRouter();
 
   useEffect(() => {
     const cookieConsent = localStorage.getItem('cookiesAccepted');
     if (!cookieConsent) {
       setIsVisible(true);
-    } else if (cookieConsent === 'true') {
-      setIsVisible(false);
-    } else if (cookieConsent === 'false') {
+    } else {
       setIsVisible(false);
     }
   }, []);
 
   const handleAccept = () => {
-    localStorage.setItem('cookiesAccepted', 'true');
+    onAccept();
     setIsVisible(false);
-    router.refresh();
   };
 
   const handleReject = () => {
-    localStorage.setItem('cookiesAccepted', 'false');
+    onReject();
     setIsVisible(false);
   };
 
@@ -32,12 +27,12 @@ export default function CookiePopup() {
 
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-black bg-opacity-70">
-      <div className="bg-off-white p-6  shadow-lg w-full text-center">
+      <div className="bg-off-white p-6 shadow-lg w-full text-center">
         <h2 className="text-black-text text-lg font-semibold mb-4">
           We use cookies
         </h2>
         <p className="text-grey-text mb-6">
-          We use cookies to enhance your browsing experience and analyse site
+          We use cookies to enhance your browsing experience and analyze site
           traffic through Google Analytics and Google Tag Manager. By accepting,
           you consent to the use of cookies for tracking your IP address and
           other browsing data.
