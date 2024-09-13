@@ -3,19 +3,15 @@ import { useEffect, useState } from 'react';
 
 export default function CookiePopup() {
   const [isVisible, setIsVisible] = useState(false);
-  const [cookiesAccepted, setCookiesAccepted] = useState(false);
 
   useEffect(() => {
     const cookieConsent = localStorage.getItem('cookiesAccepted');
     if (!cookieConsent) {
       setIsVisible(true);
-      setCookiesAccepted(false);
     } else if (cookieConsent === 'true') {
       setIsVisible(false);
-      setCookiesAccepted(true);
     } else if (cookieConsent === 'false') {
       setIsVisible(false);
-      setCookiesAccepted(false);
     }
   }, []);
 
